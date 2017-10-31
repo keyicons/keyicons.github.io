@@ -1,0 +1,114 @@
+.Content
+	background gray_color_2
+	padding 50px 0
+	.container
+		padding 10px
+	
+.keyicon 
+	background white_color
+	display block
+	margin 15px 15px 30px
+	position relative
+	shadow_custom(0, 1px, 3px, 0px, .1)
+	transition_all(.3s)
+	height 85px
+	padding 25px 0 
+	width 85px 
+	outline none
+	&_name
+		transition_all(.3s)
+		position absolute
+		top -18px
+		font-size 12px
+		font-weight 400
+		color gray_color_3
+		left 0
+		width 100%
+		text-align left
+		white-space nowrap
+		overflow hidden
+		text-overflow ellipsis
+		
+	
+	img
+		width 30px
+		display inline-block
+	
+	&_download
+		background primary_color
+		border-radius 20px
+		bottom 10px
+		padding 5px 0
+		line-height 12px
+		color dark_color
+		font-size 10px
+		height 20px
+		position absolute
+		left 10%
+		width 80%
+		opacity 0
+		transition_all(.3s)
+		
+	&.is-clicked
+		.keyicon
+			&_download
+				opacity 1
+	
+@media only screen and (min-width : 768px)
+	.Content
+		.container
+			padding 0
+			
+	.keyicon
+		height 100px
+		padding 35px 0 
+		width 100px 
+		margin 15px 16px 30px
+		&:hover
+			shadow_custom(0, 15px, 30px, -6px, .1)
+			transform scale(1.1)
+			padding 25px 0 45px
+			.keyicon
+				&_name
+					color black_color
+				&_download
+					opacity 1
+					bottom 15px
+					
+		&.is-clicked
+			padding 25px 0 45px
+			.keyicon
+				&_download
+					bottom 15px
+			
+							
+
+		
+
+// svg
+// 	width 30px
+// 	height 30px
+// 	stroke-width 0
+// 	color red
+// 	stroke-width 0
+// 	color orange
+// 	stroke-dasharray 1000
+// 	stroke-dashoffset 0
+// 	animation icon-animate-in 8s 1 ease-in-out
+// 	transition all .25s ease-out
+	
+
+
+
+@keyframes icon-animate-hover
+	0%
+		stroke-dashoffset 1000
+	100% 
+		stroke-dashoffset 0
+		
+@keyframes icon-animate-in
+	0%
+		stroke-dashoffset 1000
+	100%
+		stroke-dashoffset 0
+								

@@ -1,0 +1,108 @@
+html
+  -webkit-font-smoothing subpixel-antialiased
+  -webkit-text-size-adjust 100%
+  font-smoothing antialiased
+  text-size-adjust 100%
+  font-size 16px
+
+
+body
+  -moz-osx-font-smoothing grayscale
+  -ms-text-size-adjust 100%
+  -webkit-font-smoothing antialiased
+  -webkit-text-size-adjust 100%
+  color dark_color
+  font-family: tipography
+  font-size 16px
+  font-smoothing antialiased
+  font-weight 400
+  margin 0
+  padding 0
+  text-size-adjust 100%
+  transition all 300ms ease
+  width 100%
+  text-align center
+  background gray_color
+  
+  
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+  -webkit-font-smoothing antialiased
+  -webkit-text-size-adjust 100%
+  font-smoothing antialiased
+  font-family tipography
+  text-size-adjust 100%
+  font-weight 800
+  margin 0 auto
+  padding 0
+
+h1
+  font-size 36px
+h2
+  font-size 30px
+h3
+  font-size 24px
+h4
+  font-size 18px
+h5
+  font-size 16px
+h6
+  font-size 14px
+
+
+a
+  border none
+  outline none
+  transition all .3s ease-out
+  text-decoration none
+
+
+::selection
+  background dark_color
+  color white_color
+  font-weight 400
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after
+  content: " "
+  display: table
+
+.clearfix:after
+  clear: both   
+
+
+img
+  display block
+  border 0
+  height auto
+  width 100%
+
+
+ul
+  list-style none
+  margin 0
+  padding 0
+  font-weight 100
+
+p
+  font-weight 400
+  line-height 1.4em
+  
+small
+  font-weight 300
+
+@media screen and (min-width 910px)
+  html
+  body
+    font-size 18px
+
+
+
+
+
+

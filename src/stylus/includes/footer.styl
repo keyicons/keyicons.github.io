@@ -1,0 +1,44 @@
+.Footer
+	width 100%
+	position relative
+	background dark_color
+	text-align left
+	padding 20px 0
+	&_Copy
+		display inline-block
+		padding 0 10px
+		font-size 12px
+		color white_color
+		&_Link
+			color primary_color
+	.Menu
+		text-align center
+		&_item
+			&_link
+				font-size 12px
+				color white_color
+			
+@media only screen and (min-width : 768px)
+	.Footer
+		&_Copy
+			width 49%
+			
+		&_Menu
+			text-align right
+			display inline-block
+			width 49%
+			.Menu 
+				text-align right
+				&_item
+					padding 0
+					margin 0 10px
+						
+					
+					
+@media only screen and (min-width : 1100px)
+	.Menu
+		&_item
+			&_link
+				&:hover
+					color primary_color
+						

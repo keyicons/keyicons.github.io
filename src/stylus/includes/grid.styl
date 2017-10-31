@@ -1,0 +1,437 @@
+/* Flexbox
+_____________________________________________________ */
+@import "./flex-grid-framework.styl"
+
+
+/* rows
+_____________________________________________________ */
+.row
+	row()
+	
+
+.container
+	margin 0 auto
+	max-width 1100px
+	width 100%
+	&--project
+		max-width 1400px
+
+
+// to text align left
+.items-justify
+	justify(left)
+
+// to text align right
+.items-right
+	justify(right)
+
+// to text align center
+.items-center
+	justify(center)
+
+// to text align between
+.items-between
+	justify(between)
+
+// to text align around
+.items-around
+	justify(around)
+
+// to vertical align top
+.items-top
+	vertical(top)
+
+// to vertical align middle
+.items-middle
+	vertical(middle)
+
+// to vertical align bottom
+.items-bottom
+	vertical(bottom)
+
+/* collums
+_____________________________________________________ */
+// col(unit from 1 to 12)
+
+// col(flex)
+
+// order 0, 1, -1,
+
+// offset(unit from 1 to 12)
+
+.col-full
+	width 100% !important
+
+.col-xs1
+	col(1)
+
+.col-xs2
+	col(2)
+
+.col-xs3
+	col(3)
+
+.col-xs4
+	col(4)
+
+.col-xs5
+	col(5)
+	
+.col-xs6
+	col(6)
+	
+.col-xs7
+	col(7)
+	
+.col-xs8
+	col(8)
+	
+.col-xs9
+	col(9)
+	
+.col-xs10
+	col(10)
+
+.col-xs11
+	col(11)
+
+.col-xs12
+	col(12)
+
+
+/* Offset
+_____________________________________________________ */
+.offset-xs1
+	offset(1)
+
+.offset-xs2
+	offset(2)
+
+.offset-xs3
+	offset(3)
+
+.offset-xs4
+	offset(4)
+
+.offset-xs5
+	offset(5)
+	
+.offset-xs6
+	offset(6)
+	
+.offset-xs7
+	offset(7)
+	
+.offset-xs8
+	offset(8)
+	
+.offset-xs9
+	offset(9)
+	
+.offset-xs10
+	offset(10)
+
+.offset-xs11
+	offset(11)
+
+.offset-xs12
+	offset(12)
+
+	
+@media only screen and (min-width : 601px)
+	.col-sm1
+		col(1)
+
+	.col-sm2
+		col(2)
+
+	.col-sm3
+		col(3)
+
+	.col-sm4
+		col(4)
+
+	.col-sm5
+		col(5)
+		
+	.col-sm6
+		col(6)
+		
+	.col-sm7
+		col(7)
+		
+	.col-sm8
+		col(8)
+		
+	.col-sm9
+		col(9)
+		
+	.col-sm10
+		col(10)
+
+	.col-sm11
+		col(11)
+
+	.col-sm12
+		col(12)
+		
+	/* Offset
+	_____________________________________________________ */
+	.offset-sm1
+		offset(1)
+
+	.offset-sm2
+		offset(2)
+
+	.offset-sm3
+		offset(3)
+
+	.offset-sm4
+		offset(4)
+
+	.offset-sm5
+		offset(5)
+		
+	.offset-sm6
+		offset(6)
+		
+	.offset-sm7
+		offset(7)
+		
+	.offset-sm8
+		offset(8)
+		
+	.offset-sm9
+		offset(9)
+		
+	.offset-sm10
+		offset(10)
+
+	.offset-sm11
+		offset(11)
+
+	.offset-sm12
+		offset(12)
+
+@media screen and (min-width 910px)
+	.col-md1
+		col(1)
+
+	.col-md2
+		col(2)
+
+	.col-md3
+		col(3)
+
+	.col-md4
+		col(4)
+
+	.col-md5
+		col(5)
+		
+	.col-md6
+		col(6)
+		
+	.col-md7
+		col(7)
+		
+	.col-md8
+		col(8)
+		
+	.col-md9
+		col(9)
+		
+	.col-md10
+		col(10)
+
+	.col-md11
+		col(11)
+
+	.col-md12
+		col(12)	
+	
+	/* Offset_____________________________________________________ */
+	.offset-md1
+		offset(1)
+
+	.offset-md2
+		offset(2)
+
+	.offset-md3
+		offset(3)
+
+	.offset-md4
+		offset(4)
+
+	.offset-md5
+		offset(5)
+		
+	.offset-md6
+		offset(6)
+		
+	.offset-md7
+		offset(7)
+		
+	.offset-md8
+		offset(8)
+		
+	.offset-md9
+		offset(9)
+		
+	.offset-md10
+		offset(10)
+
+	.offset-md11
+		offset(11)
+
+	.offset-md12
+		offset(12)
+
+@media screen and (min-width 1025px)
+	.col-lg1
+		col(1)
+
+	.col-lg2
+		col(2)
+
+	.col-lg3
+		col(3)
+
+	.col-lg4
+		col(4)
+
+	.col-lg5
+		col(5)
+		
+	.col-lg6
+		col(6)
+		
+	.col-lg7
+		col(7)
+		
+	.col-lg8
+		col(8)
+		
+	.col-lg9
+		col(9)
+		
+	.col-lg10
+		col(10)
+
+	.col-lg11
+		col(11)
+
+	.col-lg12
+		col(12)
+	
+	/* Offset_____________________________________________________ */
+	.offset-lg1
+		offset(1)
+
+	.offset-lg2
+		offset(2)
+
+	.offset-lg3
+		offset(3)
+
+	.offset-lg4
+		offset(4)
+
+	.offset-lg5
+		offset(5)
+		
+	.offset-lg6
+		offset(6)
+		
+	.offset-lg7
+		offset(7)
+		
+	.offset-lg8
+		offset(8)
+		
+	.offset-lg9
+		offset(9)
+		
+	.offset-lg10
+		offset(10)
+
+	.offset-lg11
+		offset(11)
+
+	.offset-lg12
+		offset(12)
+
+@media screen and (min-width 1400px)
+	.col-xl1
+		col(1)
+
+	.col-xl2
+		col(2)
+
+	.col-xl3
+		col(3)
+
+	.col-xl4
+		col(4)
+
+	.col-xl5
+		col(5)
+		
+	.col-xl6
+		col(6)
+		
+	.col-xl7
+		col(7)
+		
+	.col-xl8
+		col(8)
+		
+	.col-xl9
+		col(9)
+		
+	.col-xl10
+		col(10)
+
+	.col-xl11
+		col(11)
+
+	.col-xl12
+		col(12)
+	/* Offset_____________________________________________________ */
+	.offset-xl1
+		offset(1)
+
+	.offset-xl2
+		offset(2)
+
+	.offset-xl3
+		offset(3)
+
+	.offset-xl4
+		offset(4)
+
+	.offset-xl5
+		offset(5)
+		
+	.offset-xl6
+		offset(6)
+		
+	.offset-xl7
+		offset(7)
+		
+	.offset-xl8
+		offset(8)
+		
+	.offset-xl9
+		offset(9)
+		
+	.offset-xl10
+		offset(10)
+
+	.offset-xl11
+		offset(11)
+
+	.offset-xl12
+		offset(12)
+
+
