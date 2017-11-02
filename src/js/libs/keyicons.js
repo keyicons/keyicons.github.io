@@ -1,5 +1,7 @@
 var keyicons = function () {
 
+	$('#KeyiconsContent').html('');
+
 	$.ajax({
 	    
 	    url: 'public/js/keyicons.json',
@@ -38,7 +40,7 @@ var keyicons = function () {
 
 	function addKeyicon(itemsKey){
 		// console.log(itemsKey);
-    $('#KeyiconsContent').append($(itemsKey));
+		$('#KeyiconsContent').append($(itemsKey));
 
 	}
 
