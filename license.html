@@ -38,9 +38,9 @@
 <body>
 	<header class="Header">
 		<div class="Header_container container">
-			<h1 class="Header_Logo">
+			<a href="/" class="Header_Logo">
 				🔑 KEYICONS
-			</h1>
+			</a>
 			<nav class="Header_Menu">
 				<ul class="Menu">
 					<li class="Menu_item"><a href="license.html" class="Menu_item_link">License</a></li>
@@ -50,23 +50,33 @@
 		</div>
 	</header>
 
-	<section class="Hero">
-		<div class="container">
-			<div class="Hero_Logo">
-				<h4 class="Hero_Logo_Name">Icon Set</h4>
-			</div>
-			<h3 class="Hero_Lead">Keyicons</h3>
-			<div class="Hero_Description">
-				<p>The clean icon set you were looking for.</p>
-			</div>
-			<a href="./public/keyicons.zip" download class="Download">Download</a>
-		</div>
-	</section>
+	<main class="Content text-left">
+		<div class="row container items-top items-center">
+			<div class="col-xs12 col-md7">
 
-	<main class="KeyContent">
-		<div class="container">
-			<div class="row items-top items-between" id="KeyiconsContent">
-					<div class="Content__message">Allow JavaScript to view the icon set 👀</div>
+				<h3 class="title">MIT License</h3>
+				<p class="caption">Copyright (c) 2017 keyicons</p>
+
+				<div class="Content_Description text-left">
+					<p>Permission is hereby granted, free of charge, to any person obtaining a copy
+					of this software and associated documentation files (the "Software"), to deal
+					in the Software without restriction, including without limitation the rights
+					to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+					copies of the Software, and to permit persons to whom the Software is
+					furnished to do so, subject to the following conditions:</p>
+
+
+					<p><strong>The above copyright notice and this permission notice shall be included in all
+					copies or substantial portions of the Software.</strong></p>
+
+					<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+					IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+					FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+					AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+					LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+					OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+					SOFTWARE.</p>
+				</div>
 			</div>
 		</div>
 	</main>
@@ -90,26 +100,7 @@
 	<script>window.jQuery || document.write('<script src="./public/js/vendor/jquery-2.1.4.min.js"><\/script>')</script>
 	<script type='text/javascript' src="./public/js/main.js" async></script>
 
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108446519-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-
-	  gtag('config', 'UA-108446519-1');
-	</script>
-
-	<!-- Hotjar Tracking Code for keyicons.com -->
-	<script>
-	    (function(h,o,t,j,a,r){
-	        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-	        h._hjSettings={hjid:674135,hjsv:6};
-	        a=o.getElementsByTagName('head')[0];
-	        r=o.createElement('script');r.async=1;
-	        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-	        a.appendChild(r);
-	    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-	</script>
+	
 
 
 </body>
