@@ -26,9 +26,6 @@
 			"name":"Blocked"
 		},
 		{
-			"name":"Bolt"
-		},
-		{
 			"name":"Calendar"
 		},
 		{
@@ -102,6 +99,9 @@
 		},
 		{
 			"name":"List"
+		},
+				{
+			"name":"Lightning-bolt"
 		},
 		{
 			"name":"Lock"
