@@ -1,1 +1,9 @@
-<svg id="target" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>File-code</title><path d="M15,5H6V19H18V8Zm1.09,2.5H15.5V6.91ZM7,18V6h7.5V8.5H17V18Z"/><polygon points="12.62 10.33 14.29 12 12.62 13.67 13.33 14.38 15.71 12 13.33 9.62 12.62 10.33"/><polygon points="10.67 9.62 8.29 12 10.67 14.38 11.38 13.67 9.71 12 11.38 10.33 10.67 9.62"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="target" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-293 385 24 24" style="enable-background:new -293 385 24 24;" xml:space="preserve">
+<title>File-code</title>
+<polygon points="-280.4,395.3 -278.7,397 -280.4,398.7 -279.7,399.4 -277.3,397 -279.7,394.6 "/>
+<polygon points="-282.3,394.6 -284.7,397 -282.3,399.4 -281.6,398.7 -283.3,397 -281.6,395.3 "/>
+<path d="M-277.8,389.5h-9.7v15h13v-11.7L-277.8,389.5z M-277.5,391.2l1.3,1.3h-1.3V391.2z M-275.5,403.5h-11v-13h8v3h3V403.5z"/>
+</svg>
