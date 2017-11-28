@@ -14,6 +14,7 @@ var topbar = require('./libs/topbar');
 
 var keyicons = require('./libs/keyicons');
 
+var subscribe = require('./libs/subscribe');
 
 jQuery(document).ready(function($) {
 
@@ -21,6 +22,7 @@ jQuery(document).ready(function($) {
 
   topbar();
   keyicons();
+  subscribe();
 
 });
 
