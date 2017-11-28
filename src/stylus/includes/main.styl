@@ -56,6 +56,13 @@
 		width 80%
 		opacity 0
 		transition_all(.3s)
+	&-new
+		opacity 1
+		background secondary_color
+		color dark_color
+		
+	&.keyicon_new--old
+		display none
 		
 	&.is-clicked
 		.keyicon
@@ -82,13 +89,17 @@
 				&_download
 					opacity 1
 					bottom 15px
+				&-new
+					display none
+				
 					
 		&.is-clicked
 			padding 25px 0 45px
 			.keyicon
 				&_download
 					bottom 15px
-			
+				&-new
+					display none
 							
 
 		

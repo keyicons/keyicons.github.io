@@ -16,6 +16,7 @@ var keyicons = function () {
 		var templateKeyicon = "<a href=':link:' download class='keyicon'>"+
 														"<span class='keyicon_name'>:name:</span>"+
 														"<img src=':img:' alt=''>"+
+														":type:"+
 														"<span class='keyicon_download'>Download</span>"+
 														"</a>",
 		url = "./public/iconset/",
@@ -25,11 +26,14 @@ var keyicons = function () {
 
         img = url + val.name +'.svg';
         link = url + val.name +'.svg';
+        
+        type = val.type == 1 ? "<span class='keyicon_download keyicon-new'>New</span>" : "";
 
         var itemsKey = templateKeyicon
   					.replace(':name:', val.name)
   					.replace(':link:', link)
   					.replace(':img:', img)
+  					.replace(':type:', type)
   					
   					addKeyicon(itemsKey);
 
