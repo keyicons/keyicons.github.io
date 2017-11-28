@@ -79,8 +79,11 @@
 		padding 35px 0 
 		width 100px 
 		margin 15px 16px 30px
+		&:focus
+			shadow_custom(primary_color, 0, 10px, 30px, -6px, .2)
+		
 		&:hover
-			shadow_custom(black_color, 0, 15px, 30px, -6px, .1)
+			shadow_custom(primary_color, 0, 15px, 30px, -6px, .4)
 			transform scale(1.1)
 			padding 25px 0 45px
 			.keyicon

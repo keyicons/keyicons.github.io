@@ -21,6 +21,9 @@
 		color primary_color
 		border solid thin primary_color
 		background white_color
+	&:focus
+		opacity .8
+		shadow_custom(primary_color, 0, 10px, 30px, -6px, .4)
 	
 
 
@@ -29,4 +32,7 @@
 		&:hover
 			shadow_custom(primary_color, 0, 10px, 30px, -6px, .4)
 			transform scale(1.05)
+		&:focus
+			opacity .8
+			shadow_custom(primary_color, 0, 10px, 30px, -6px, .4)
 		 
