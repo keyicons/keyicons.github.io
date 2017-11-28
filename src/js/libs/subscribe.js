@@ -42,12 +42,12 @@ var subscribe = function () {
 		subscribe_content.addClass('is-scrolled');
 	});
 
-	var previousScroll = 0,
+	var previousScroll = 100,
    	originalTop = subscribe_content.offset().top;
 
  $(window).scroll(
  	function(e){
- 		if ($(this).scrollTop() <= originalTop) {
+ 		if ($(this).scrollTop() <= 250) {
  			subscribe_content.addClass('is-scrolled');
  		}
     else {
