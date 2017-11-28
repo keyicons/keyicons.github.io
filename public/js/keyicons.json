@@ -29,6 +29,9 @@
 			"name":"Calendar"
 		},
 		{
+			"name":"Camera"
+		},
+		{
 			"name":"Check"
 		},
 		{
@@ -44,6 +47,9 @@
 			"name":"Chevron-up"
 		},
 		{
+			"name":"Clock"
+		},
+		{
 			"name":"Credit-Card"
 		},
 		{
@@ -57,6 +63,9 @@
 		},
 		{
 			"name":"Eye"
+		},
+		{
+			"name":"Filter"
 		},
 		{
 			"name":"File-audio"
