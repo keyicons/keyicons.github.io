@@ -1,0 +1,109 @@
+.Modal
+	position fixed
+	z-index 3000
+	background rgba(dark_color, 0.7)
+	top 0
+	left 0
+	bottom 0
+	right 0
+	display none
+	animation close .3s ease-in-out
+	
+	&.is-open
+		display block
+		animation open .3s ease-in-out
+		
+	&::after
+		background-image url('../img/bg-blur.png')
+		background-position center
+		background-repeat no-repeat
+		background-size cover
+		content ''
+		display block
+		filter blur(10px)
+		height 100%
+		left 0
+		position absolute
+		top 0
+		width 100%
+		z-index -1
+
+	&-Container
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-top: -200px;
+		margin-left: -145px;
+		position relative
+		width 326px
+		min-height 300px
+		background white_color
+		padding 30px
+		top 50%
+		left 50%
+		border-radius 3px
+		box-shadow 0 10px 40px -6px rgba(dark_color, .4)
+	&-Close
+		position absolute
+		top 0
+		right 0
+		width 40px
+		height 40px
+		display block
+		&:hover
+			opacity 0.6
+	 
+.Subscribe
+	position relative
+	&-Img
+		max-width 60px
+		display block
+		margin 20px auto 30px
+	&-Msg
+		margin 40px auto
+		display block
+		
+/* Estilos para el formulario de mailchimp
+------------------------------------------------------------------------------*/
+.mc_embed_signup
+	width 100%
+	
+.email
+	width 100%
+	border none
+	background transparent
+	border solid 2px gray_color_3
+	border-radius 30px
+	color dark_color
+	line-height 36px
+	outline 0
+	text-indent 10px
+	transition_all(.3s)
+	margin 0 0 5px 0
+	&:focus,
+	&:hover
+		border solid 2px dark_color
+#mce-EMAIL-error
+	font-weight 600 
+	color red
+.button
+	outline 0
+	width 100%
+	margin 20px auto 0
+	display inline-block
+	border none
+	
+
+
+@keyframes open 
+	0%
+		opacity 0
+	100%
+		opacity 1
+		
+@keyframes close
+	0%
+		opacity 1
+	100%
+		opacity 0
+		

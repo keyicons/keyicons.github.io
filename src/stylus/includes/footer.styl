@@ -4,55 +4,6 @@
 	background dark_color
 	text-align center
 	padding 20px 0
-	&_Subscribe
-		border-bottom solid thin rgba(gray_color_3, .5)
-		color white_color
-		padding 5px 0px 30px
-		margin 0 auto
-		transition_all(.3s)
-		position relative
-		&.is-scrolled
-			background dark_color
-			transition_all(.3s)
-			animation up-subscribe .3s
-			z-index 2000
-			padding 10px 10px 10px
-			border-radius 4px 4px 0 0
-			position fixed
-			bottom 0px
-			left 2%
-			width 96%
-		/* Estilos para el formulario de mailchimp
-		------------------------------------------------------------------------------*/
-		.mc_embed_signup
-			width 100%
-		.content-email 
-			width 90%
-			margin 0 auto 10px
-			display inline-block
-			.email
-				width 100%
-				border none
-				background transparent
-				border solid 2px gray_color_3
-				border-radius 30px
-				color white_color
-				line-height 36px
-				outline 0
-				text-indent 10px
-				transition_all(.3s)
-				&:focus,
-				&:hover
-					border solid 2px white_color
-		#mce-EMAIL-error
-			font-weight 600 
-			color red
-		.button
-			outline 0
-			width 90%
-			margin 0 auto
-			display inline-block
-			border none
 			
 			
 	&_Copy
@@ -70,26 +21,10 @@
 				font-size 12px
 				color white_color
 			
-@media only screen and (min-width : 601px)
-	.Footer
-		&_Subscribe
-			.content-email
-				width 58%
-				margin-right 2%
-			.button
-				width 38%
-
 
 @media only screen and (min-width : 768px)
 	.Footer
 		text-align left
-		&_Subscribe
-			.content-email
-				width 68%
-			.button
-				width 28%
-			&.is-scrolled
-				padding 20px 50px 10px
 			
 		&_Menu
 			width 100%
@@ -105,13 +40,6 @@
 					
 @media only screen and (min-width : 1100px)
 	.Footer
-		&_Subscribe
-			&.is-scrolled
-				width 1100px
-				left 50%
-				margin-left -550px
-				padding 20px 20px 5px
-				
 		&_Copy
 			padding 0
 		.Menu
@@ -121,9 +49,9 @@
 						color primary_color
 						
 
-@keyframes up-subscribe
-	0%
-		bottom -100px
-	100%
-		bottom 0
+// @keyframes up-subscribe
+// 	0%
+// 		bottom -100px
+// 	100%
+// 		bottom 0
 

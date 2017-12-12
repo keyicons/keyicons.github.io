@@ -34,26 +34,42 @@ var subscribe = function () {
 	// });
 
 
+var modal = $('.Modal'),
+	btn_download = $('.js-download'),
+	btn_close = $('#Modal-Close');
 
-	var subscribe_content = $('.Footer_Subscribe'),
-			btn_download = $('.js-download');
-
-	btn_download.on('click', function(e){
-		subscribe_content.addClass('is-scrolled');
-	});
-
-	var previousScroll = 100,
-   	originalTop = subscribe_content.offset().top;
-
- $(window).scroll(
- 	function(e){
- 		if ($(this).scrollTop() <= 250) {
- 			subscribe_content.addClass('is-scrolled');
- 		}
-    else {
-    	subscribe_content.removeClass('is-scrolled');
-    }
+btn_download.on('click', function(e){
+	e.preventDefault();
+	modal.addClass('is-open');
+	$('#mce-EMAIL').focus();
 });
+
+
+btn_close.on('click', function(e){
+	e.preventDefault();
+	modal.removeClass('is-open');
+});
+
+
+// 	var subscribe_content = $('.Footer_Subscribe'),
+// 			btn_download = $('.js-download');
+
+// 	btn_download.on('click', function(e){
+// 		subscribe_content.addClass('is-scrolled');
+// 	});
+
+// 	var previousScroll = 100,
+//    	originalTop = subscribe_content.offset().top;
+
+//  $(window).scroll(
+//  	function(e){
+//  		if ($(this).scrollTop() <= 250) {
+//  			subscribe_content.addClass('is-scrolled');
+//  		}
+//     else {
+//     	subscribe_content.removeClass('is-scrolled');
+//     }
+// });
 
 }
 
