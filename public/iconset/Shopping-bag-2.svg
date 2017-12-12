@@ -1,1 +1,13 @@
-<svg id="target" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>Shopping-bag-2</title><path d="M15.35,8.75V8.47a3.23,3.23,0,0,0-6.45,0v.28H7v9a1,1,0,0,0,1,1h8a1,1,0,0,0,1-1v-9ZM9.9,8.47a2.23,2.23,0,0,1,4.45,0v.28H9.9ZM16,17.75H8v-8h8Z"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>24x24</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Shopping-bag-2">
+            <rect id="24x24" x="0" y="0" width="24" height="24"></rect>
+            <path d="M15.35,8.33034756 L15.35,8.05034756 C15.2546628,6.33891835 13.8390826,5 12.125,5 C10.4109174,5 8.99533719,6.33891835 8.9,8.05034756 L8.9,8.33034756 L7,8.33034756 L7,17.3303476 C7,17.8826323 7.44771525,18.3303476 8,18.3303476 L16,18.3303476 C16.5522847,18.3303476 17,17.8826323 17,17.3303476 L17,8.33034756 L15.35,8.33034756 Z M9.9,8.05034756 C9.9785502,6.87931632 10.9513372,5.96959567 12.125,5.96959567 C13.2986628,5.96959567 14.2714498,6.87931632 14.35,8.05034756 L14.35,8.33034756 L9.9,8.33034756 L9.9,8.05034756 Z M16,17.3303476 L8,17.3303476 L8,9.33034756 L16,9.33034756 L16,17.3303476 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

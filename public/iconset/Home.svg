@@ -1,1 +1,13 @@
-<svg id="target" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>Home</title><path d="M19.72,10.42,12,4.66,4.28,10.51l.59.8L6,10.48v7.86a1,1,0,0,0,1,1H17a1,1,0,0,0,1-1v-8l1.15.86ZM17,18.34H7V9.72l5-3.81,5,3.7Z"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>24x24</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home">
+            <rect id="24x24" x="0" y="0" width="24" height="24"></rect>
+            <path d="M19.7400002,10.4599998 L12.0200002,4.69999981 L4.30000019,10.5499998 L4.89000019,11.3499998 L6.02000019,10.5199998 L6.02000019,18.3799998 C6.02000019,18.9322846 6.46771544,19.3799998 7.02000019,19.3799998 L17.0200002,19.3799998 C17.5722849,19.3799998 18.0200002,18.9322846 18.0200002,18.3799998 L18.0200002,10.3799998 L19.1700002,11.2399998 L19.7400002,10.4599998 Z M17.0200002,18.3799998 L7.02000019,18.3799998 L7.02000019,9.75999981 L12.0200002,5.94999981 L17.0200002,9.64999981 L17.0200002,18.3799998 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>
