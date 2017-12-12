@@ -8,25 +8,24 @@
 	right 0
 	display none
 	animation close .3s ease-in-out
-	
-	&.is-open
-		display block
-		animation open .3s ease-in-out
-		
 	&::after
+		content ''
+		display block
+		filter blur(10px)
 		background-image url('../img/bg-blur.png')
 		background-position center
 		background-repeat no-repeat
 		background-size cover
-		content ''
-		display block
-		filter blur(10px)
 		height 100%
-		left 0
-		position absolute
-		top 0
 		width 100%
+		position absolute
 		z-index -1
+		top 0
+		
+		
+	&.is-open
+		display block
+		animation open .3s ease-in-out
 
 	&-Container
 		position: absolute;
