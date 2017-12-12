@@ -5,9 +5,9 @@
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Arrow-left">
+        <g id="Chevron-left">
             <rect id="24x24" x="0" y="0" width="24" height="24"></rect>
-            <polygon id="Shape" fill="#000000" fill-rule="nonzero" points="9.53 13.95 7.9 12.32 18.68 12.32 18.68 11.32 7.92 11.32 9.53 9.71 8.83 9 6 11.83 8.83 14.66"></polygon>
+            <polygon id="Line" fill="#000000" fill-rule="nonzero" points="13.74 8.71 13.03 8 9.5 11.54 13.03 15.08 13.74 14.37 10.91 11.54"></polygon>
         </g>
     </g>
 </svg>
