@@ -63,7 +63,7 @@
 		},
 		{
 			"name":"Clock",
-			"type":"1"
+			"type":"0"
 		},
 		{
 			"name":"Credit-Card",
@@ -74,11 +74,11 @@
 			"type":"0"
 		},
 		{
-			"name":"Edit",
-			"type":"0"
+			"name":"Download-cloud",
+			"type":"1"
 		},
 		{
-			"name":"External-link",
+			"name":"Edit",
 			"type":"0"
 		},
 		{
