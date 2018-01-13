@@ -1,1 +1,13 @@
-<svg id="target" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>Folder</title><path d="M19,8H12L10,6H4V17a1,1,0,0,0,1,1H19a1,1,0,0,0,1-1V9A1,1,0,0,0,19,8ZM5,7H9.59l1,1H5ZM19,17H5V9H19Z"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>24x24</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Folder">
+            <rect id="24x24" x="0" y="0" width="24" height="24"></rect>
+            <path d="M19,8 L12,8 L10,6 L4,6 L4,17 C4,17.5522847 4.44771525,18 5,18 L19,18 C19.5522847,18 20,17.5522847 20,17 L20,9 C20,8.44771525 19.5522847,8 19,8 Z M5,7 L9.59,7 L10.59,8 L5,8 L5,7 Z M19,17 L5,17 L5,9 L19,9 L19,17 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

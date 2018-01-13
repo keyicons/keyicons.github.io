@@ -1,1 +1,13 @@
-<svg id="target" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>Upload</title><polygon points="11.5 6.74 11.5 14 12.5 14 12.5 6.72 14.13 8.35 14.84 7.65 12.01 4.82 9.18 7.65 9.89 8.35 11.5 6.74"/><path d="M17,10H13.5v1H17v7H7V11h3.5V10H7a.93.93,0,0,0-1,.82v7.36A.92.92,0,0,0,7,19H17a.92.92,0,0,0,1-.82V10.82A.93.93,0,0,0,17,10Z"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>24x24</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Upload">
+            <rect id="24x24" x="0" y="0" width="24" height="24"></rect>
+            <path d="M11.5,6.92 L9.89,8.53 L9.18,7.83 L12.01,5 L14.84,7.83 L14.13,8.53 L12.5,6.9 L12.5,14.18 L11.5,14.18 L11.5,6.92 Z M17,10.18 C17.4999271,10.1389209 17.9423545,10.5017114 18,11 L18,18.36 C17.9473978,18.8610238 17.5016213,19.2265605 17,19.18 L7,19.18 C6.49837872,19.2265605 6.05260219,18.8610238 6,18.36 L6,11 C6.05764555,10.5017114 6.50007295,10.1389209 7,10.18 L10.5,10.18 L10.5,11.18 L7,11.18 L7,18.18 L17,18.18 L17,11.18 L13.5,11.18 L13.5,10.18 L17,10.18 Z" id="Combined-Shape" fill="#000000" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>
