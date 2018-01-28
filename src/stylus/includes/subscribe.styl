@@ -12,7 +12,7 @@
 		content ''
 		display block
 		filter blur(10px)
-		background-image url('../img/bg-blur.png')
+		// background-image url('../img/bg-blur.png')
 		background-position center
 		background-repeat no-repeat
 		background-size cover
@@ -31,13 +31,13 @@
 		position: absolute;
 		top: 50%;
 		left: 50%;
-		margin-top: -200px;
-		margin-left: -145px;
+		margin-top: -150px;
+		margin-left: -250px;
 		position relative
-		width 326px
+		width 500px
 		min-height 300px
 		background white_color
-		padding 30px
+		padding 40px
 		top 50%
 		left 50%
 		border-radius 3px
@@ -55,7 +55,7 @@
 .Subscribe
 	position relative
 	&-Img
-		max-width 60px
+		max-width 80px
 		display block
 		margin 20px auto 30px
 	&-Msg
@@ -66,31 +66,56 @@
 ------------------------------------------------------------------------------*/
 .mc_embed_signup
 	width 100%
+	position absolute
+	bottom 0
+	left 0
+	text-align left
 	
-.email
-	width 100%
-	border none
-	background transparent
-	border solid 2px gray_color_3
-	border-radius 30px
-	color dark_color
-	line-height 36px
-	outline 0
-	text-indent 10px
-	transition_all(.3s)
-	margin 0 0 5px 0
-	&:focus,
-	&:hover
-		border solid 2px dark_color
-#mce-EMAIL-error
-	font-weight 600 
-	color red
-.button
-	outline 0
-	width 100%
-	margin 20px auto 0
-	display inline-block
-	border none
+	.content-email 
+		display inline-block
+		width 400px
+		position absolute
+		bottom 0
+		left 0
+	.email
+		border none
+		width 100%
+		background rgba(primary_color, .1)
+		color primary_color
+		line-height 58px
+		outline 0
+		text-indent 10px
+		transition_all(.3s)
+		margin 0
+		&:focus,
+		&:hover
+			background rgba(primary_color, .2)
+			border none
+			
+	#mce-EMAIL-error
+		font-weight 600 
+		color red
+		position absolute
+		top -40px
+		left 10px
+		width 100%
+		height 40px
+		line-height 40px
+	
+	.button
+		position absolute
+		right 0
+		bottom 0
+		background primary_color
+		border none
+		color white_color
+		display inline-block
+		height 60px 
+		line-height 60px
+		margin 0
+		outline 0
+		overflow hidden
+		width 100px 
 	
 
 
