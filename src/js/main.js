@@ -16,6 +16,8 @@ var keyicons = require('./libs/keyicons');
 
 var subscribe = require('./libs/subscribe');
 
+var shared = require('./libs/shared');
+
 jQuery(document).ready(function($) {
 
 	console.log('%cHello, I see you worry about how I am built, Regards!', "color: red");
@@ -23,6 +25,7 @@ jQuery(document).ready(function($) {
   topbar();
   keyicons();
   subscribe();
+  shared();
 
 });
 

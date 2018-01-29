@@ -94,12 +94,12 @@ var subscribe = function () {
 	    e.preventDefault();
 	    closeModal();
 	    })
-	.keydown(function(tecla){
-		if(modal.hasClass('is-open')){
-	    if (tecla.keyCode == 27) { 
-        closeModal();
-	    }
-	  }
+		.keydown(function(tecla){
+			if(modal.hasClass('is-open')){
+		    if (tecla.keyCode == 27) { 
+	        closeModal();
+		    }
+		  }
 	});
 
 }
