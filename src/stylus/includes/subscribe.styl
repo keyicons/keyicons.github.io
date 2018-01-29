@@ -31,11 +31,12 @@
 		position: absolute;
 		top: 50%;
 		left: 50%;
-		margin-top: -150px;
-		margin-left: -250px;
+		margin-top: -230px;
+		margin-left: -200px;
 		position relative
-		width 500px
-		min-height 300px
+		width 400px
+		min-height 350px
+		height auto
 		background white_color
 		padding 40px
 		top 50%
@@ -66,27 +67,22 @@
 ------------------------------------------------------------------------------*/
 .mc_embed_signup
 	width 100%
-	position absolute
-	bottom 0
-	left 0
 	text-align left
-	
 	.content-email 
 		display inline-block
-		width 400px
-		position absolute
-		bottom 0
-		left 0
-	.email
+		width 100%
+	.email,
+	.name
 		border none
 		width 100%
 		background rgba(primary_color, .1)
 		color primary_color
-		line-height 58px
+		line-height 60px
 		outline 0
 		text-indent 10px
+		display inline-block
 		transition_all(.3s)
-		margin 0
+		margin 2px 0
 		&:focus,
 		&:hover
 			background rgba(primary_color, .2)
@@ -95,27 +91,44 @@
 	#mce-EMAIL-error
 		font-weight 600 
 		color red
-		position absolute
-		top -40px
-		left 10px
+		height 30px
+		line-height 30px
+		width 50%
+		display none
+		font-size 12px
+		
+	
+	#resultElement
+		background rgba(primary_color, .2)
+		color red
+		display none
+		font-weight 600
+		padding 20px 40px
+		text-align center
 		width 100%
-		height 40px
-		line-height 40px
+		&.is-error
+			color red
+		&.is-success
+			color dark_color
 	
 	.button
-		position absolute
-		right 0
-		bottom 0
 		background primary_color
 		border none
 		color white_color
 		display inline-block
 		height 60px 
 		line-height 60px
-		margin 0
+		margin 10px 0 0
 		outline 0
 		overflow hidden
-		width 100px 
+		width 100%
+		transition_all(.3s)
+		&:focus,
+		&:hover
+			background rgba(dark_color, .9)
+			shadow_custom(primary_color, 0, 15px, 20px, -9px, .4)
+			transform scale(1.02)
+		
 	
 
 
