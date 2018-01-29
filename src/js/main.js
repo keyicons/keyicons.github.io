@@ -18,6 +18,9 @@ var subscribe = require('./libs/subscribe');
 
 var shared = require('./libs/shared');
 
+var search = require('./libs/search');
+
+
 jQuery(document).ready(function($) {
 
 	console.log('%cHello, I see you worry about how I am built, Regards!', "color: red");
@@ -26,6 +29,7 @@ jQuery(document).ready(function($) {
   keyicons();
   subscribe();
   shared();
+  search();
 
 });
 
