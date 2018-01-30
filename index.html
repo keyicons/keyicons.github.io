@@ -41,10 +41,16 @@
 				🔑 KEYICONS
 			</h1>
 			<nav class="Header_Menu">
-				<ul class="Menu">
-					<li class="Menu_item"><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" class="Menu_item_link">License</a></li>
-					<li class="Menu_item"><a href="https://twitter.com/intent/tweet?text=Keyicons%20-The%20clean%20icon%20set%20you%20were%20looking%20for.%20by:%20@noyonosoyesa%20-%20@elnodos%20http://keyicons.com" target="_blank" class="Menu_item_link">Share</a></li>
-				</ul>
+				<div class="Menu">
+					<a href="#" download class="btn btn-secondary Hero_Download js-download">
+						<svg class="icon"><use xlink:href="public/img/icons.svg#icon-download-cloud"></use></svg>
+						Library file
+					</a>
+					<a href="./public/keyicons.zip" download class="btn btn-primary Hero_Download">
+						<svg class="icon"><use xlink:href="public/img/icons.svg#icon-download-cloud"></use></svg>
+						Zip file
+					</a>
+				</div>
 			</nav>
 		</div>
 	</header>
@@ -52,24 +58,27 @@
 	<section class="Hero">
 		<div class="container">
 			<div class="Hero_Logo">
-				<h4 class="Hero_Logo_Name">Icon Set</h4>
+				<h4 class="Hero_Logo_Name">V.3.0</h4>
 			</div>
 			<h3 class="Hero_Lead">Keyicons</h3>
 			<div class="Hero_Description">
 				<p>The clean icon set you were looking for. <br>Updates Every Month! 🔔</p>
 			</div>
-			<a href="#" download class="btn btn-secondary Hero_Download js-download">Download Library file</a>
-			<a href="./public/keyicons.zip" download class="btn btn-primary Hero_Download">Download Zip file</a>
-			<br><br><small>V.1.5.0</small>
+			<div class="row items-around">
+				<div class="col-xs12 col-md6">
+					<div class="SearchBox">
+						<div class="SearchBox-icon">
+							<svg class="icon"><use xlink:href="public/img/icons.svg#icon-search"></use></svg>
+						</div>
+						<input type="text" id="searchKeyicons" placeholder="Search your icons...">
+					</div>
+				</div>
+			</div>
 		</div>
 	</section>
 
 	<main class="KeyContent">
 		<div class="container">
-			<div class="SearchBox">
-				<input type="text" id="searchKeyicons" placeholder="Search your icons...">
-			</div>
-			
 			<div class="row items-top items-between" id="KeyiconsContent">
 					<div class="Content__message">Allow JavaScript to view the icon set 👀</div>
 			</div>
@@ -79,18 +88,36 @@
 	<footer class="Footer">
 		<div class="container">
 			<div class="row items-middle items-between">
-				<div class="col-xs12 col-sm6">
-					<div class="Footer_Copy">
-						<p>Handcrafted by:  <a href="https://twitter.com/noyonosoyesa/" class="Footer_Copy_Link" target="_blank">@noyonosoyesa  💊</a>  +  <a href="https://twitter.com/elnodos/" class="Footer_Copy_Link" target="_blank">@elnodos 🍫</a></p>
-					</div>
-				</div>
-				<div class="col-xs12 col-sm6">	
+				<div class="col-xs12 col-sm5 col-md5">
 					<div class="Footer_Menu">
 						<ul class="Menu">
 							<li class="Menu_item"><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" class="Menu_item_link">License</a></li>
 							<li class="Menu_item"><a href="https://twitter.com/intent/tweet?text=Keyicons%20-The%20clean%20icon%20set%20you%20were%20looking%20for.%20by:%20@noyonosoyesa%20-%20@elnodos%20http://keyicons.com" target="_blank" class="Menu_item_link">Share</a></li>
 							<li class="Menu_item"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PV7W3KZ288GKQ" class="Menu_item_link" target="_blank">Donate</a></li>
 						</ul>
+					</div>
+				</div>
+				<div class="col-xs12 col-sm7 col-md7">	
+					<div class="Footer_Copy">
+							<div class="Footer_Copy_Item">
+								<p>Handcrafted by : </p>
+							</div>
+							<div class="Footer_Copy_Item">
+								<p>
+									<a href="https://twitter.com/noyonosoyesa/" class="Footer_Copy_Link" target="_blank">@noyonosoyesa</a>
+									<a href="https://dribbble.com/hellmcnamara" target="_blank" class="Footer_Copy_Social">🏀</a>
+									<a href="https://twitter.com/noyonosoyesa" target="_blank" class="Footer_Copy_Social">🐦</a>
+								</p>
+							</div>
+							<div class="Footer_Copy_Item">
+								<p>
+									
+									<a href="https://twitter.com/elnodos/" class="Footer_Copy_Link" target="_blank">@elnodos</a>
+									<a href="https://dribbble.com/nodos" target="_blank" class="Footer_Copy_Social">🏀</a>
+									<a href="https://twitter.com/elnodos" target="_blank" class="Footer_Copy_Social">🐦</a>
+							
+								</p>
+							</div>					
 					</div>
 				</div>
 			</div>
@@ -178,7 +205,6 @@
 	        a.appendChild(r);
 	    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 	</script>
-
 
 </body>
 </html>

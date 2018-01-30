@@ -1,20 +1,36 @@
 .SearchBox
 	width 97%
 	margin 0 auto 40px
+	position relative
+	&:hover,
+	&:focus
+		.SearchBox-icon
+			color primary_color
+			
+	&-icon
+		position absolute
+		top 20px
+		left 20px
+		width 24px
+		height 24px
+		color gray_color_3
+		
 	input
 		width 100%
 		line-height 60px
 		background rgba(gray_color_3, .1)
 		border none
-		text-indent 10px
+		text-indent 55px
+		letter-spacing -.5px
 		outline 0
 		transition_all(.3s)
+		font-weight 100
 		border-radius 3px
 		&:hover,
 		&:focus
 			background rgba(primary_color, .1)
 			shadow_custom(primary_color, 0, 0, 0, 2px, .4)
-
+		
 
 
 

@@ -9,29 +9,47 @@
 	&_Copy
 		display inline-block
 		padding 0 10px
-		font-size 12px
+		font-size 14px
 		color white_color
+		&_Item
+			vertical-align middle
+			display inline-block
+			text-align left
+			margin-right 5px
+			&:first-child
+				display block
+				text-align center
+				margin-top 40px
 		&_Link
 			color secondary_color
 			font-weight 600
+			display inline-block
+		&_Social
+			display inline-block
+			margin 0 10px 0 4px
+			font-size 18px
 	.Menu
 		text-align center
 		&_item
 			&_link
-				font-size 12px
+				font-size 14px
 				color white_color
 			
 
 @media only screen and (min-width : 768px)
 	.Footer
 		text-align left
-			
+		&_Copy
+			&_Item
+				&:first-child
+					display inline-block
+					margin 0
+		
 		&_Menu
 			width 100%
-			text-align right
 			display inline-block
-			.Menu 
-				text-align right
+			.Menu
+				text-align left
 				&_item
 					padding 0
 					margin 0 10px
@@ -42,11 +60,19 @@
 	.Footer
 		&_Copy
 			padding 0
+			text-align right
+			width 100%
+			&_Social
+				opacity .6
+				&:hover
+					opacity 1
+			
 		.Menu
 			&_item
 				&_link
+					opacity 0.6
 					&:hover
-						color primary_color
+						opacity 1
 						
 
 // @keyframes up-subscribe
