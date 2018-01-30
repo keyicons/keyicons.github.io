@@ -10,6 +10,18 @@
 			"type":"0"
 		},
 		{
+			"name":"Align-Left",
+			"type":"1"
+		},
+		{
+			"name":"Align-Center",
+			"type":"1"
+		},
+		{
+			"name":"Align-Right",
+			"type":"1"
+		},
+		{
 			"name":"Arrow-down",
 			"type":"0"
 		},
@@ -34,12 +46,20 @@
 			"type":"0"
 		},
 		{
+			"name":"Bookmark",
+			"type":"1"
+		},
+		{
+			"name":"Bullet-list",
+			"type":"1"
+		},
+		{
 			"name":"Calendar",
 			"type":"0"
 		},
 		{
 			"name":"Camera",
-			"type":"1"
+			"type":"0"
 		},
 		{
 			"name":"Check",
@@ -66,6 +86,14 @@
 			"type":"0"
 		},
 		{
+			"name":"Close-1",
+			"type":"0"
+		},
+		{
+			"name":"Close-2",
+			"type":"1"
+		},
+		{
 			"name":"Credit-Card",
 			"type":"0"
 		},
@@ -75,6 +103,10 @@
 		},
 		{
 			"name":"Download-cloud",
+			"type":"0"
+		},
+		{
+			"name":"Equalizer",
 			"type":"1"
 		},
 		{
@@ -87,7 +119,7 @@
 		},
 		{
 			"name":"Filter",
-			"type":"1"
+			"type":"0"
 		},
 		{
 			"name":"File-audio",
@@ -99,7 +131,7 @@
 		},
 		{
 			"name":"File-jpg",
-			"type":"1"
+			"type":"0"
 		},
 		{
 			"name":"File-generic",
@@ -111,11 +143,11 @@
 		},
 		{
 			"name":"File-png",
-			"type":"1"
+			"type":"0"
 		},
 		{
 			"name":"File-svg",
-			"type":"1"
+			"type":"0"
 		},
 		{
 			"name":"File-video",
@@ -124,6 +156,10 @@
 		{
 			"name":"Folder",
 			"type":"0"
+		},
+		{
+			"name":"Font-Color",
+			"type":"1"
 		},
 		{
 			"name":"Heart",
@@ -186,8 +222,40 @@
 			"type":"0"
 		},
 		{
+			"name":"Next",
+			"type":"1"
+		},
+		{
+			"name":"Numbered-list",
+			"type":"1"
+		},
+		{
+			"name":"Pause",
+			"type":"1"
+		},
+		{
 			"name":"Phone",
 			"type":"0"
+		},
+		{
+			"name":"Play",
+			"type":"1"
+		},
+		{
+			"name":"Playlist",
+			"type":"1"
+		},
+		{
+			"name":"Prev",
+			"type":"1"
+		},
+		{
+			"name":"Reload",
+			"type":"1"
+		},
+		{
+			"name":"Repeat-play",
+			"type":"1"
 		},
 		{
 			"name":"Search",
@@ -207,7 +275,7 @@
 		},
 		{
 			"name":"Shop",
-			"type":"1"
+			"type":"0"
 		},
 		{
 			"name":"Shopping-bag",
@@ -222,12 +290,28 @@
 			"type":"0"
 		},
 		{
+			"name":"Shuffle-play",
+			"type":"1"
+		},
+		{
 			"name":"Sketch",
 			"type":"0"
 		},
 		{
+			"name":"Sound",
+			"type":"1"
+		},
+		{
 			"name":"Star",
 			"type":"0"
+		},
+		{
+			"name":"Streaming",
+			"type":"1"
+		},
+		{
+			"name":"Stop",
+			"type":"1"
 		},
 		{
 			"name":"Tag",
@@ -236,6 +320,22 @@
 		{
 			"name":"Tags",
 			"type":"0"
+		},
+		{
+			"name":"Text-bold",
+			"type":"1"
+		},
+		{
+			"name":"Text-italic",
+			"type":"1"
+		},
+		{
+			"name":"Text-strikethrough",
+			"type":"1"
+		},
+		{
+			"name":"Text-underline",
+			"type":"1"
 		},
 		{
 			"name":"Trash",
@@ -250,11 +350,19 @@
 			"type":"0"
 		},
 		{
-			"name":"Video",
-			"type":"0"
+			"name":"Volume-minus",
+			"type":"1"
 		},
 		{
-			"name":"Close",
+			"name":"Volume-off",
+			"type":"1"
+		},
+		{
+			"name":"Volume-plus",
+			"type":"1"
+		},
+		{
+			"name":"Video",
 			"type":"0"
 		}
 	]
