@@ -322,22 +322,6 @@
 			"type":"0"
 		},
 		{
-			"name":"Text-bold",
-			"type":"1"
-		},
-		{
-			"name":"Text-italic",
-			"type":"1"
-		},
-		{
-			"name":"Text-strikethrough",
-			"type":"1"
-		},
-		{
-			"name":"Text-underline",
-			"type":"1"
-		},
-		{
 			"name":"Trash",
 			"type":"0"
 		},
