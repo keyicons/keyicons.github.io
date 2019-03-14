@@ -2,7 +2,7 @@
 
 # [keyicons](http://keyicons.com)
 
-Icon Set  Handcrafted by:  [@noyonosoyesa 💊](https://twitter.com/Noyonosoyesa) + [@mishortcut 🍫](https://twitter.com/mishortcut/)
+Icon Set  Handcrafted by:  [@noyonosoyesa 💊](https://twitter.com/Noyonosoyesa) + [@elnodos 🍫](https://twitter.com/elnodos/)
 
 ### ©
 > Copyright 2017 Keyicons.
