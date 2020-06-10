@@ -39,19 +39,19 @@ gulp.task('serve', function () {
 
 
 
-gulp.task('build:css', function() {
+gulp.task('build:css', () => {
   gulp.src(config.styles.main)
     .pipe(stylus({
       use: nib(),
       'include css': true
     }))
-    .pipe(minifyCSS())
+    // .pipe(minifyCSS())
     .pipe(gulp.dest(config.styles.output))
     .pipe(browserSync.stream())
 });
 
 //se debe instalar el modulo de browserify
-gulp.task('build:js', function() {
+gulp.task('build:js', () => {
   return browserify(config.scripts.main)
     .bundle()
     .pipe(source('main.js'))
@@ -61,16 +61,16 @@ gulp.task('build:js', function() {
 });
 
 
-gulp.task('watch', function() {
-  gulp.watch(config.styles.watch, ['build:css']);
-  gulp.watch(config.scripts.watch, ['build:js']);
+gulp.task('watch', () => {
+  gulp.watch(config.styles.watch, gulp.series('build:css'));
+  gulp.watch(config.scripts.watch, gulp.series('build:js'));
   gulp.watch(config.files.watch).on('change', browserSync.reload);
 });
 
 
-gulp.task('build', ['build:css', 'build:js']);
+gulp.task('build', gulp.parallel('build:css', 'build:js'));
 
-gulp.task('default', ['watch', 'build', 'serve']);
+gulp.task('default', gulp.parallel('watch', 'build', 'serve'));
 
 
 
