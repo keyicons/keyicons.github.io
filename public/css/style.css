@@ -987,8 +987,10 @@ _____________________________________________________ */
 .Header_Nav {
   display: inline-block;
 }
-.Menu {
-  background: #f00;
+@media only screen and (min-width: 768px) {
+  .Header {
+    padding: 20px;
+  }
 }
 @media only screen and (min-width: 1100px) {
   .Header {
@@ -1003,7 +1005,7 @@ _____________________________________________________ */
   display: block;
 }
 .Hero .container {
-  padding: 40px 20px;
+  padding: 40px;
 }
 .Hero_Title {
   font-size: 48px;
@@ -1015,7 +1017,7 @@ _____________________________________________________ */
 }
 .Hero_Description p {
   font-family: 'Inter';
-  font-size: 16px;
+  font-size: 14px;
   line-height: 24px;
 }
 .Hero_Software {
@@ -1026,17 +1028,21 @@ _____________________________________________________ */
   min-width: 100px;
   display: inline-block;
 }
+.Hero_Software h6 {
+  font-weight: 400;
+  font-size: 12px;
+}
 .Hero_Software img {
   margin: 10px auto;
   max-width: 100px;
 }
 @media only screen and (min-width: 768px) {
   .Hero .container {
-    padding: 40px 20px;
+    padding: 40px;
   }
   .Hero_Description {
     text-align: left;
-    width: 70%;
+    width: 60%;
     display: inline-block;
     margin-bottom: 0;
   }
@@ -1049,7 +1055,7 @@ _____________________________________________________ */
     margin-bottom: 20px;
   }
   .Hero_Software {
-    width: 29%;
+    width: 39%;
     display: inline-block;
     vertical-align: bottom;
     text-align: right;
@@ -1473,15 +1479,16 @@ _____________________________________________________ */
 .Footer {
   width: 100%;
   position: relative;
-  background: #0c0310;
+  background: #fbf9f8;
   text-align: center;
-  padding: 20px 0;
+  padding: 10px 0 40px;
+  font-size: 14px;
 }
 .Footer_Copy {
   display: inline-block;
   padding: 0 10px;
-  font-size: 14px;
-  color: #fff;
+  color: #a9adb6;
+  margin-bottom: 40px;
 }
 .Footer_Copy_Item {
   vertical-align: middle;
@@ -1492,24 +1499,27 @@ _____________________________________________________ */
 .Footer_Copy_Item:first-child {
   display: block;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .Footer_Copy_Link {
-  color: #66ede1;
-  font-weight: 600;
+  color: #a9adb6;
+  font-weight: 700;
   display: inline-block;
-}
-.Footer_Copy_Social {
-  display: inline-block;
-  margin: 0 10px 0 4px;
-  font-size: 18px;
 }
 .Footer .Menu {
+  padding: 0 10px 0 0;
   text-align: center;
+  margin: 0;
+  color: #a9adb6;
+}
+.Footer .Menu_item {
+  display: inline-block;
+  margin: 0 20px;
 }
 .Footer .Menu_item_link {
-  font-size: 14px;
-  color: #fff;
+  font-weight: 700;
+  line-height: 40px;
+  color: #a9adb6;
 }
 @media only screen and (min-width: 768px) {
   .Footer {
@@ -1519,44 +1529,30 @@ _____________________________________________________ */
     display: inline-block;
     margin: 0;
   }
-  .Footer_Menu {
-    width: 100%;
-    display: inline-block;
-  }
-  .Footer_Menu .Menu {
-    text-align: left;
-  }
-  .Footer_Menu .Menu_item {
-    padding: 0;
-    margin: 0 10px;
-  }
 }
 @media only screen and (min-width: 1100px) {
+  .Footer {
+    padding: 10px 0;
+  }
   .Footer_Copy {
     padding: 0;
-    text-align: right;
+    text-align: left;
     width: 100%;
+    margin-bottom: 0;
   }
-  .Footer_Copy_Social {
-    opacity: 0.6;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
-    filter: alpha(opacity=60);
-    margin: 0;
+  .Footer_Copy_Link:hover {
+    text-decoration: underline;
+    color: #0c0310;
   }
-  .Footer_Copy_Social:hover {
-    opacity: 1;
-    -ms-filter: none;
-    filter: none;
+  .Footer .Menu {
+    text-align: right;
   }
-  .Footer .Menu_item_link {
-    opacity: 0.6;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
-    filter: alpha(opacity=60);
+  .Footer .Menu_item:nth-child(3) {
+    margin-right: 0;
   }
   .Footer .Menu_item_link:hover {
-    opacity: 1;
-    -ms-filter: none;
-    filter: none;
+    text-decoration: underline;
+    color: #0c0310;
   }
 }
 /* Main
