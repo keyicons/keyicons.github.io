@@ -1,52 +1,73 @@
 .Hero
-	background-color white_color
-	color dark_color
+	background-color dark_color
+	color white_color
 	display block
 	.container
-		padding 100px 20px 20px
-	&_Logo
-		display inline-block
-		width 200px
-		&_Icon
-			display none
-			margin 0 0 10px 0
-			width 40px
-		&_Name
-			text-transform uppercase
-			font-size 12px
-			letter-spacing 1px
-			color gray_color_3
-	&_Lead
-		font-size 36px
-		font-weight 700
+		padding 40px 20px
+	&_Title
+		font-size 48px
+		font-weight 700 !important
+		font-family tipography
 	&_Description 
 		margin 0 0 40px 0
-		font-size 16px
-			
+		p
+			font-family tipography
+			font-size 16px
+			line-height 24px
+	&_Software
+		text-align center
+		&_item
+			width 45%
+			min-width 100px
+			display  inline-block
+		img
+			margin 10px auto
+			max-width 100px
 		
-	&_Download 
-		display none
+	// &_Download 
+	// 	display inline-block
 
 @media only screen and (min-width : 768px)
 	.Hero
 		.container
-			padding 120px 20px 100px
+			padding 40px 20px
 			
-		&_Lead
+		&_Description 
+			text-align left
+			width 70%
+			display inline-block
+			margin-bottom 0
+			p
+				margin-bottom 0
+
+		&_Title
 			font-size 64px
 			line-height 64px
-	
-		&_Download
-			display inline-block
-			min-width 80px
-			.icon
-				vertical-align middle
+			margin-bottom 20px
+		
+		&_Software
+			width 29%
+			display  inline-block
+			vertical-align bottom
+			text-align right
+			&_item
+				text-align center
+				margin-left 30px
+				width 100px
+			img
+				margin  10px 0
+				
+		// &_Download
+		// 	display inline-block
+		// 	min-width 80px
+		// 	.icon
+		// 		vertical-align middle
 	
 		
 
 @media only screen and (min-width : 1100px)		
 	.Hero
 		.container
-			padding 80px 0 60px
+			padding 80px 20px 60px
 	// .Download
 	

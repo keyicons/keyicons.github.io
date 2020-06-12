@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
 	<link rel="icon" href="/public/img/favicon.png" sizes="32x32">
 	<meta name="description" content="Keyicons: The clean icon set you were looking for.">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="/public/css/style.css?v=1.1">
 
   <!-- twitter card -->
@@ -38,40 +39,31 @@
 	<header class="Header">
 		<div class="Header_container container">
 			<h1 class="Header_Logo">
-				🔑 KEYICONS
+				<span>KEYICONS</span>
 			</h1>
-			<nav class="Header_Menu">
-				<div class="Menu">
-					<a href="#" download class="btn btn-secondary Hero_Download js-download">
-						<svg class="icon"><use xlink:href="public/img/icons.svg#icon-download-cloud"></use></svg>
-						Library file
-					</a>
-					<a href="./public/keyicons.zip" download class="btn btn-primary Hero_Download">
-						<svg class="icon"><use xlink:href="public/img/icons.svg#icon-download-cloud"></use></svg>
-						Zip file
-					</a>
-				</div>
+			<nav class="Header_Nav">
+				<a href="#" download class="btn btn-primary Hero_Download js-download">
+					<svg class="icon"><use xlink:href="public/img/icons.svg#icon-download"></use></svg>
+					Get Full Set
+				</a>
 			</nav>
 		</div>
 	</header>
 
 	<section class="Hero">
 		<div class="container">
-			<div class="Hero_Logo">
-				<h4 class="Hero_Logo_Name">V.3.0</h4>
-			</div>
-			<h3 class="Hero_Lead">Keyicons</h3>
 			<div class="Hero_Description">
-				<p>The clean icon set you were looking for.</p>
+				<h2 class="Hero_Title">Keyicons</h2>
+				<p>The clean icon set you were looking for, ready to use in web, mobile development and wherever you want.</p>
 			</div>
-			<div class="row items-around">
-				<div class="col-xs12 col-md6">
-					<div class="SearchBox">
-						<div class="SearchBox-icon">
-							<svg class="icon"><use xlink:href="public/img/icons.svg#icon-search"></use></svg>
-						</div>
-						<input type="text" id="searchKeyicons" placeholder="Search your icons...">
-					</div>
+			<div class="Hero_Software">
+				<div class="Hero_Software_item">
+					<h6>Pixel perfect</h6>
+					<img src="./public/img/pixel-perfect.png" alt="Sketch & Figma icons">
+				</div>
+				<div class="Hero_Software_item">
+					<h6>Support for</h6>
+					<img src="./public/img/support-for.png" alt="Sketch & Figma icons">
 				</div>
 			</div>
 		</div>
@@ -79,6 +71,13 @@
 
 	<main class="KeyContent">
 		<div class="container">
+			<div class="SearchBox">
+				<div class="SearchBox-icon">
+					<svg class="icon"><use xlink:href="public/img/icons.svg#icon-search"></use></svg>
+				</div>
+				<input type="text" id="searchKeyicons" placeholder="Search your icons...">
+			</div>
+
 			<div class="row items-top items-between" id="KeyiconsContent">
 					<div class="Content__message">Allow JavaScript to view the icon set 👀</div>
 			</div>
@@ -156,7 +155,7 @@
 		</div>
 	</div>
 
-	<div class="Shared">
+	<!-- <div class="Shared">
 		<button class="Shared-Close" id="CloseShared"><svg class="icon"><use xlink:href="public/img/icons.svg#icon-close"></use></svg></button>
 		<div class="Shared-Img">
 			<img src="" alt="">
@@ -170,41 +169,18 @@
 			
 			<a href="https://www.facebook.com/sharer.php?s=100&p[url]=http://keyicons.com/&p[title]=Keyicons.&p[images][0]=http://keyicons.com/public/img/isotipo.jpg&p[summary]=The clean icon set you were looking for." target="_blank" class="Shared-Btn"><svg class="icon"><use xlink:href="public/img/icons.svg#icon-facebook"></use></svg></a>
 		</div>
-	</div>
+	</div> -->
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-	<script>window.jQuery || document.write('<script src="./public/js/vendor/jquery-2.1.4.min.js"><\/script>')</script>
-
+	
 	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js" async></script>
 	<script>
 	  WebFont.load({
-	    google: { families: ['Noto Sans'] }
+	    google: { families: ['Inter'] }
 	  });
 	</script>       
 	
-	<script type='text/javascript' src="./public/js/vendor/jquery.validate.min.js" async></script>
 	<script type='text/javascript' src="./public/js/main.js?v=1.1" async></script>
-
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108446519-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-
-	  gtag('config', 'UA-108446519-1');
-	</script>
-
-	<!-- Hotjar Tracking Code for keyicons.com -->
-	<script>
-	    (function(h,o,t,j,a,r){
-	        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-	        h._hjSettings={hjid:674135,hjsv:6};
-	        a=o.getElementsByTagName('head')[0];
-	        r=o.createElement('script');r.async=1;
-	        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-	        a.appendChild(r);
-	    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-	</script>
 
 </body>
 </html>
