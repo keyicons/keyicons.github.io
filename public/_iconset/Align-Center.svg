@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Align-Center</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="SVG👌" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Align-Center">
+            <rect id="24x24" x="0" y="0" width="24" height="24"></rect>
+            <g id="center" transform="translate(12.000000, 12.000000) scale(-1, 1) translate(-12.000000, -12.000000) translate(7.000000, 7.000000)" fill="#000000" fill-rule="nonzero">
+                <path d="M2.5,3.5 L2.5,2.5 L7.5,2.5 L7.5,3.5 L2.5,3.5 Z M2.5,7.5 L2.5,6.5 L7.5,6.5 L7.5,7.5 L2.5,7.5 Z M0,5.5 L0,4.5 L10,4.5 L10,5.5 L0,5.5 Z M0,9.5 L0,8.5 L10,8.5 L10,9.5 L0,9.5 Z M0,1.5 L0,0.5 L10,0.5 L10,1.5 L0,1.5 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

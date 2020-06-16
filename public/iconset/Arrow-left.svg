@@ -1,15 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>Arrow-left</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="SVG👌" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Arrow-left">
-            <g id="arrow-left">
-                <rect id="20x20" fill-opacity="0" fill="#FFFFFF" x="0" y="0" width="20" height="20"></rect>
-                <path d="M14.0757429,9.4766907 L12.4697588,7.87070664 L13.1798392,7.16062625 L15.9798392,9.9606262 L13.1395176,12.8009478 L12.4395176,12.1009478 L14.0637747,10.4766907 L4,10.4766907 L4,9.4766907 L14.0757429,9.4766907 Z" id="arrow-right" fill="#000000" fill-rule="nonzero" transform="translate(9.989920, 9.980787) scale(-1, 1) translate(-9.989920, -9.980787) "></path>
-            </g>
-        </g>
-    </g>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 12H17.5" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
+<path d="M14 8L17.2929 11.2929C17.6834 11.6834 17.6834 12.3166 17.2929 12.7071L14 16" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
 </svg>

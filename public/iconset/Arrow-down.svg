@@ -1,13 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
-    <title>24x24</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Arrow-down">
-            <rect id="24x24" x="0" y="0" width="24" height="24"></rect>
-            <polygon id="Shape" fill="#000000" fill-rule="nonzero" points="14.12 14.81 12.49 16.44 12.49 5.66 11.49 5.66 11.49 16.42 9.88 14.81 9.17 15.51 12 18.34 14.83 15.51"></polygon>
-        </g>
-    </g>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 6V17.5" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
+<path d="M16 14L12.7071 17.2929C12.3166 17.6834 11.6834 17.6834 11.2929 17.2929L8 14" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
 </svg>

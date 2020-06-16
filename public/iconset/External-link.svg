@@ -1,1 +1,5 @@
-<svg id="target" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>External-link</title><polygon points="16.46 16.54 7.46 16.54 7.46 7.54 11.46 7.54 11.46 6.54 6.46 6.54 6.46 17.54 17.46 17.54 17.46 12.54 16.46 12.54 16.46 16.54"/><polygon points="13.46 6.54 13.46 7.54 15.76 7.54 9.61 13.68 10.32 14.39 16.46 8.24 16.46 10.54 17.46 10.54 17.46 6.54 13.46 6.54"/></svg>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M20 12V18C20 19.1046 19.1046 20 18 20H6C4.89543 20 4 19.1046 4 18V6C4 4.89543 4.89543 4 6 4H12" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
+<path d="M16 4H19C19.5523 4 20 4.44772 20 5V8" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
+<path d="M11 13L19 5" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
+</svg>

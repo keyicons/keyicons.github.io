@@ -1,13 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
-    <title>24x24</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Folder">
-            <rect id="24x24" x="0" y="0" width="24" height="24"></rect>
-            <path d="M19,8 L12,8 L10,6 L4,6 L4,17 C4,17.5522847 4.44771525,18 5,18 L19,18 C19.5522847,18 20,17.5522847 20,17 L20,9 C20,8.44771525 19.5522847,8 19,8 Z M5,7 L9.59,7 L10.59,8 L5,8 L5,7 Z M19,17 L5,17 L5,9 L19,9 L19,17 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
-        </g>
-    </g>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3 7H20C20.5523 7 21 7.44772 21 8V19C21 19.5523 20.5523 20 20 20H4C3.44772 20 3 19.5523 3 19V7Z" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
+<path d="M3 4.5C3 4.22386 3.22386 4 3.5 4H9.79289C9.9255 4 10.0527 4.05268 10.1464 4.14645L13 7H3V4.5Z" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
 </svg>

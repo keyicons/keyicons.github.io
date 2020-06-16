@@ -1,38 +1,101 @@
 .SearchBox
-	width 97%
 	margin 0 auto 40px
 	position relative
+	display inline-block
+	width 100%
 	&:hover,
 	&:focus
 		.SearchBox-icon
-			color primary_color
+			color acent_color
 			
 	&-icon
 		position absolute
-		top 20px
-		left 20px
-		width 24px
-		height 24px
-		color gray_color_3
-		
+		top 12px
+		left 16px
+		width 20px
+		height 20px
+		opacity .3
+		.icon
+			width 20px
+			height 20px
+			
 	input
 		width 100%
-		line-height 60px
-		background rgba(gray_color_3, .1)
-		border none
-		text-indent 55px
+		line-height 44px
+		background white_color
+		border solid thin smoke_color
+		text-indent 44px
 		letter-spacing -.5px
 		outline 0
 		transition_all(.3s)
 		font-weight 100
-		border-radius 3px
+		border-radius 40px
 		&:hover,
 		&:focus
-			background rgba(primary_color, .1)
-			shadow_custom(primary_color, 0, 0, 0, 2px, .4)
+			border-color acent_color
+			shadow_custom(acent_color, 0, 3px, 3px, 2px, .11)
+
+
+
+.KeyContent
+	input[type="radio"]
+		position absolute
+		left -9999px
+
+.filtering
+	display inline-block
+	vertical-align bottom
+	width 100%
+	label 
+		padding 4px 8px
+		border-radius 16px
+		line-height: normal;
+		border solid thin acent_color
+		text-transform uppercase
+		cursor pointer
+		font-size 12px
+		transition_all(.3s)
+		&:hover
+			background acent_color 
+			color white_color
+
+/*
+FILTERING RULES
+*/
+[value="all"]:checked ~ .filtering [for="all"],
+[value="action"]:checked ~ .filtering [for="action"],
+[value="content"]:checked ~ .filtering [for="content"],
+[value="navigation"]:checked ~ .filtering [for="navigation"],
+[value="comunication"]:checked ~ .filtering [for="comunication"],
+[value="social"]:checked ~ .filtering [for="social"],
+[value="editor"]:checked ~ .filtering [for="editor"]
+  color white
+
+[value="all"]:checked ~ .filtering [data-category]
+	background-color acent_color
+	color white_color
+	border-color transparent
+	
+[value="action"]:checked ~ .KeyiconsContent .key:not([data-category~="action"]),
+[value="content"]:checked ~ .KeyiconsContent .key:not([data-category~="content"]),
+[value="comunication"]:checked ~ .KeyiconsContent .key:not([data-category~="comunication"]),
+[value="navigation"]:checked ~ .KeyiconsContent .key:not([data-category~="navigation"]),
+[value="social"]:checked ~ .KeyiconsContent .key:not([data-category~="social"]),
+[value="editor"]:checked ~ .KeyiconsContent .key:not([data-category~="editor"])
+	display none
+
+
+
+@media only screen and (min-width : 768px)
+	.SearchBox
+		max-width 400px
+		margin 0 0 60px
+	.filtering
+		width calc(100% - 410px)
+		margin 0 0 60px
 		
 
-
-
-
-
+@media only screen and (min-width : 1100px)		
+	// .SearchBox
+	.filtering
+		text-align right

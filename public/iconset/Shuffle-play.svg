@@ -1,13 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#1D1D1B;}
-</style>
-<title>Keyicons/Music/Shuffle-play</title>
-<desc>Created with Sketch.</desc>
-<path class="st0" d="M16,15.5h-1c-1.9,0-3.5-1.6-3.5-3.5s1.6-3.5,3.5-3.5h1V10l3.1-2L16,6v1.5h-1c-1.8,0-3.3,1-4,2.5
-	c-0.7-1.5-2.2-2.5-4-2.5H5v1h2c1.9,0,3.5,1.6,3.5,3.5S8.9,15.5,7,15.5H5v1h2c1.8,0,3.3-1,4-2.5c0.7,1.5,2.2,2.5,4,2.5h1V18l3.1-2
-	L16,14V15.5z"/>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3 6H5C8.31371 6 11 8.68629 11 12V12C11 15.3137 8.31371 18 5 18H3" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
+<path d="M20 6H17C13.6863 6 11 8.68629 11 12V12C11 15.3137 13.6863 18 17 18H20" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
+<path d="M18 3L20.2929 5.29289C20.6834 5.68342 20.6834 6.31658 20.2929 6.70711L18 9" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
+<path d="M18 15L20.2929 17.2929C20.6834 17.6834 20.6834 18.3166 20.2929 18.7071L18 21" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
 </svg>

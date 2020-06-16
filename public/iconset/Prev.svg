@@ -1,14 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#1D1D1B;}
-</style>
-<title>Keyicons/Music/Prev</title>
-<desc>Created with Sketch.</desc>
-<path class="st0" d="M17,6.9c-0.2,0-0.4,0.1-0.6,0.2l-6.2,4.1c-0.1,0.1-0.2,0.2-0.2,0.2V8.5C10,7.7,9.3,7,8.5,7S7,7.7,7,8.5v7
-	C7,16.3,7.7,17,8.5,17s1.5-0.7,1.5-1.5v-2.9c0.1,0.1,0.1,0.2,0.2,0.2l6.2,4.1c0.2,0.1,0.4,0.2,0.6,0.2c0.1,0,0.1,0,0.2,0
-	c0.3-0.1,0.5-0.2,0.6-0.4c0.1-0.2,0.2-0.4,0.2-0.6V7.9C18,7.3,17.6,6.9,17,6.9z M9,15.5C9,15.8,8.8,16,8.5,16S8,15.8,8,15.5v-7
-	C8,8.2,8.2,8,8.5,8S9,8.2,9,8.5V15.5z M17,16.1L10.8,12L17,7.9V16.1z"/>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.66288 12.4218L18.2316 18.511C18.5644 18.7228 19 18.4837 19 18.0892V5.91084C19 5.51629 18.5644 5.27718 18.2316 5.48901L8.66288 11.5782C8.35413 11.7746 8.35413 12.2254 8.66288 12.4218Z" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
+<path d="M5 5V19" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
 </svg>

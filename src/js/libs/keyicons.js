@@ -1,6 +1,6 @@
 var keyicons = function () {
 
-	$('#KeyiconsContent').html('');
+	$('.KeyiconsContent').html('');
 
 	$.ajax({
 	    
@@ -13,12 +13,14 @@ var keyicons = function () {
 
 	function printKeyicons(res){
 
-		var templateKeyicon = "<a href=':link:' download class='keyicon'>"+
+		var templateKeyicon = 	"<div class='key' data-category=':tag:'>"+
+														"<a href=':link:' download class='keyicon'>"+
 														"<span class='keyicon_name'>:name:</span>"+
 														"<img src=':img:' alt=''>"+
 														":type:"+
 														"<span class='keyicon_download'>Download</span>"+
-														"</a>",
+														"</a>"+
+														"</div>",
 		url = "./public/iconset/",
 		n = 0;
 
@@ -33,7 +35,9 @@ var keyicons = function () {
   					.replace(':name:', val.name)
   					.replace(':link:', link)
   					.replace(':img:', img)
-  					.replace(':type:', type)
+						.replace(':type:', type)
+						.replace(':tag:', val.tag)
+						
   					
   					addKeyicon(itemsKey);
 
@@ -44,7 +48,7 @@ var keyicons = function () {
 
 	function addKeyicon(itemsKey){
 		// console.log(itemsKey);
-		$('#KeyiconsContent').append($(itemsKey));
+		$('.KeyiconsContent').append($(itemsKey));
 
 	}
 

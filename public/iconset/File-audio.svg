@@ -1,13 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
-    <title>24x24</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="File-audio">
-            <rect id="24x24" x="0" y="0" width="24" height="24"></rect>
-            <path d="M15.2,4.5 L5.5,4.5 L5.5,19.5 L18.5,19.5 L18.5,7.8 L15.2,4.5 Z M15.5,6.2 L16.8,7.5 L15.5,7.5 L15.5,6.2 Z M17.5,18.5 L6.5,18.5 L6.5,5.5 L14.5,5.5 L14.5,8.5 L17.5,8.5 L17.5,18.5 Z M10.5,12.9 C10.4,12.9 10.4,12.9 10.3,12.9 C9.7,12.9 9.3,13.3 9.3,13.9 C9.3,14.5 9.7,14.9 10.3,14.9 C10.9,14.9 11.3,14.5 11.3,13.9 L11.3,11.3 L13.2,10.8 L13.2,13 C13.1,13 13.1,13 13,13 C12.4,13 12,13.4 12,14 C12,14.6 12.4,15 13,15 C13.6,15 14,14.6 14,14 L14,9.6 L10.5,10.6 L10.5,12.9 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
-        </g>
-    </g>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 5C4 3.89543 4.89543 3 6 3H15.1716C15.702 3 16.2107 3.21071 16.5858 3.58579L19.4142 6.41421C19.7893 6.78929 20 7.29799 20 7.82843V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V5Z" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
+<circle cx="9" cy="15" r="2" fill="#0C0310"/>
+<circle cx="14" cy="15" r="2" fill="#0C0310"/>
+<path d="M15 15V9L10 10V15" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
+<path d="M15 4V6C15 7.10457 15.8954 8 17 8H19" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
 </svg>

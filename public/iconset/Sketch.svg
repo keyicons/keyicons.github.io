@@ -1,13 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
-    <title>24x24</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Sketch">
-            <rect id="24x24" x="0" y="0" width="24" height="24"></rect>
-            <path d="M10.87446,16.6784955 L9.06305934,10.9692811 L6.36576192,10.9692811 L10.87446,16.6784955 Z M9.97864614,10.9692811 L11.9920584,17.3152001 L14.0867788,10.9692811 L9.97864614,10.9692811 Z M8.83022892,7.3496732 L9.70906464,10.1196079 L14.367247,10.1196079 L15.281573,7.3496732 L8.83022892,7.3496732 Z M8.07876646,7.8669641 L6.4448897,10.1196079 L8.79347784,10.1196079 L8.07876646,7.8669641 Z M13.1035716,16.7315336 L17.7051717,10.9692811 L15.00563,10.9692811 L13.1035716,16.7315336 Z M15.9904907,7.98566263 L15.2860981,10.1196079 L17.5023531,10.1196079 L15.9904907,7.98566263 Z M8,6.5 L16,6.5 L19,10.734404 L12,19.5 L5,10.6361329 L8,6.5 Z M14.0149793,10.1247801 L12.0253977,8.00792395 L10.3168455,10.1247801 L14.0149793,10.1247801 Z M11.9746023,6.6934596 L15.9982043,10.9744533 L8.51933616,10.9744533 L11.9746023,6.6934596 Z" id="Combined-Shape" fill="#000000" fill-rule="nonzero"></path>
-        </g>
-    </g>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 10H20" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
+<path d="M6 5H18" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
+<path d="M18 5L20.638 9.39675C20.8552 9.75863 20.8218 10.2179 20.5545 10.5445L12.387 20.527C12.1869 20.7715 11.8131 20.7715 11.613 20.527L3.44549 10.5445C3.17825 10.2179 3.14482 9.75863 3.36195 9.39675L6 5" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
+<path d="M9 10L11.5211 18.4036C11.6636 18.8787 12.3364 18.8787 12.4789 18.4036L15 10" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
+<path d="M9 10L11.5713 5.71458C11.7655 5.39091 12.2345 5.39091 12.4287 5.71458L15 10" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
+<path d="M15 10L18 5" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
+<path d="M9 10L6 5" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
 </svg>

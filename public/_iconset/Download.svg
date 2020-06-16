@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>24x24</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Download">
+            <rect id="24x24" x="0" y="0" width="24" height="24"></rect>
+            <path d="M9.89,11.65 L11.5,13.26 L11.5,6 L12.5,6 L12.5,13.28 L14.13,11.65 L14.84,12.36 L12.01,15.19 L9.18,12.36 L9.89,11.65 Z M17,8 C17.5189652,7.99789429 17.953297,8.39313625 18,8.91 L18,17.09 C17.953297,17.6068638 17.5189652,18.0021057 17,18 L7,18 C6.4810348,18.0021057 6.04670298,17.6068638 6,17.09 L6,8.91 C6.04670298,8.39313625 6.4810348,7.99789429 7,8 L10.5,8 L10.5,9 L7,9 L7,17 L17,17 L17,9 L13.5,9 L13.5,8 L17,8 Z" id="Combined-Shape" fill="#000000" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

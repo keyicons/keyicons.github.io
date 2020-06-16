@@ -1,13 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>Bullet-list</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="SVG👌" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Bullet-list">
-            <rect id="24x24" x="0" y="0" width="24" height="24"></rect>
-            <path d="M18,12.5 L8,12.5 L8,11.5 L18,11.5 L18,12.5 Z M18,16.5 L8,16.5 L8,15.5 L18,15.5 L18,16.5 Z M18,8.5 L8,8.5 L8,7.5 L18,7.5 L18,8.5 Z M6.60000002,8.60000014 C6.26862916,8.60000014 6,8.33137098 6,8.00000012 C6,7.66862926 6.26862916,7.4000001 6.60000002,7.4000001 C6.93137089,7.4000001 7.20000005,7.66862926 7.20000005,8.00000012 C7.20000005,8.33137098 6.93137089,8.60000014 6.60000002,8.60000014 Z M6.60000002,12.6000001 C6.26862916,12.6000001 6,12.331371 6,12.0000001 C6,11.6686293 6.26862916,11.4000001 6.60000002,11.4000001 C6.93137089,11.4000001 7.20000005,11.6686293 7.20000005,12.0000001 C7.20000005,12.331371 6.93137089,12.6000001 6.60000002,12.6000001 Z M6.60000002,16.6000001 C6.26862916,16.6000001 6,16.331371 6,16.0000001 C6,15.6686293 6.26862916,15.4000001 6.60000002,15.4000001 C6.93137089,15.4000001 7.20000005,15.6686293 7.20000005,16.0000001 C7.20000005,16.331371 6.93137089,16.6000001 6.60000002,16.6000001 Z" id="Combined-Shape" fill="#000000" fill-rule="nonzero"></path>
-        </g>
-    </g>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M10 7H19" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
+<path d="M5 7H5.1" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
+<path d="M10 17H19" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
+<path d="M5 17H5.1" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
+<path d="M10 12H19" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
+<path d="M5 12H5.1" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
 </svg>

@@ -1,1 +1,3 @@
-<svg id="target" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>Chevron-right</title><g id="Icons"><g id="Chevron-down"><polygon id="Line" points="12.71 12 9.88 14.83 10.59 15.54 14.12 12 10.59 8.46 9.88 9.17 12.71 12"/></g></g></svg>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M10 18L15.6464 12.3536C15.8417 12.1583 15.8417 11.8417 15.6464 11.6464L10 6" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
+</svg>

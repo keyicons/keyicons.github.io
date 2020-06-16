@@ -1,13 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>Text-Italic</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="SVG👌" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Text-Italic">
-            <rect id="24x24" x="0" y="0" width="24" height="24"></rect>
-            <polygon id="I" fill="#000000" points="11.5872068 6.63671875 14.9504881 6.63671875 14.6702147 7.81933594 13.7063475 7.81933594 11.8743162 15.8242188 12.8245115 15.8242188 12.55791 17 9.19462872 17 9.46123028 15.8242188 10.4456053 15.8242188 12.2913084 7.81933594 11.3137693 7.81933594"></polygon>
-        </g>
-    </g>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M10.5 20L13.5 4" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
+<path d="M9 4H17" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
+<path d="M7 20H15" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
 </svg>

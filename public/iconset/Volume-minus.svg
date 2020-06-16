@@ -1,14 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#1D1D1B;}
-</style>
-<title>Keyicons/Music/Volume-minus</title>
-<desc>Created with Sketch.</desc>
-<g>
-	<path class="st0" d="M13,11v2c0.6,0,1-0.4,1-1S13.6,11,13,11z"/>
-	<path class="st0" d="M7,9c-0.6,0-1,0.4-1,1v4c0,0.6,0.4,1,1,1h2l3,2V7L9,9H7z M11,8.9v6.2L9.3,14H7v-4h2.3L11,8.9z"/>
-</g>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 11C4 9.89543 4.89543 9 6 9H7.33333C7.76607 9 8.18714 8.85964 8.53333 8.6L10.4 7.2C11.0592 6.70557 12 7.17595 12 8V16C12 16.824 11.0592 17.2944 10.4 16.8L8.53333 15.4C8.18714 15.1404 7.76607 15 7.33333 15H6C4.89543 15 4 14.1046 4 13V11Z" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
+<path d="M12 13.8643C13.1046 13.8643 14 12.9688 14 11.8643C14 10.7597 13.1046 9.86426 12 9.86426V13.8643Z" fill="#0C0310"/>
+<path d="M15.5355 15.3997C17.4881 13.4471 17.4881 10.2812 15.5355 8.32861" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
 </svg>

@@ -2,352 +2,564 @@
 	"keyicons":
 	[
 		{
-			"name":"Add",
-			"type":"0"
+			"name":"Achievements",
+			"type":"1",
+			"tag":"content"
 		},
 		{
-			"name":"Analytics",
-			"type":"0"
+			"name":"Add-Stroke",
+			"type":"0",
+			"tag":"action"
 		},
 		{
-			"name":"Align-Left",
-			"type":"1"
+			"name":"Adjustment",
+			"type":"1",
+			"tag":"navigation"
+		},
+		{
+			"name":"Alert",
+			"type":"1",
+			"tag":"content"
 		},
 		{
 			"name":"Align-Center",
-			"type":"1"
+			"type":"0",
+			"tag":"editor"
+		},
+		{
+			"name":"Align-Justify",
+			"type":"1",
+			"tag":"editor"
+		},
+		{
+			"name":"Align-Left",
+			"type":"0",
+			"tag":"editor"
 		},
 		{
 			"name":"Align-Right",
-			"type":"1"
+			"type":"0",
+			"tag":"editor"
 		},
 		{
-			"name":"Arrow-down",
-			"type":"0"
+			"name":"Analytics",
+			"type":"0",
+			"tag":"content"
 		},
 		{
-			"name":"Arrow-left",
-			"type":"0"
+			"name":"Arrow-Down",
+			"type":"0",
+			"tag":"navigation"
 		},
 		{
-			"name":"Arrow-right",
-			"type":"0"
+			"name":"Arrow-Left",
+			"type":"0",
+			"tag":"navigation"
 		},
 		{
-			"name":"Arrow-up",
-			"type":"0"
+			"name":"Arrow-Right",
+			"type":"0",
+			"tag":"navigation"
+		},
+		{
+			"name":"Arrow-Up",
+			"type":"0",
+			"tag":"navigation"
 		},
 		{
 			"name":"Bell",
-			"type":"0"
+			"type":"0",
+			"tag":"content"
 		},
 		{
 			"name":"Blocked",
-			"type":"0"
+			"type":"0",
+			"tag":"action"
 		},
 		{
 			"name":"Bookmark",
-			"type":"1"
+			"type":"0",
+			"tag":"action"
 		},
 		{
-			"name":"Bullet-list",
-			"type":"1"
+			"name":"Browser",
+			"type":"1",
+			"tag":"content"
+		},
+		{
+			"name":"Bullet-List",
+			"type":"1",
+			"tag":"editor"
 		},
 		{
 			"name":"Calendar",
-			"type":"0"
+			"type":"0",
+			"tag":"content"
 		},
 		{
 			"name":"Camera",
-			"type":"0"
+			"type":"0",
+			"tag":"editor"
 		},
 		{
 			"name":"Check",
-			"type":"0"
+			"type":"0",
+			"tag":"navigation"
 		},
 		{
 			"name":"Chevron-down",
-			"type":"0"
+			"type":"0",
+			"tag":"navigation"
 		},
 		{
 			"name":"Chevron-left",
-			"type":"0"
+			"type":"0",
+			"tag":"navigation"
 		},
 		{
 			"name":"Chevron-right",
-			"type":"0"
+			"type":"0",
+			"tag":"navigation"
 		},
 		{
 			"name":"Chevron-up",
-			"type":"0"
+			"type":"0",
+			"tag":"green"
 		},
 		{
 			"name":"Clock",
-			"type":"0"
+			"type":"0",
+			"tag":"green"
 		},
 		{
-			"name":"Close-1",
-			"type":"0"
+			"name":"Close",
+			"type":"0",
+			"tag":"green"
 		},
 		{
-			"name":"Close-2",
-			"type":"1"
+			"name":"Close-Circle",
+			"type":"0",
+			"tag":"green"
 		},
 		{
 			"name":"Credit-Card",
-			"type":"0"
+			"type":"0",
+			"tag":"green"
+		},
+		{
+			"name":"Desktop",
+			"type":"1",
+			"tag":"green"
 		},
 		{
 			"name":"Download",
-			"type":"0"
+			"type":"0",
+			"tag":"green"
 		},
 		{
-			"name":"Download-cloud",
-			"type":"0"
+			"name":"Download-2",
+			"type":"0",
+			"tag":"green"
 		},
 		{
-			"name":"Equalizer",
-			"type":"1"
+			"name":"Download-3",
+			"type":"0",
+			"tag":"green"
 		},
 		{
 			"name":"Edit",
-			"type":"0"
+			"type":"0",
+			"tag":"green"
+		},
+		{
+			"name":"Equalizer",
+			"type":"0",
+			"tag":"green"
+		},
+		{
+			"name":"External-Link",
+			"type":"1",
+			"tag":"green"
 		},
 		{
 			"name":"Eye",
-			"type":"0"
+			"type":"0",
+			"tag":"green"
 		},
 		{
-			"name":"Filter",
-			"type":"0"
+			"name":"Figma",
+			"type":"1",
+			"tag":"green"
 		},
 		{
 			"name":"File-audio",
-			"type":"0"
+			"type":"0",
+			"tag":"green"
 		},
 		{
 			"name":"File-code",
-			"type":"0"
-		},
-		{
-			"name":"File-jpg",
-			"type":"0"
+			"type":"0",
+			"tag":"green"
 		},
 		{
 			"name":"File-generic",
-			"type":"0"
+			"type":"0",
+			"tag":"green"
+		},
+		{
+			"name":"File-jpg",
+			"type":"0",
+			"tag":"green"
 		},
 		{
 			"name":"File-new",
-			"type":"0"
+			"type":"0",
+			"tag":"green"
 		},
 		{
 			"name":"File-png",
-			"type":"0"
+			"type":"0",
+			"tag":"green"
 		},
 		{
 			"name":"File-svg",
-			"type":"0"
+			"type":"0",
+			"tag":"green"
 		},
 		{
 			"name":"File-video",
-			"type":"0"
+			"type":"0",
+			"tag":"green"
+		},
+		{
+			"name":"Filter",
+			"type":"0",
+			"tag":"green"
 		},
 		{
 			"name":"Folder",
-			"type":"0"
+			"type":"0",
+			"tag":"green"
 		},
 		{
 			"name":"Font-Color",
-			"type":"1"
+			"type":"0",
+			"tag":"green"
+		},
+		{
+			"name":"Gem",
+			"type":"1",
+			"tag":"green"
+		},
+		{
+			"name":"Headphones",
+			"type":"1",
+			"tag":"green"
 		},
 		{
 			"name":"Heart",
-			"type":"0"
+			"type":"0",
+			"tag":"green"
 		},
 		{
 			"name":"Help",
-			"type":"0"
+			"type":"0",
+			"tag":"green"
 		},
 		{
 			"name":"Home",
-			"type":"0"
+			"type":"0",
+			"tag":"green"
 		},
 		{
 			"name":"Image",
-			"type":"0"
+			"type":"0",
+			"tag":"green"
 		},
 		{
-			"name":"Iphone",
-			"type":"0"
+			"name":"Info",
+			"type":"1",
+			"tag":"green"
 		},
 		{
-			"name":"Iphone-x",
-			"type":"0"
+			"name":"Keyicons",
+			"type":"1",
+			"tag":"green"
+		},
+		{
+			"name":"Lightning-bolt",
+			"type":"0",
+			"tag":"green"
 		},
 		{
 			"name":"Link",
-			"type":"0"
+			"type":"0",
+			"tag":"green"
 		},
 		{
 			"name":"List",
-			"type":"0"
+			"type":"0",
+			"tag":"green"
 		},
-				{
-			"name":"Lightning-bolt",
-			"type":"0"
+		{
+			"name":"List-Numbered",
+			"type":"0",
+			"tag":"green"
 		},
 		{
 			"name":"Lock",
-			"type":"0"
+			"type":"0",
+			"tag":"green"
 		},
 		{
 			"name":"Mail",
-			"type":"0"
+			"type":"0",
+			"tag":"green"
 		},
 		{
 			"name":"Map-Pin",
-			"type":"0"
+			"type":"0",
+			"tag":"green"
 		},
 		{
 			"name":"Menu",
-			"type":"0"
+			"type":"0",
+			"tag":"green"
 		},
 		{
 			"name":"Message",
-			"type":"0"
+			"type":"0",
+			"tag":"green"
+		},
+		{
+			"name":"Mic",
+			"type":"1",
+			"tag":"green"
+		},
+		{
+			"name":"Mobile",
+			"type":"0",
+			"tag":"green"
 		},
 		{
 			"name":"Money",
-			"type":"0"
+			"type":"0",
+			"tag":"green"
+		},
+		{
+			"name":"More",
+			"type":"1",
+			"tag":"green"
 		},
 		{
 			"name":"Next",
-			"type":"1"
+			"type":"0",
+			"tag":"green"
 		},
 		{
-			"name":"Numbered-list",
-			"type":"1"
+			"name":"Party",
+			"type":"1",
+			"tag":"green"
 		},
 		{
 			"name":"Pause",
-			"type":"1"
+			"type":"0",
+			"tag":"green"
 		},
 		{
 			"name":"Phone",
-			"type":"0"
+			"type":"0",
+			"tag":"green"
 		},
 		{
 			"name":"Play",
-			"type":"1"
+			"type":"0",
+			"tag":"green"
 		},
 		{
 			"name":"Playlist",
-			"type":"1"
+			"type":"0",
+			"tag":"green"
 		},
 		{
 			"name":"Prev",
-			"type":"1"
+			"type":"0",
+			"tag":"green"
 		},
 		{
 			"name":"Reload",
-			"type":"1"
+			"type":"0",
+			"tag":"green"
 		},
 		{
 			"name":"Repeat-play",
-			"type":"1"
+			"type":"0",
+			"tag":"green"
+		},
+		{
+			"name":"Scissors",
+			"type":"1",
+			"tag":"green"
 		},
 		{
 			"name":"Search",
-			"type":"0"
+			"type":"0",
+			"tag":"green"
+		},
+		{
+			"name":"Session-Join",
+			"type":"1",
+			"tag":"green"
+		},
+		{
+			"name":"Session-Leave",
+			"type":"1",
+			"tag":"blue"
 		},
 		{
 			"name":"Settings",
-			"type":"0"
+			"type":"0",
+			"tag":"green"
 		},
 		{
 			"name":"Share-ios",
-			"type":"0"
+			"type":"0",
+			"tag":"red"
 		},
 		{
 			"name":"Share",
-			"type":"0"
+			"type":"0",
+			"tag":"green"
 		},
 		{
 			"name":"Shop",
-			"type":"0"
+			"type":"0",
+			"tag":"green"
 		},
 		{
 			"name":"Shopping-bag",
-			"type":"0"
+			"type":"0",
+			"tag":"green"
 		},
 		{
 			"name":"Shopping-bag-2",
-			"type":"0"
-		},
-		{
-			"name":"Shopping-cart",
-			"type":"0"
+			"type":"0",
+			"tag":"red"
 		},
 		{
 			"name":"Shuffle-play",
-			"type":"1"
+			"type":"0",
+			"tag":"green"
+		},
+		{
+			"name":"Shopping-cart",
+			"type":"0",
+			"tag":"orange"
 		},
 		{
 			"name":"Sketch",
-			"type":"0"
+			"type":"0",
+			"tag":"blue"
 		},
 		{
 			"name":"Sound",
-			"type":"1"
+			"type":"0",
+			"tag":"green"
 		},
 		{
 			"name":"Star",
-			"type":"0"
-		},
-		{
-			"name":"Streaming",
-			"type":"1"
+			"type":"0",
+			"tag":"green"
 		},
 		{
 			"name":"Stop",
-			"type":"1"
+			"type":"0",
+			"tag":"green"
+		},
+		{
+			"name":"Streaming",
+			"type":"0",
+			"tag":"green"
 		},
 		{
 			"name":"Tag",
-			"type":"0"
+			"type":"0",
+			"tag":"blue"
 		},
 		{
 			"name":"Tags",
-			"type":"0"
+			"type":"0",
+			"tag":"green"
+		},
+		{
+			"name":"Text-Bold",
+			"type":"1",
+			"tag":"orange"
+		},
+		{
+			"name":"Text-Italic",
+			"type":"1",
+			"tag":"green"
+		},
+		{
+			"name":"Text-Strikethrough",
+			"type":"1",
+			"tag":"orange"
+		},
+		{
+			"name":"Text-Underline",
+			"type":"1",
+			"tag":"green"
+		},
+		{
+			"name":"Transfer",
+			"type":"1",
+			"tag":"green"
 		},
 		{
 			"name":"Trash",
-			"type":"0"
+			"type":"0",
+			"tag":"blue"
 		},
 		{
-			"name":"Upload",
-			"type":"0"
+			"name":"Upload-1",
+			"type":"0",
+			"tag":"green"
+		},
+		{
+			"name":"Upload-2",
+			"type":"0",
+			"tag":"green"
+		},
+		{
+			"name":"Upload-3",
+			"type":"0",
+			"tag":"green"
 		},
 		{
 			"name":"User",
-			"type":"0"
-		},
-		{
-			"name":"Volume-minus",
-			"type":"1"
-		},
-		{
-			"name":"Volume-off",
-			"type":"1"
-		},
-		{
-			"name":"Volume-plus",
-			"type":"1"
+			"type":"0",
+			"tag":"green"
 		},
 		{
 			"name":"Video",
-			"type":"0"
+			"type":"0",
+			"tag":"green"
+		},
+		{
+			"name":"Volume-minus",
+			"type":"0",
+			"tag":"green"
+		},
+		{
+			"name":"Volume-off",
+			"type":"0",
+			"tag":"green"
+		},
+		{
+			"name":"Volume-plus",
+			"type":"0",
+			"tag":"green"
 		}
 	]
 }

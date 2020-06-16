@@ -1,6 +1,6 @@
 .Hero
-	background-color dark_color
-	color white_color
+	background-color acent_color
+	color light_color
 	display block
 	.container
 		padding 40px
@@ -12,7 +12,7 @@
 		margin 0 0 40px 0
 		p
 			font-family tipography
-			font-size 14px
+			font-size 16px
 			line-height 24px
 	&_Software
 		text-align center
@@ -22,7 +22,7 @@
 			display  inline-block
 		h6
 			font-weight 400
-			font-size 12px
+			font-size 14px
 		img
 			margin 10px auto
 			max-width 100px
@@ -37,7 +37,7 @@
 			
 		&_Description 
 			text-align left
-			width 60%
+			width 65%
 			display inline-block
 			margin-bottom 0
 			p
@@ -50,7 +50,7 @@
 			margin-bottom 20px
 		
 		&_Software
-			width 39%
+			width 34%
 			display  inline-block
 			vertical-align bottom
 			text-align right
@@ -73,5 +73,11 @@
 	.Hero
 		.container
 			padding 80px 20px 60px
-	// .Download
+	
+	
+@media screen and (min-width 1400px)
+	.Hero
+		text-align left
+		.container
+			padding 80px 0 60px
 	

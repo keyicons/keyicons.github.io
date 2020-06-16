@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>24x24</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="24x24" x="0" y="0" width="24" height="24"></rect>
+        <g id="Calendar" transform="translate(6.000000, 6.000000)" fill="#000000" fill-rule="nonzero">
+            <path d="M11,1 L9,1 L9,0 L8,0 L8,1 L4,1 L4,0 L3,0 L3,1 L1,1 C0.44771525,1 0,1.44771525 0,2 L0,11 C0,11.5522847 0.44771525,12 1,12 L11,12 C11.5522847,12 12,11.5522847 12,11 L12,2 C12,1.44771525 11.5522847,1 11,1 Z M11,11 L1,11 L1,5 L11,5 L11,11 Z M1,4 L1,2 L3,2 L3,3 L4,3 L4,2 L8,2 L8,3 L9,3 L9,2 L11,2 L11,4 L1,4 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

@@ -1,72 +1,83 @@
 .Shared
-	background white
+	background light_color
 	position fixed
 	display block
 	bottom -400px 
-	width 500px
-	height 140px
+	width 300px
+	height 300px
 	left 50%
-	margin-left -250px
-	shadow_custom(primary_color, 0, 10px, 30px, -6px, .4)
+	margin-left -150px
+	padding 30px
+	border-radius 24px
+	shadow_custom(black_color, 0, 10px, 60px, -6px, .2)
 	transition_all(.5s)
 	&.is-open
 		bottom 40px
 	&-Close
+		background transparent
 		position absolute
-		top 0
-		right 0
+		top 10px
+		right 10px
 		width 40px
 		height 40px
 		display block
 		border none
 		outline 0
 		z-index 10
-		color primary_color
+		color acent_color
 		transition_all(.3s)
+		border-radius 40px
 		&:hover
-			color dark_color
+			background-color rgba(acent_color, .1)
+
 	&-Img
-		position absolute
-		width 140px
-		background rgba(primary_color, .1)
-		left 0
-		top 0
-		height 100%
+		width 100px
 		display inline-block
+		margin 10px auto 0
 	&-Content
 		padding 20px
 		position absolute
 		bottom 0
-		width 360px
+		width 100%
 		right 0
 		display inline-block
-		text-align left
+		text-align center
+		color black_color
 		*
 			margin 0
+		p
+			margin 10px 0
 			
 	&-Btn
-		width 40px
-		height 40px 
 		display inline-block
-		padding 10px
-		line-height 40px
-		margin 4px 0 0 
+		margin 4px 4px 0
+		padding 10px 20px
 		overflow hidden
 		transition_all(.3s)
-		color primary_color
+		background-color acent_color
+		color white_color
+		border-radius 30px
+		&:last-child
+			background-color transparent
+			border solid thin acent_color
+			color acent_color
+		.icon
+			width 20px
+			height 20px
+			margin-left 6px
 		&:hover
-			color dark_color
+			shadow_custom(acent_color, 0, 0, 0, 6px, .2)
 			
-		&:visited
-			color primary_color
-			&:hover
-				color dark_color
+		// &:visited
+		// 	color acent_color
+		// 	&:hover
+		// 		color acent_color
 
 .icon
-	width 16px
-	height 16px
+	width 24px
+	height 24px
 	display inline-block
 	stroke currentColor
 	vertical-align middle
-	// fill currentColor
+	fill currentColor
 	stroke-width 0
