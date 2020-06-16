@@ -47,22 +47,22 @@
 			"tag":"content"
 		},
 		{
-			"name":"Arrow-Down",
+			"name":"Arrow-down",
 			"type":"0",
 			"tag":"navigation"
 		},
 		{
-			"name":"Arrow-Left",
+			"name":"Arrow-left",
 			"type":"0",
 			"tag":"navigation"
 		},
 		{
-			"name":"Arrow-Right",
+			"name":"Arrowright",
 			"type":"0",
 			"tag":"navigation"
 		},
 		{
-			"name":"Arrow-Up",
+			"name":"Arrow-up",
 			"type":"0",
 			"tag":"navigation"
 		},
@@ -492,22 +492,22 @@
 			"tag":"content"
 		},
 		{
-			"name":"Text-Bold",
+			"name":"Text-bold",
 			"type":"1",
 			"tag":"editor"
 		},
 		{
-			"name":"Text-Italic",
+			"name":"Text-italic",
 			"type":"1",
 			"tag":"editor"
 		},
 		{
-			"name":"Text-Strikethrough",
+			"name":"Text-strikethrough",
 			"type":"1",
 			"tag":"editor"
 		},
 		{
-			"name":"Text-Underline",
+			"name":"Text-underline",
 			"type":"1",
 			"tag":"editor"
 		},
