@@ -57,7 +57,7 @@
 			"tag":"navigation"
 		},
 		{
-			"name":"Arrowright",
+			"name":"Arrow-right",
 			"type":"0",
 			"tag":"navigation"
 		},
@@ -87,7 +87,7 @@
 			"tag":""
 		},
 		{
-			"name":"Bullet-List",
+			"name":"Bullet-list",
 			"type":"1",
 			"tag":"editor"
 		},
@@ -177,7 +177,7 @@
 			"tag":"multimedia"
 		},
 		{
-			"name":"External-Link",
+			"name":"External-link",
 			"type":"1",
 			"tag":"action"
 		},
