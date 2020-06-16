@@ -37,15 +37,20 @@
 
 
 
+/*
+FILTERS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .KeyContent
 	input[type="radio"]
 		position absolute
 		left -9999px
-
-.filtering
+.Filters
 	display inline-block
 	vertical-align bottom
 	width 100%
+	margin-bottom 40px
+	&>*
+		display inline-block
 	label 
 		padding 4px 8px
 		border-radius 16px
@@ -54,6 +59,8 @@
 		text-transform uppercase
 		cursor pointer
 		font-size 12px
+		margin-bottom 10px
+		display inline-block
 		transition_all(.3s)
 		&:hover
 			background acent_color 
@@ -61,27 +68,31 @@
 
 /*
 FILTERING RULES
-*/
-[value="all"]:checked ~ .filtering [for="all"],
-[value="action"]:checked ~ .filtering [for="action"],
-[value="content"]:checked ~ .filtering [for="content"],
-[value="navigation"]:checked ~ .filtering [for="navigation"],
-[value="comunication"]:checked ~ .filtering [for="comunication"],
-[value="social"]:checked ~ .filtering [for="social"],
-[value="editor"]:checked ~ .filtering [for="editor"]
-  color white
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+	[value="all"]:checked ~ .Filters [for="all"],
+	[value="action"]:checked ~ .Filters [for="action"],
+	[value="alert"]:checked ~ .Filters [for="alert"],
+	[value="comunication"]:checked ~ .Filters [for="comunication"],
+	[value="content"]:checked ~ .Filters [for="content"],
+	[value="editor"]:checked ~ .Filters [for="editor"],
+	[value="key"]:checked ~ .Filters [for="key"],
+	[value="multimedia"]:checked ~ .Filters [for="multimedia"],
+	[value="navigation"]:checked ~ .Filters [for="navigation"]
+		background acent_color
+		color white_color
 
-[value="all"]:checked ~ .filtering [data-category]
-	background-color acent_color
-	color white_color
-	border-color transparent
+	[value="all"]:checked ~ .KeyiconsContent [data-category]
+		display: block;
+
 	
 [value="action"]:checked ~ .KeyiconsContent .key:not([data-category~="action"]),
-[value="content"]:checked ~ .KeyiconsContent .key:not([data-category~="content"]),
+[value="alert"]:checked ~ .KeyiconsContent .key:not([data-category~="alert"]),
 [value="comunication"]:checked ~ .KeyiconsContent .key:not([data-category~="comunication"]),
-[value="navigation"]:checked ~ .KeyiconsContent .key:not([data-category~="navigation"]),
-[value="social"]:checked ~ .KeyiconsContent .key:not([data-category~="social"]),
-[value="editor"]:checked ~ .KeyiconsContent .key:not([data-category~="editor"])
+[value="content"]:checked ~ .KeyiconsContent .key:not([data-category~="content"]),
+[value="editor"]:checked ~ .KeyiconsContent .key:not([data-category~="editor"]),
+[value="key"]:checked ~ .KeyiconsContent .key:not([data-category~="key"]),
+[value="multimedia"]:checked ~ .KeyiconsContent .key:not([data-category~="multimedia"]),
+[value="navigation"]:checked ~ .KeyiconsContent .key:not([data-category~="navigation"])
 	display none
 
 
@@ -90,12 +101,15 @@ FILTERING RULES
 	.SearchBox
 		max-width 400px
 		margin 0 0 60px
-	.filtering
-		width calc(100% - 410px)
-		margin 0 0 60px
 		
 
 @media only screen and (min-width : 1100px)		
-	// .SearchBox
-	.filtering
+	.SearchBox
+		max-width 400px
+		margin 0 0 60px
+	.Filters
+		width calc(100% - 410px)
+		margin 0 0 60px
 		text-align right
+		label 
+			margin-bottom 0

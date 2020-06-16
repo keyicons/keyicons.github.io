@@ -1,7 +1,10 @@
 var search = function () {
 
-	// onkeyup
-	// myFunction
+	
+	// Reset radio filters
+	$('#searchKeyicons').focus(function(){	
+		$('input[name="categories"]').prop('checked', false);
+	});
 
 	function myFunction() {
 
@@ -25,10 +28,11 @@ var search = function () {
 		    }
 		}
 
+	
 	$('#searchKeyicons').on('keyup', function(){
-
+		
 		myFunction();
-
+		
 	});
 
 }

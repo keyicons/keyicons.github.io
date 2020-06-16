@@ -812,7 +812,7 @@ body {
   transition: all 300ms ease;
   width: 100%;
   text-align: center;
-  background: gray_color;
+  background: #fdfbf9;
 }
 h1,
 h2,
@@ -1070,6 +1070,12 @@ _____________________________________________________ */
 @media only screen and (min-width: 1100px) {
   .Hero .container {
     padding: 80px 20px 60px;
+  }
+  .Hero_Description {
+    width: 74%;
+  }
+  .Hero_Software {
+    width: 25%;
   }
 }
 @media screen and (min-width: 1400px) {
@@ -1500,12 +1506,16 @@ _____________________________________________________ */
   position: absolute;
   left: -9999px;
 }
-.filtering {
+.Filters {
   display: inline-block;
   vertical-align: bottom;
   width: 100%;
+  margin-bottom: 40px;
 }
-.filtering label {
+.Filters>* {
+  display: inline-block;
+}
+.Filters label {
   padding: 4px 8px;
   border-radius: 16px;
   line-height: normal;
@@ -1513,35 +1523,41 @@ _____________________________________________________ */
   text-transform: uppercase;
   cursor: pointer;
   font-size: 12px;
+  margin-bottom: 10px;
+  display: inline-block;
   -webkit-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
   -moz-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
   -o-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
   -ms-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
   transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
 }
-.filtering label:hover {
+.Filters label:hover {
   background: #0c0310;
   color: #fff;
 }
-[value="all"]:checked ~ .filtering [for="all"],
-[value="action"]:checked ~ .filtering [for="action"],
-[value="content"]:checked ~ .filtering [for="content"],
-[value="navigation"]:checked ~ .filtering [for="navigation"],
-[value="comunication"]:checked ~ .filtering [for="comunication"],
-[value="social"]:checked ~ .filtering [for="social"],
-[value="editor"]:checked ~ .filtering [for="editor"],
-color white,
-[value="all"]:checked ~ .filtering [data-category] {
-  background-color: #0c0310;
+[value="all"]:checked ~ .Filters [for="all"],
+[value="action"]:checked ~ .Filters [for="action"],
+[value="alert"]:checked ~ .Filters [for="alert"],
+[value="comunication"]:checked ~ .Filters [for="comunication"],
+[value="content"]:checked ~ .Filters [for="content"],
+[value="editor"]:checked ~ .Filters [for="editor"],
+[value="key"]:checked ~ .Filters [for="key"],
+[value="multimedia"]:checked ~ .Filters [for="multimedia"],
+[value="navigation"]:checked ~ .Filters [for="navigation"] {
+  background: #0c0310;
   color: #fff;
-  border-color: transparent;
+}
+[value="all"]:checked ~ .KeyiconsContent [data-category] {
+  display: block;
 }
 [value="action"]:checked ~ .KeyiconsContent .key:not([data-category~="action"]),
-[value="content"]:checked ~ .KeyiconsContent .key:not([data-category~="content"]),
+[value="alert"]:checked ~ .KeyiconsContent .key:not([data-category~="alert"]),
 [value="comunication"]:checked ~ .KeyiconsContent .key:not([data-category~="comunication"]),
-[value="navigation"]:checked ~ .KeyiconsContent .key:not([data-category~="navigation"]),
-[value="social"]:checked ~ .KeyiconsContent .key:not([data-category~="social"]),
-[value="editor"]:checked ~ .KeyiconsContent .key:not([data-category~="editor"]) {
+[value="content"]:checked ~ .KeyiconsContent .key:not([data-category~="content"]),
+[value="editor"]:checked ~ .KeyiconsContent .key:not([data-category~="editor"]),
+[value="key"]:checked ~ .KeyiconsContent .key:not([data-category~="key"]),
+[value="multimedia"]:checked ~ .KeyiconsContent .key:not([data-category~="multimedia"]),
+[value="navigation"]:checked ~ .KeyiconsContent .key:not([data-category~="navigation"]) {
   display: none;
 }
 @media only screen and (min-width: 768px) {
@@ -1549,14 +1565,19 @@ color white,
     max-width: 400px;
     margin: 0 0 60px;
   }
-  .filtering {
-    width: calc(100% - 410px);
-    margin: 0 0 60px;
-  }
 }
 @media only screen and (min-width: 1100px) {
-  .filtering {
+  .SearchBox {
+    max-width: 400px;
+    margin: 0 0 60px;
+  }
+  .Filters {
+    width: calc(100% - 410px);
+    margin: 0 0 60px;
     text-align: right;
+  }
+  .Filters label {
+    margin-bottom: 0;
   }
 }
 /* Footer
