@@ -27,7 +27,7 @@ jQuery(document).ready(function($) {
 
   topbar();
   keyicons();
-  subscribe();
+  // subscribe();
   shared();
 	search();
 	

@@ -1,6 +1,13 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M6.27043 8.21693C6.13165 7.59242 6.60687 7 7.24662 7H20.7534C21.3931 7 21.8684 7.59242 21.7296 8.21693L20.522 13.6508C20.217 15.0234 18.9996 16 17.5935 16H10.4065C9.00042 16 7.78298 15.0234 7.47795 13.6508L6.27043 8.21693Z" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
-<circle cx="10.5" cy="20.5" r="1.5" fill="#0C0310"/>
-<circle cx="17.5" cy="20.5" r="1.5" fill="#0C0310"/>
-<path d="M7.5 13.5L5 3.5H2" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Shopping-Cart</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Shopping-Cart">
+            <rect id="Rectangle" fill-rule="nonzero" x="0" y="0" width="24" height="24"></rect>
+            <path d="M6.27043,8.21693 C6.13165,7.59242 6.60687,7 7.24662,7 L20.7534,7 C21.3931,7 21.8684,7.59242 21.7296,8.21693 L20.522,13.6508 C20.217,15.0234 18.9996,16 17.5935,16 L10.4065,16 C9.00042,16 7.78298,15.0234 7.47795,13.6508 L6.27043,8.21693 Z" id="Path" stroke="#0C0310" stroke-width="2" stroke-linecap="round"></path>
+            <circle id="Oval" fill="#0C0310" fill-rule="nonzero" cx="10.5" cy="20.5" r="1.5"></circle>
+            <circle id="Oval" fill="#0C0310" fill-rule="nonzero" cx="17.5" cy="20.5" r="1.5"></circle>
+            <polyline id="Path" stroke="#0C0310" stroke-width="2" stroke-linecap="round" points="7.5 13.5 5 3.5 2 3.5"></polyline>
+        </g>
+    </g>
 </svg>

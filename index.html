@@ -44,7 +44,8 @@
 				<span>KEYICONS</span>
 			</h1>
 			<nav class="Header_Nav">
-				<a href="#" download class="btn btn-primary Hero_Download js-download">
+				<script src="https://gumroad.com/js/gumroad.js"></script>
+				<a href="https://gumroad.com/l/keyicons?wanted=true" class="btn btn-primary Hero_Download">
 					<svg class="icon">
 						<use xlink:href="public/img/icons.svg#icon-download"></use>
 					</svg>
@@ -145,37 +146,6 @@
 		</div>
 	</footer>
 
-	<div class="Modal">
-		<div class="Modal-Container Subscribe">
-
-			<a href="#closer" class="Modal-Close" id="Modal-Close"><img src="public/img/icon-close.svg"></a>
-
-			<div class="Subscribe-Img">
-				<img src="./public/img/img-subscribe.svg" alt="subscribing">
-			</div>
-
-			<div class="Subscribe-Msg">
-				<p>Subscribe to our mailing list and get the download link in your inbox 💌</p>
-			</div>
-
-			<div id="mc_embed_signup" class="mc_embed_signup">
-				<form id="mc-embedded-subscribe-form"
-					action="https://keyicons.us17.list-manage.com/subscribe/post-json?u=d3c068cd317e0aa4794014206&id=fa33ee1dc9"
-					method="get" name="mc-embedded-subscribe-form" novalidate>
-					<div class="content-email">
-						<input type="email" placeholder="yourmail@mail.com" value="" name="EMAIL" id="mce-EMAIL"
-							data-msg-required="👆 This field is required." data-msg-email="👀 Please enter a valid email address."
-							class="email" required>
-						<input type="text" placeholder="Name" value="" name="FNAME" class="name" id="mce-NAME">
-						<input type="submit" value="Subscribe" name="subscribe" class="button" id="mc-embedded-subscribe">
-					</div>
-					<div id="resultElement"></div>
-				</form>
-			</div>
-
-		</div>
-	</div>
-
 	<div class="Shared">
 		<button class="Shared-Close" id="CloseShared"><svg class="icon">
 				<use xlink:href="public/img/icons.svg#icon-close"></use>
@@ -203,13 +173,35 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js" async></script>
-	<!-- <script>
+	<script>
 	  WebFont.load({
 	    google: { families: ['Inter'] }
 	  });
-	</script>        -->
-
+	</script>       
+	
 	<script type='text/javascript' src="./public/js/main.js?v=1.1" async></script>
+
+
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108446519-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-108446519-1');
+	</script>
+
+	<!-- Hotjar Tracking Code for https://keyicons.com/ -->
+		<script>
+			(function(h,o,t,j,a,r){
+					h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+					h._hjSettings={hjid:1860373,hjsv:6};
+					a=o.getElementsByTagName('head')[0];
+					r=o.createElement('script');r.async=1;
+					r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+					a.appendChild(r);
+			})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+		</script>
 
 
 </body>

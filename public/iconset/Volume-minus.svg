@@ -1,5 +1,12 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M4 11C4 9.89543 4.89543 9 6 9H7.33333C7.76607 9 8.18714 8.85964 8.53333 8.6L10.4 7.2C11.0592 6.70557 12 7.17595 12 8V16C12 16.824 11.0592 17.2944 10.4 16.8L8.53333 15.4C8.18714 15.1404 7.76607 15 7.33333 15H6C4.89543 15 4 14.1046 4 13V11Z" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
-<path d="M12 13.8643C13.1046 13.8643 14 12.9688 14 11.8643C14 10.7597 13.1046 9.86426 12 9.86426V13.8643Z" fill="#0C0310"/>
-<path d="M15.5355 15.3997C17.4881 13.4471 17.4881 10.2812 15.5355 8.32861" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Volume-Minus</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Volume-Minus">
+            <rect id="Rectangle" fill-rule="nonzero" x="0" y="0" width="24" height="24"></rect>
+            <path d="M4,11 C4,9.89543 4.89543,9 6,9 L7.33333,9 C7.76607,9 8.18714,8.85964 8.53333,8.6 L10.4,7.2 C11.0592,6.70557 12,7.17595 12,8 L12,16 C12,16.824 11.0592,17.2944 10.4,16.8 L8.53333,15.4 C8.18714,15.1404 7.76607,15 7.33333,15 L6,15 C4.89543,15 4,14.1046 4,13 L4,11 Z" id="Path" stroke="#0C0310" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M12,13.8643 C13.1046,13.8643 14,12.9688 14,11.8643 C14,10.7597 13.1046,9.86426 12,9.86426 L12,13.8643 Z" id="Path" fill="#0C0310" fill-rule="nonzero"></path>
+            <path d="M15.5355,15.3997 C17.4881,13.4471 17.4881,10.2812 15.5355,8.32861" id="Path" stroke="#0C0310" stroke-width="2" stroke-linecap="round"></path>
+        </g>
+    </g>
 </svg>
