@@ -1665,7 +1665,7 @@ _____________________________________________________ */
 _____________________________________________________ */
 .KeyContent {
   background: #fdfbf9;
-  padding: 50px 40px;
+  padding: 50px 10px;
 }
 .KeyContent .container {
   padding: 10px 0;
@@ -1693,7 +1693,6 @@ _____________________________________________________ */
   align-items: stretch;
 }
 .key {
-  padding: 4px;
   text-align: center;
   margin: 1px auto;
 }
@@ -1784,6 +1783,9 @@ _____________________________________________________ */
   .KeyiconsContent {
     grid-template-columns: repeat(4, 1fr);
   }
+  .key {
+    padding: 4px;
+  }
 }
 @media only screen and (min-width: 768px) {
   .KeyContent {
@@ -1852,7 +1854,7 @@ _____________________________________________________ */
 }
 @media screen and (min-width: 1200px) {
   .KeyiconsContent {
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(8, 1fr);
   }
 }
 @media screen and (min-width: 1300px) {

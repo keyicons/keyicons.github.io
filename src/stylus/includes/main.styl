@@ -1,8 +1,9 @@
 .KeyContent
 	background light_color
-	padding 50px 40px
+	padding 50px 10px
 	.container
 		padding 10px 0
+
 	&__message
 		background rgba(red, .2)
 		border-color rgba(red, .8)
@@ -21,7 +22,6 @@
 	align-items: stretch;
 	
 .key
-	padding 4px
 	text-align center
 	margin  1px auto
 	
@@ -89,6 +89,9 @@
 @media only screen and (min-width : 601px)
 	.KeyiconsContent
 		grid-template-columns: repeat(4, 1fr);
+
+	.key
+		padding 4px
 	
 
 @media only screen and (min-width : 768px)
@@ -142,7 +145,7 @@
 
 @media screen and (min-width 1200px)
 	.KeyiconsContent
-		grid-template-columns: repeat(7, 1fr);	
+		grid-template-columns: repeat(8, 1fr);	
 
 @media screen and (min-width 1300px)
 	.KeyiconsContent
