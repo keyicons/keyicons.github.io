@@ -1,11 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Tag</title>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Tag">
-            <rect id="Rectangle" fill-rule="nonzero" x="0" y="0" width="24" height="24"></rect>
-            <path d="M5.68198,12.7533 C5.58821,12.6595 5.53553,12.5323 5.53553,12.3997 L5.53553,6.03576 C5.53553,5.75961 5.75939,5.53576 6.03553,5.53576 L12.3995,5.53576 C12.5321,5.53576 12.6593,5.58843 12.753,5.6822 L20.0312,12.9604 C20.2265,13.1556 20.2265,13.4722 20.0312,13.6675 L13.6673,20.0314 C13.472,20.2267 13.1554,20.2267 12.9602,20.0314 L5.68198,12.7533 Z" id="Path" stroke="#0C0310" stroke-width="2" stroke-linecap="round"></path>
-            <circle id="Oval" fill="#0C0310" fill-rule="nonzero" cx="9.5" cy="9.5" r="1.5"></circle>
-        </g>
-    </g>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<rect width="24" height="24" fill="white"/>
+<path d="M4.97484 13.4604C4.88107 13.3666 4.8284 13.2394 4.8284 13.1068V5.32865C4.8284 5.05251 5.05225 4.82865 5.3284 4.82865H13.1066C13.2392 4.82865 13.3664 4.88133 13.4601 4.9751L19.6776 11.1926C20.8492 12.3642 20.8492 14.2637 19.6776 15.4352L15.435 19.6779C14.2634 20.8495 12.3639 20.8495 11.1924 19.6779L4.97484 13.4604Z" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
+<path d="M9 9H9.01" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
 </svg>

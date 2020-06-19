@@ -1,12 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Tags</title>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Tags">
-            <rect id="Rectangle" fill-rule="nonzero" x="0" y="0" width="24" height="24"></rect>
-            <path d="M18,4 L7.20711,4 C7.0745,4 6.94732,4.05268 6.85355,4.14645 L3.64645,7.35355 C3.55268,7.44732 3.5,7.5745 3.5,7.70711 L3.5,10.2929 C3.5,10.4255 3.55268,10.5527 3.64645,10.6464 L6.85355,13.8536 C6.94732,13.9473 7.0745,14 7.20711,14 L18,14 C19.1046,14 20,13.1046 20,12 L20,6 C20,4.89543 19.1046,4 18,4 Z" id="Path" stroke="#0C0310" stroke-width="2" stroke-linecap="round"></path>
-            <path d="M10,17.3945 L14.0203,19.7156 C14.9274,20.2394 16.0849,19.9745 16.674,19.1084 L17.8397,17.3945" id="Path" stroke="#0C0310" stroke-width="2" stroke-linecap="round"></path>
-            <circle id="Oval" fill="#0C0310" fill-rule="nonzero" cx="8" cy="9" r="2"></circle>
-        </g>
-    </g>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="white"/>
+<path d="M17 4L7.20711 4C7.0745 4 6.94732 4.05268 6.85355 4.14645L3.64645 7.35355C3.55268 7.44732 3.5 7.5745 3.5 7.70711L3.5 10.2929C3.5 10.4255 3.55268 10.5527 3.64645 10.6464L6.85355 13.8536C6.94732 13.9473 7.0745 14 7.20711 14L17 14C18.6569 14 20 12.6569 20 11L20 7C20 5.34315 18.6569 4 17 4Z" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
+<path d="M10 17.3945L14.0203 19.7156C14.9274 20.2394 16.0849 19.9745 16.674 19.1084L17.8397 17.3945" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
+<path d="M8 9H8.01" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
 </svg>
