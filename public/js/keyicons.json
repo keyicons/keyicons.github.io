@@ -167,6 +167,11 @@
 			"tag":"action"
 		},
 		{
+			"name":"Dribbble",
+			"type":"1",
+			"tag":"key"
+		},
+		{
 			"name":"Edit",
 			"type":"0",
 			"tag":"editor"
