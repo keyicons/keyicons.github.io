@@ -12,14 +12,14 @@ var browserSync = require('browser-sync').create();
 var config = {
   styles: {
   	//Ruta de archivo generado entrada
-    main: './src/stylus/style.styl',
+    main: './src/stylus/2021.styl',
     //Ruta de archivos de desarrollo
     watch: './src/stylus/**/*.styl',
     //Ruta de salida de archivos
     output: './public/css'
   },
   scripts: {
-  	main: './src/js/main.js',
+  	main: './src/js/2021.js',
   	watch: './src/js/**/*.js',
   	output: './public/js'
   },
@@ -54,7 +54,7 @@ gulp.task('build:css', function() {
 gulp.task('build:js', function() {
   return browserify(config.scripts.main)
     .bundle()
-    .pipe(source('main.js'))
+    .pipe(source('2021.js'))
     .pipe(buffer())
     .pipe(uglify())
     .pipe(gulp.dest(config.scripts.output));

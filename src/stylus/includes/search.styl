@@ -6,7 +6,7 @@
 	&:hover,
 	&:focus
 		.SearchBox-icon
-			color acent_color
+			color dark_blue
 			
 	&-icon
 		position absolute
@@ -32,8 +32,8 @@
 		border-radius 40px
 		&:hover,
 		&:focus
-			border-color acent_color
-			shadow_custom(acent_color, 0, 3px, 3px, 2px, .11)
+			border-color dark_blue
+			shadow_custom(dark_blue, 0, 3px, 3px, 2px, .11)
 
 
 
@@ -53,18 +53,21 @@ FILTERS
 		display inline-block
 	label 
 		padding 4px 8px
-		border-radius 16px
+		// border-radius 16px
 		line-height: normal;
-		border solid thin acent_color
+		// border solid thin dark_blue
 		text-transform uppercase
 		cursor pointer
+		font-family tipography2
 		font-size 12px
 		margin-bottom 10px
 		display inline-block
 		transition_all(.3s)
+		color smoke_color
 		&:hover
-			background acent_color 
-			color white_color
+			text-decoration line-through
+			// background dark_blue 
+			// color white_color
 
 /*
 FILTERING RULES
@@ -78,8 +81,9 @@ FILTERING RULES
 	[value="key"]:checked ~ .Filters [for="key"],
 	[value="multimedia"]:checked ~ .Filters [for="multimedia"],
 	[value="navigation"]:checked ~ .Filters [for="navigation"]
-		background acent_color
-		color white_color
+		color dark_blue
+		font-weight bold
+		
 
 	[value="all"]:checked ~ .KeyiconsContent [data-category]
 		display: block;
