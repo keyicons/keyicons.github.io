@@ -7,7 +7,7 @@
 	height 40px
 	line-height 40px
 	margin 0 5px
-	padding 0 16px
+	padding 0 20px
 	position relative
 	transition_all(.8s)
 	vertical-align top
@@ -15,6 +15,8 @@
 	min-width 80px
 	border none
 	outline 0
+	background blue_color
+	color white_color
 	&-ghost
 		background rgba(white_color, .1)
 		color white_color
@@ -25,9 +27,15 @@
 	&:focus
 		opacity .8
 		shadow_custom(light_color, 0, 0, 0, 6px, .4)
-// .icon 
-// 	color white_color 
-
+.link
+	font-family tipography2
+	font-size 14px
+	&.link-pink
+		color pink_color
+	&.link-blue
+		color blue_color
+	&.link-yellow
+		color yellow_color
 @media only screen and (min-width : 1100px)		
 	.btn
 		// &:hover
@@ -39,4 +47,6 @@
 			border solid thin rgba(white_color, .3)
 			&:hover
 				border solid thin white_color
-		
+	.link
+		&:hover
+			text-decoration line-through

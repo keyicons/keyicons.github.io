@@ -1,9 +1,10 @@
 .Header	
-	background: linear-gradient(121.28deg, #8000FF 0%, #000000 100%), linear-gradient(180deg, #00FF19 0%, #000000 100%), linear-gradient(52.23deg, #0500FF 0%, #00FFB2 100%), linear-gradient(121.28deg, #32003A 0%, #FF4040 100%), radial-gradient(50% 72.12% at 50% 50%, #EB00FF 0%, #110055 100%);
-	background-blend-mode: screen, overlay, difference, color-dodge, normal;
-	// background-image url('../img/keyicons-colored.jpg')
-	// background-position center
-	// background-repeat no-repeat
+	// background: linear-gradient(121.28deg, #8000FF 0%, #000000 100%), linear-gradient(180deg, #00FF19 0%, #000000 100%), linear-gradient(52.23deg, #0500FF 0%, #00FFB2 100%), linear-gradient(121.28deg, #32003A 0%, #FF4040 100%), radial-gradient(50% 72.12% at 50% 50%, #EB00FF 0%, #110055 100%);
+	// background-blend-mode: screen, overlay, difference, color-dodge, normal;
+	background-image url('../img/keyicons-colored.jpg')
+	background-position center
+	background-repeat no-repeat
+	background-size cover
 	display block
 	padding 20px 0
 	width 100% 
@@ -12,8 +13,6 @@
 	position fixed
 	top -200px
 	height auto
-	&.is-scrolled
-		top 0
 	&_container
 		display flex
 		justify(between)
@@ -46,6 +45,8 @@
 
 @media only screen and (min-width : 1100px)
 	.Header
+		&.is-scrolled
+			top 0
 		&_Logo
 			width 232px
 			height 24px

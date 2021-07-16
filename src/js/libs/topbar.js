@@ -6,7 +6,7 @@ var topbar = function () {
   $(window).scroll(
   	function(e){
 			var currentScroll = $(this).scrollTop();
-  		if (currentScroll >= originalTop+400) {
+  		if (currentScroll >= originalTop+800) {
   			header.addClass('is-scrolled');
 				console.log('hola amigo');
   		}
