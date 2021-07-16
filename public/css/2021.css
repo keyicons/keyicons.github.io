@@ -911,26 +911,27 @@ _____________________________________________________ */
   border-radius: 30px;
   display: inline-block;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: bold;
+  font-family: 'Inter';
   height: 40px;
   line-height: 40px;
   margin: 0 5px;
   padding: 0 16px;
   position: relative;
-  -webkit-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
-  -moz-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
-  -o-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
-  -ms-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
-  transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
+  -webkit-transition: all 0.8s cubic-bezier(0.22, 0.61, 0.3, 1);
+  -moz-transition: all 0.8s cubic-bezier(0.22, 0.61, 0.3, 1);
+  -o-transition: all 0.8s cubic-bezier(0.22, 0.61, 0.3, 1);
+  -ms-transition: all 0.8s cubic-bezier(0.22, 0.61, 0.3, 1);
+  transition: all 0.8s cubic-bezier(0.22, 0.61, 0.3, 1);
   vertical-align: top;
   z-index: 10;
   min-width: 80px;
   border: none;
   outline: 0;
 }
-.btn-primary {
-  background: #fff;
-  color: #030819;
+.btn-ghost {
+  background: rgba(255,255,255,0.1);
+  color: #fff;
 }
 .btn:focus {
   opacity: 0.8;
@@ -940,28 +941,38 @@ _____________________________________________________ */
   box-shadow: 0 0 0 6px rgba(249,249,253,0.4);
 }
 @media only screen and (min-width: 1100px) {
-  .btn:hover {
-    -webkit-box-shadow: 0 0 0 6px rgba(249,249,253,0.4);
-    box-shadow: 0 0 0 6px rgba(249,249,253,0.4);
+  .btn-ghost {
+    min-width: 180px;
+    border: solid thin rgba(255,255,255,0.3);
   }
-  .btn:focus {
-    -webkit-box-shadow: 0 0 0 6px rgba(249,249,253,0.4);
-    box-shadow: 0 0 0 6px rgba(249,249,253,0.4);
+  .btn-ghost:hover {
+    border: solid thin #fff;
   }
 }
 /* topbar
 _____________________________________________________ */
 .Header {
-  background: #030819;
+  background: -webkit-linear-gradient(328.72deg, #8000ff 0%, #000 100%), -webkit-linear-gradient(270deg, #00ff19 0%, #000 100%), -webkit-linear-gradient(37.77deg, #0500ff 0%, #00ffb2 100%), -webkit-linear-gradient(328.72deg, #32003a 0%, #ff4040 100%), -webkit-radial-gradient(50% 72.12% at 50% 50%, #eb00ff 0%, #105 100%);
+  background: -moz-linear-gradient(328.72deg, #8000ff 0%, #000 100%), -moz-linear-gradient(270deg, #00ff19 0%, #000 100%), -moz-linear-gradient(37.77deg, #0500ff 0%, #00ffb2 100%), -moz-linear-gradient(328.72deg, #32003a 0%, #ff4040 100%), -moz-radial-gradient(50% 72.12% at 50% 50%, #eb00ff 0%, #105 100%);
+  background: -o-linear-gradient(328.72deg, #8000ff 0%, #000 100%), -o-linear-gradient(270deg, #00ff19 0%, #000 100%), -o-linear-gradient(37.77deg, #0500ff 0%, #00ffb2 100%), -o-linear-gradient(328.72deg, #32003a 0%, #ff4040 100%), -o-radial-gradient(50% 72.12% at 50% 50%, #eb00ff 0%, #105 100%);
+  background: -ms-linear-gradient(328.72deg, #8000ff 0%, #000 100%), -ms-linear-gradient(270deg, #00ff19 0%, #000 100%), -ms-linear-gradient(37.77deg, #0500ff 0%, #00ffb2 100%), -ms-linear-gradient(328.72deg, #32003a 0%, #ff4040 100%), -ms-radial-gradient(50% 72.12% at 50% 50%, #eb00ff 0%, #105 100%);
+  background: linear-gradient(121.28deg, #8000ff 0%, #000 100%), linear-gradient(180deg, #00ff19 0%, #000 100%), linear-gradient(52.23deg, #0500ff 0%, #00ffb2 100%), linear-gradient(121.28deg, #32003a 0%, #ff4040 100%), radial-gradient(50% 72.12% at 50% 50%, #eb00ff 0%, #105 100%);
+  background-blend-mode: screen, overlay, difference, color-dodge, normal;
   display: block;
   padding: 20px 0;
   width: 100%;
   z-index: 5000;
-  -webkit-transition: all 0.5s cubic-bezier(0.22, 0.61, 0.3, 1);
-  -moz-transition: all 0.5s cubic-bezier(0.22, 0.61, 0.3, 1);
-  -o-transition: all 0.5s cubic-bezier(0.22, 0.61, 0.3, 1);
-  -ms-transition: all 0.5s cubic-bezier(0.22, 0.61, 0.3, 1);
-  transition: all 0.5s cubic-bezier(0.22, 0.61, 0.3, 1);
+  -webkit-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
+  -moz-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
+  -o-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
+  -ms-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
+  transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
+  position: fixed;
+  top: -200px;
+  height: auto;
+}
+.Header.is-scrolled {
+  top: 0;
 }
 .Header_container {
   display: -webkit-box;
@@ -981,38 +992,39 @@ _____________________________________________________ */
   justify-content: space-between;
 }
 .Header_Logo {
-  width: 40px;
-  height: 40px;
+  width: 193px;
+  height: 20px;
   display: inline-block;
-  background-image: url("../img/keyicons-logo.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  background-size: 100%;
   vertical-align: top;
   margin: 0;
 }
 .Header_Logo span {
   display: none;
 }
+.Header_Logo svg {
+  width: 100%;
+}
+.Header_Logo #KEYICONS {
+  fill: #fff;
+}
 .Header_Nav {
   display: inline-block;
 }
-@media only screen and (min-width: 768px) {
-  .Header {
-    padding: 20px;
-  }
-}
 @media only screen and (min-width: 1100px) {
-  .Header {
-    padding: 40px 0 0;
+  .Header_Logo {
+    width: 232px;
+    height: 24px;
   }
 }
 /* Styles
 _____________________________________________________ */
 .Hero {
-  background-color: #030819;
+  background: -webkit-linear-gradient(309.46deg, #608d00 0%, #d30000 72.37%), -webkit-linear-gradient(31.28deg, #0029ff 0%, #8fff00 100%), -webkit-radial-gradient(100% 164.72% at 100% 100%, #6100ff 0%, #00ff57 100%), -webkit-radial-gradient(100% 148.07% at 0% 0%, #fff500 0%, #51d500 100%);
+  background: -moz-linear-gradient(309.46deg, #608d00 0%, #d30000 72.37%), -moz-linear-gradient(31.28deg, #0029ff 0%, #8fff00 100%), -moz-radial-gradient(100% 164.72% at 100% 100%, #6100ff 0%, #00ff57 100%), -moz-radial-gradient(100% 148.07% at 0% 0%, #fff500 0%, #51d500 100%);
+  background: -o-linear-gradient(309.46deg, #608d00 0%, #d30000 72.37%), -o-linear-gradient(31.28deg, #0029ff 0%, #8fff00 100%), -o-radial-gradient(100% 164.72% at 100% 100%, #6100ff 0%, #00ff57 100%), -o-radial-gradient(100% 148.07% at 0% 0%, #fff500 0%, #51d500 100%);
+  background: -ms-linear-gradient(309.46deg, #608d00 0%, #d30000 72.37%), -ms-linear-gradient(31.28deg, #0029ff 0%, #8fff00 100%), -ms-radial-gradient(100% 164.72% at 100% 100%, #6100ff 0%, #00ff57 100%), -ms-radial-gradient(100% 148.07% at 0% 0%, #fff500 0%, #51d500 100%);
+  background: linear-gradient(140.54deg, #608d00 0%, #d30000 72.37%), linear-gradient(58.72deg, #0029ff 0%, #8fff00 100%), radial-gradient(100% 164.72% at 100% 100%, #6100ff 0%, #00ff57 100%), radial-gradient(100% 148.07% at 0% 0%, #fff500 0%, #51d500 100%);
+  background-blend-mode: color-dodge, overlay, difference, normal;
   color: #f9f9fd;
   display: block;
 }
@@ -1367,7 +1379,12 @@ _____________________________________________________ */
 /* Shared
 _____________________________________________________ */
 .Shared {
-  background: #f9f9fd;
+  background: -webkit-linear-gradient(328.72deg, #8000ff 0%, #000 100%), -webkit-linear-gradient(270deg, #00ff19 0%, #000 100%), -webkit-linear-gradient(37.77deg, #0500ff 0%, #00ffb2 100%), -webkit-linear-gradient(328.72deg, #32003a 0%, #ff4040 100%), -webkit-radial-gradient(50% 72.12% at 50% 50%, #eb00ff 0%, #105 100%);
+  background: -moz-linear-gradient(328.72deg, #8000ff 0%, #000 100%), -moz-linear-gradient(270deg, #00ff19 0%, #000 100%), -moz-linear-gradient(37.77deg, #0500ff 0%, #00ffb2 100%), -moz-linear-gradient(328.72deg, #32003a 0%, #ff4040 100%), -moz-radial-gradient(50% 72.12% at 50% 50%, #eb00ff 0%, #105 100%);
+  background: -o-linear-gradient(328.72deg, #8000ff 0%, #000 100%), -o-linear-gradient(270deg, #00ff19 0%, #000 100%), -o-linear-gradient(37.77deg, #0500ff 0%, #00ffb2 100%), -o-linear-gradient(328.72deg, #32003a 0%, #ff4040 100%), -o-radial-gradient(50% 72.12% at 50% 50%, #eb00ff 0%, #105 100%);
+  background: -ms-linear-gradient(328.72deg, #8000ff 0%, #000 100%), -ms-linear-gradient(270deg, #00ff19 0%, #000 100%), -ms-linear-gradient(37.77deg, #0500ff 0%, #00ffb2 100%), -ms-linear-gradient(328.72deg, #32003a 0%, #ff4040 100%), -ms-radial-gradient(50% 72.12% at 50% 50%, #eb00ff 0%, #105 100%);
+  background: linear-gradient(121.28deg, #8000ff 0%, #000 100%), linear-gradient(180deg, #00ff19 0%, #000 100%), linear-gradient(52.23deg, #0500ff 0%, #00ffb2 100%), linear-gradient(121.28deg, #32003a 0%, #ff4040 100%), radial-gradient(50% 72.12% at 50% 50%, #eb00ff 0%, #105 100%);
+  background-blend-mode: screen, overlay, difference, color-dodge, normal;
   position: fixed;
   display: block;
   bottom: -400px;
