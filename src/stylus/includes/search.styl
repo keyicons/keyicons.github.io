@@ -6,7 +6,7 @@
 	&:hover,
 	&:focus
 		.SearchBox-icon
-			color dark_blue
+			color dark_color
 			
 	&-icon
 		position absolute
@@ -32,8 +32,8 @@
 		border-radius 40px
 		&:hover,
 		&:focus
-			border-color dark_blue
-			shadow_custom(dark_blue, 0, 3px, 3px, 2px, .11)
+			border-color dark_color
+			shadow_custom(dark_color, 0, 3px, 3px, 2px, .11)
 
 
 
@@ -55,7 +55,7 @@ FILTERS
 		padding 4px 8px
 		// border-radius 16px
 		line-height: normal;
-		// border solid thin dark_blue
+		// border solid thin dark_color
 		text-transform uppercase
 		cursor pointer
 		font-family tipography2
@@ -66,13 +66,14 @@ FILTERS
 		color smoke_color
 		&:hover
 			text-decoration line-through
-			// background dark_blue 
+			// background dark_color 
 			// color white_color
 
 /*
 FILTERING RULES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 	[value="all"]:checked ~ .Filters [for="all"],
+	[value="news"]:checked ~ .Filters [for="news"],
 	[value="action"]:checked ~ .Filters [for="action"],
 	[value="alert"]:checked ~ .Filters [for="alert"],
 	[value="comunication"]:checked ~ .Filters [for="comunication"],
@@ -81,7 +82,7 @@ FILTERING RULES
 	[value="key"]:checked ~ .Filters [for="key"],
 	[value="multimedia"]:checked ~ .Filters [for="multimedia"],
 	[value="navigation"]:checked ~ .Filters [for="navigation"]
-		color dark_blue
+		color dark_color
 		font-weight bold
 		
 
@@ -90,6 +91,7 @@ FILTERING RULES
 
 	
 [value="action"]:checked ~ .KeyiconsContent .key:not([data-category~="action"]),
+[value="news"]:checked ~ .KeyiconsContent .key:not([data-category~="news"]),
 [value="alert"]:checked ~ .KeyiconsContent .key:not([data-category~="alert"]),
 [value="comunication"]:checked ~ .KeyiconsContent .key:not([data-category~="comunication"]),
 [value="content"]:checked ~ .KeyiconsContent .key:not([data-category~="content"]),

@@ -1550,6 +1550,7 @@ _____________________________________________________ */
   text-decoration: line-through;
 }
 [value="all"]:checked ~ .Filters [for="all"],
+[value="news"]:checked ~ .Filters [for="news"],
 [value="action"]:checked ~ .Filters [for="action"],
 [value="alert"]:checked ~ .Filters [for="alert"],
 [value="comunication"]:checked ~ .Filters [for="comunication"],
@@ -1565,6 +1566,7 @@ _____________________________________________________ */
   display: block;
 }
 [value="action"]:checked ~ .KeyiconsContent .key:not([data-category~="action"]),
+[value="news"]:checked ~ .KeyiconsContent .key:not([data-category~="news"]),
 [value="alert"]:checked ~ .KeyiconsContent .key:not([data-category~="alert"]),
 [value="comunication"]:checked ~ .KeyiconsContent .key:not([data-category~="comunication"]),
 [value="content"]:checked ~ .KeyiconsContent .key:not([data-category~="content"]),

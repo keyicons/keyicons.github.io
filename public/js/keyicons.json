@@ -4,7 +4,7 @@
 		{
 			"name":"Achievements",
 			"type":"1",
-			"tag":"key"
+			"tag":"key news"
 		},
 		{
 			"name":"Add-Stroke",
@@ -14,12 +14,12 @@
 		{
 			"name":"Adjustment",
 			"type":"1",
-			"tag":"action"
+			"tag":"action news"
 		},
 		{
 			"name":"Alert",
 			"type":"1",
-			"tag":"alert"
+			"tag":"alert news"
 		},
 		{
 			"name":"Align-Center",
@@ -29,7 +29,7 @@
 		{
 			"name":"Align-Justify",
 			"type":"1",
-			"tag":"editor"
+			"tag":"editor news"
 		},
 		{
 			"name":"Align-Left",
@@ -84,12 +84,12 @@
 		{
 			"name":"Browser",
 			"type":"1",
-			"tag":""
+			"tag":" news"
 		},
 		{
 			"name":"Bullet-list",
 			"type":"1",
-			"tag":"editor"
+			"tag":"editor news"
 		},
 		{
 			"name":"Calendar",
@@ -149,7 +149,7 @@
 		{
 			"name":"Desktop",
 			"type":"1",
-			"tag":"multimedia"
+			"tag":"multimedia news"
 		},
 		{
 			"name":"Download",
@@ -169,7 +169,7 @@
 		{
 			"name":"Dribbble",
 			"type":"1",
-			"tag":"key"
+			"tag":"key news"
 		},
 		{
 			"name":"Edit",
@@ -184,7 +184,7 @@
 		{
 			"name":"External-link",
 			"type":"1",
-			"tag":"action"
+			"tag":"action news"
 		},
 		{
 			"name":"Eye",
@@ -194,7 +194,7 @@
 		{
 			"name":"Figma",
 			"type":"1",
-			"tag":"key"
+			"tag":"key news"
 		},
 		{
 			"name":"File-audio",
@@ -254,12 +254,12 @@
 		{
 			"name":"Gem",
 			"type":"1",
-			"tag":"key"
+			"tag":"key news"
 		},
 		{
 			"name":"Headphones",
 			"type":"1",
-			"tag":"multimedia"
+			"tag":"multimedia news"
 		},
 		{
 			"name":"Heart",
@@ -284,12 +284,12 @@
 		{
 			"name":"Info",
 			"type":"1",
-			"tag":"alert"
+			"tag":"alert news"
 		},
 		{
 			"name":"Keyicons",
 			"type":"1",
-			"tag":"key"
+			"tag":"key news"
 		},
 		{
 			"name":"Lightning-bolt",
@@ -339,7 +339,7 @@
 		{
 			"name":"Mic",
 			"type":"1",
-			"tag":"multimedia"
+			"tag":"multimedia news"
 		},
 		{
 			"name":"Mobile",
@@ -354,7 +354,7 @@
 		{
 			"name":"More",
 			"type":"1",
-			"tag":"navigation"
+			"tag":"navigation news"
 		},
 		{
 			"name":"Next",
@@ -364,7 +364,7 @@
 		{
 			"name":"Party",
 			"type":"1",
-			"tag":"key"
+			"tag":"key news"
 		},
 		{
 			"name":"Pause",
@@ -404,7 +404,7 @@
 		{
 			"name":"Scissors",
 			"type":"1",
-			"tag":"editor"
+			"tag":"editor news"
 		},
 		{
 			"name":"Search",
@@ -414,12 +414,12 @@
 		{
 			"name":"Session-Join",
 			"type":"1",
-			"tag":"action"
+			"tag":"action news"
 		},
 		{
 			"name":"Session-Leave",
 			"type":"1",
-			"tag":"action"
+			"tag":"action news"
 		},
 		{
 			"name":"Settings",
@@ -499,27 +499,27 @@
 		{
 			"name":"Text-bold",
 			"type":"1",
-			"tag":"editor"
+			"tag":"editor news"
 		},
 		{
 			"name":"Text-italic",
 			"type":"1",
-			"tag":"editor"
+			"tag":"editor news"
 		},
 		{
 			"name":"Text-strikethrough",
 			"type":"1",
-			"tag":"editor"
+			"tag":"editor news"
 		},
 		{
 			"name":"Text-underline",
 			"type":"1",
-			"tag":"editor"
+			"tag":"editor news"
 		},
 		{
 			"name":"Transfer",
 			"type":"1",
-			"tag":"action"
+			"tag":"action news"
 		},
 		{
 			"name":"Trash",
