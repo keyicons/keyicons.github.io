@@ -1743,6 +1743,11 @@ _____________________________________________________ */
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   border-radius: 50%;
+  -webkit-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
+  -moz-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
+  -o-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
+  -ms-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
+  transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
 }
 .keyicon.newBlue::after {
   background: #20f;
@@ -1832,11 +1837,22 @@ _____________________________________________________ */
 .keyicon.keyicon_new--old {
   display: none;
 }
+.keyicon.is-clicked {
+  background: transparent;
+}
+.keyicon.is-clicked img {
+  filter: none;
+}
+.keyicon.is-clicked::after {
+  top: 40%;
+  background: rgba(0,0,0,0.1);
+}
 .keyicon.is-clicked .keyicon_download {
   opacity: 1;
   -ms-filter: none;
   filter: none;
   text-decoration: line-through;
+  color: rgba(3,8,25,0.6);
 }
 @media only screen and (min-width: 601px) {
   .KeyiconsContent {
@@ -1872,6 +1888,9 @@ _____________________________________________________ */
     -ms-transform: scale(1.1);
     transform: scale(1.1);
     padding: 25px 0 45px;
+  }
+  .keyicon:hover::after {
+    top: 40%;
   }
   .keyicon:hover .keyicon_name {
     color: #000;

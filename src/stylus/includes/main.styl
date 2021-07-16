@@ -48,6 +48,7 @@
 		z-index 1
 		transform translate(-50%, -50%)
 		border-radius 50%
+		transition_all(.3s)
 		
 	&.newBlue
 		&::after
@@ -118,10 +119,17 @@
 		display none
 		
 	&.is-clicked
+		background transparent
+		img
+			filter none
+		&::after
+			top 40%
+			background rgba(black_color, 0.1)
 		.keyicon
 			&_download
 				opacity 1
 				text-decoration line-through
+				color smoke_color
 	
 @media only screen and (min-width : 601px)
 	.KeyiconsContent
@@ -149,6 +157,8 @@
 			shadow_custom(black_color, 0, 15px, 30px, -6px, .2)
 			transform scale(1.1)
 			padding 25px 0 45px
+			&::after
+				top 40%
 			.keyicon
 				&_name
 					color black_color
