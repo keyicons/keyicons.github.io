@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="66px" viewBox="0 0 66 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>File-Video</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="66" height="66"></rect>
+    </defs>
+    <g id="🖥-Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Iteration" transform="translate(-901.000000, -74.000000)">
+            <g id="Group-59" transform="translate(45.000000, 74.000000)">
+                <g id="File-Video" transform="translate(856.000000, 0.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="File-Video-(Background/Mask)"></g>
+                    <path d="M16.5,8.25 L41.7219009,8.25 C43.1805009,8.25 44.5794255,8.82945231 45.6109505,9.86092228 L53.3890495,17.6390771 C54.4205745,18.670547 55,20.0694731 55,21.528183 L55,52.25 C55,55.2876499 52.5376499,57.75 49.5,57.75 L16.5,57.75 C13.4624324,57.75 11,55.2876499 11,52.25 L11,13.75 C11,10.7124324 13.4624324,8.25 16.5,8.25 Z" id="Vector" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="0,0" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                    <path d="M41.25,11 L41.25,16.5 C41.25,19.5375676 43.7123501,22 46.75,22 L52.25,22" id="Vector" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="0,0" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                    <path d="M29.5823007,40.0006765 C28.6660006,40.5504015 27.5,39.8904026 27.5,38.8214775 L27.5,27.1785254 C27.5,26.1097379 28.6660006,25.4495755 29.5823007,25.9994655 L39.2848511,31.8210757 C40.1750261,32.3551257 40.1750261,33.6448782 39.2848511,34.1789282 L29.5823007,40.0006765 Z" id="Vector" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="0,0" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

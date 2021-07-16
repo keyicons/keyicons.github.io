@@ -20,22 +20,21 @@
 			height 20px
 			
 	input
+		border none
 		width 100%
 		line-height 44px
-		background white_color
-		border solid thin smoke_color
-		text-indent 44px
-		letter-spacing -.5px
+		background transparent
+		border-bottom solid thin rgba(dark_color, .2)
 		outline 0
-		transition_all(.3s)
 		font-weight 100
-		border-radius 40px
+		font-family tipography2
+		letter-spacing -.5px
+		transition_all(.3s)
+		text-indent 44px
 		&:hover,
 		&:focus
 			border-color dark_color
-			shadow_custom(dark_color, 0, 3px, 3px, 2px, .11)
-
-
+		
 
 /*
 FILTERS
@@ -53,9 +52,7 @@ FILTERS
 		display inline-block
 	label 
 		padding 4px 8px
-		// border-radius 16px
 		line-height: normal;
-		// border solid thin dark_color
 		text-transform uppercase
 		cursor pointer
 		font-family tipography2
@@ -66,9 +63,7 @@ FILTERS
 		color smoke_color
 		&:hover
 			text-decoration line-through
-			// background dark_color 
-			// color white_color
-
+			
 /*
 FILTERING RULES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */

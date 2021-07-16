@@ -1,91 +1,67 @@
 .Hero
-	background: linear-gradient(140.54deg, #608D00 0%, #D30000 72.37%), linear-gradient(58.72deg, #0029FF 0%, #8FFF00 100%), radial-gradient(100% 164.72% at 100% 100%, #6100FF 0%, #00FF57 100%), radial-gradient(100% 148.07% at 0% 0%, #FFF500 0%, #51D500 100%);
-	background-blend-mode: color-dodge, overlay, difference, normal;
-	// background-image url('../img/keyicons-colored.jpg')
-	// background-position center
-	// background-repeat no-repeat
-	color light_color
+	background white_color
 	display block
-	.container
+	&_Banner
+		// background: linear-gradient(140.54deg, #608D00 0%, #D30000 72.37%), linear-gradient(58.72deg, #0029FF 0%, #8FFF00 100%), radial-gradient(100% 164.72% at 100% 100%, #6100FF 0%, #00FF57 100%), radial-gradient(100% 148.07% at 0% 0%, #FFF500 0%, #51D500 100%);
+		// background-blend-mode: color-dodge, overlay, difference, normal;
+		background-image url('../img/keyicons-colored.jpg')
+		background-position center
+		background-repeat no-repeat
+	&_Icons
 		padding 40px
-	&_Title
-		font-size 48px
-		font-weight 700 !important
-		font-family tipography
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		justify-items: stretch;
+		-webkit-box-align: stretch;
+		align-items: stretch;
+		.iconito
+			width 48px
+			height 48px
+			display none
+			margin 40px auto
+			&:nth-child(-n+12)
+				display block
+	
 	&_Description 
 		margin 0 0 40px 0
+		background red
+		width 100%
+		padding-top 40px
 		p
-			font-family tipography
-			font-size 16px
-			line-height 24px
-	&_Software
-		text-align center
-		&_item
-			width 45%
-			min-width 100px
-			display  inline-block
-		h6
-			font-weight 400
+			font-family tipography2
 			font-size 14px
-		img
-			margin 10px auto
-			max-width 100px
-		
-	// &_Download 
-	// 	display inline-block
+			line-height 24px
+	&_Title
+		span 
+			display none
+		#KEYICONS
+			fill black_color
 
 @media only screen and (min-width : 768px)
 	.Hero
-		.container
-			padding 40px
+		// .container
+		// 	padding 40px
 			
 		&_Description 
 			text-align left
-			width 65%
 			display inline-block
 			margin-bottom 0
 			p
 				margin-bottom 0
 
-
 		&_Title
 			font-size 64px
 			line-height 64px
-			margin-bottom 20px
-		
-		&_Software
-			width 34%
-			display  inline-block
-			vertical-align bottom
-			text-align right
-			&_item
-				text-align center
-				margin-left 30px
-				width 100px
-			img
-				margin  10px 0
-				
-		// &_Download
-		// 	display inline-block
-		// 	min-width 80px
-		// 	.icon
-		// 		vertical-align middle
+			margin-bottom 20px		
 	
 		
 
 @media only screen and (min-width : 1100px)		
 	.Hero
-		.container
-			padding 80px 20px 60px
-	
-		&_Description 
-			width 74%
-		&_Software
-			width 25%
-			
-@media screen and (min-width 1400px)
-	.Hero
-		text-align left
-		.container
-			padding 80px 0 60px
-	
+		&_Icons
+			grid-template-columns: repeat(7, 1fr);
+		.iconito
+			width 80px
+			height 80px
+			margin 60px auto
+			display block

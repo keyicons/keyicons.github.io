@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="66px" viewBox="0 0 66 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Font-Color</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="66" height="66"></rect>
+    </defs>
+    <g id="🖥-Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Iteration" transform="translate(-901.000000, -288.000000)">
+            <g id="Group-59" transform="translate(45.000000, 74.000000)">
+                <g id="Font-Color" transform="translate(856.000000, 214.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Font-Color-(Background/Mask)"></g>
+                    <g id="Page-1" mask="url(#mask-2)">
+                        <g id="Font-Color">
+                            <path d="M66,0 L66,66 L0,66 L0,0 L66,0 Z" id="Rectangle"></path>
+                            <path d="M33,53.625 C23.8872976,53.625 16.5,45.8488259 16.5,36.2565508 C16.5,27.6688511 22,20.1666675 33,13.75 C44,20.1666675 49.5,27.6688511 49.5,36.2565508 C49.5,45.8488259 42.1126749,53.625 33,53.625 Z" id="Path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="0,0"></path>
+                            <path d="M33,42.625 C29.9623511,42.625 27.5,40.1626499 27.5,37.125" id="Path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="0,0"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

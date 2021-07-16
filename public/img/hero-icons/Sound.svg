@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="66px" viewBox="0 0 66 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Sound</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="66" height="66"></rect>
+    </defs>
+    <g id="🖥-Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Iteration" transform="translate(-45.000000, -502.000000)">
+            <g id="Group-59" transform="translate(45.000000, 74.000000)">
+                <g id="Sound" transform="translate(0.000000, 428.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Sound-(Background/Mask)"></g>
+                    <path d="M57.75,44.0000315 L57.75,17.988825 C57.75,12.8908201 53.1723493,9.01296296 48.1436992,9.85108044 L31.6436992,12.6010803 C27.6655493,13.2640778 24.75,16.7058951 24.75,20.738825 L24.75,49.5000315" id="Vector" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="0,0" mask="url(#mask-2)"></path>
+                    <path d="M24.75,50.875 L24.75,44 L17.875,44 C14.0780475,44 11,47.078075 11,50.875 C11,54.671925 14.0780475,57.75 17.875,57.75 C21.6719525,57.75 24.75,54.671925 24.75,50.875 Z" id="Vector" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="0,0" mask="url(#mask-2)"></path>
+                    <path d="M57.75,45.375 L57.75,38.5 L50.875,38.5 C47.078075,38.5 44,41.578075 44,45.375 C44,49.171925 47.078075,52.25 50.875,52.25 C54.671925,52.25 57.75,49.171925 57.75,45.375 Z" id="Vector" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="0,0" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

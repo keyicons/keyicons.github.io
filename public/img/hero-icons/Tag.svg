@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="66px" viewBox="0 0 66 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Tag</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="66" height="66"></rect>
+    </defs>
+    <g id="🖥-Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Iteration" transform="translate(-473.000000, -288.000000)">
+            <g id="Group-59" transform="translate(45.000000, 74.000000)">
+                <g id="Tag" transform="translate(428.000000, 214.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Tag-(Background/Mask)"></g>
+                    <g id="Page-1" mask="url(#mask-2)">
+                        <g id="Tag">
+                            <path d="M66,0 L66,66 L0,66 L0,0 L66,0 Z" id="Rectangle"></path>
+                            <path d="M15.2227539,34.099664 L15.2227539,16.5988281 C15.2227539,15.8394157 15.8383689,15.2238281 16.5977539,15.2238281 L34.0986704,15.2238281 C34.4633203,15.2238281 34.8131214,15.3686707 35.0707964,15.6265382 L55.0858462,35.6415876 C55.6229212,36.1783876 55.6229212,37.0490374 55.0858462,37.5861124 L37.5851212,55.0868407 C37.0480462,55.6239157 36.1773965,55.6239157 35.6405965,55.0868407 L15.6254915,35.0720628 C15.367624,34.8141128 15.2227539,34.464314 15.2227539,34.099664 Z" id="Path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="0,0"></path>
+                            <path d="M26.125,30.25 C23.8468254,30.25 22,28.4031746 22,26.125 C22,23.8468254 23.8468254,22 26.125,22 C28.4031746,22 30.25,23.8468254 30.25,26.125 C30.25,28.4031746 28.4031746,30.25 26.125,30.25 Z" id="Oval" fill="#FFFFFF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

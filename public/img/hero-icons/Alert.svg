@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="66px" viewBox="0 0 66 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Alert</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="66" height="66"></rect>
+    </defs>
+    <g id="🖥-Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Iteration" transform="translate(-1329.000000, -502.000000)">
+            <g id="Group-59" transform="translate(45.000000, 74.000000)">
+                <g id="Alert" transform="translate(1284.000000, 428.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Alert-(Background/Mask)"></g>
+                    <line x1="33" y1="35.75" x2="33" y2="24.75" id="Vector" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="0,0" mask="url(#mask-2)"></line>
+                    <line x1="33" y1="45.375" x2="33" y2="45.7324977" id="Vector" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="0,0" mask="url(#mask-2)"></line>
+                    <path d="M37.7629983,13.7499931 L56.8155503,46.7499921 C58.9325003,50.4165671 56.2864468,55 52.0525467,55 L13.9473667,55 C9.71346667,55 7.06727845,50.4165671 9.18422847,46.7499921 L28.236725,13.7499931 C30.353675,10.0833355 35.6460483,10.0833355 37.7629983,13.7499931 Z" id="Vector" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="0,0" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

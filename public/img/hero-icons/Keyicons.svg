@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="66px" viewBox="0 0 66 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Keyicons</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="66" height="66"></rect>
+    </defs>
+    <g id="🖥-Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Iteration" transform="translate(-259.000000, -502.000000)">
+            <g id="Group-59" transform="translate(45.000000, 74.000000)">
+                <g id="Keyicons" transform="translate(214.000000, 428.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Keyicons-(Background/Mask)"></g>
+                    <g id="Page-1" mask="url(#mask-2)" stroke="#FFFFFF" stroke-dasharray="0,0" stroke-linecap="round" stroke-width="2">
+                        <g transform="translate(22.000000, 11.000000)" id="shape-01">
+                            <path d="M11,0 C17.0751322,0 22,4.92486775 22,11 C22,14.7685798 20.1048721,18.0945287 17.2156421,20.076821 L22,44 L0,44 L4.78535254,20.0775033 C1.89556286,18.095292 0,14.7690122 0,11 C0,4.92486775 4.92486775,0 11,0 Z"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

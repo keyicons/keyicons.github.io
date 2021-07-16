@@ -20,6 +20,8 @@
 	justify-items: stretch;
 	-webkit-box-align: stretch;
 	align-items: stretch;
+	margin-top 40px
+	
 	
 .key
 	text-align center
@@ -40,7 +42,7 @@
 		content ''
 		display block
 		position absolute
-		top 49%
+		top 43.5%
 		left 50%
 		content ''
 		width 48px
@@ -49,7 +51,6 @@
 		transform translate(-50%, -50%)
 		border-radius 50%
 		transition_all(.3s)
-		
 	&.newBlue
 		&::after
 			background blue_color
@@ -150,6 +151,9 @@
 		padding 35px 0 
 		width 110px 
 		margin 15px 16px 30px
+		&::after
+			top 48%
+		
 		&:focus
 			shadow_custom(black_color, 0, 10px, 30px, -6px, .1)
 		
@@ -189,6 +193,11 @@
 			padding 0 0
 	.KeyiconsContent
 		grid-template-columns: repeat(6, 1fr);	
+	
+	.keyicon
+		&::after
+			top 49%
+		
 
 @media screen and (min-width 1200px)
 	.KeyiconsContent
@@ -210,18 +219,6 @@
 	.KeyiconsContent
 		grid-template-columns: repeat(9, 1fr);
 
-// svg
-// 	width 30px
-// 	height 30px
-// 	stroke-width 0
-// 	color red
-// 	stroke-width 0
-// 	color orange
-// 	stroke-dasharray 1000
-// 	stroke-dashoffset 0
-// 	animation icon-animate-in 8s 1 ease-in-out
-// 	transition all .25s ease-out
-	
 
 
 

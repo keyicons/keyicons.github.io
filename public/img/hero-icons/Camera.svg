@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="66px" viewBox="0 0 66 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Camera</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="66" height="66"></rect>
+    </defs>
+    <g id="🖥-Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Iteration" transform="translate(-1329.000000, -288.000000)">
+            <g id="Group-59" transform="translate(45.000000, 74.000000)">
+                <g id="Camera" transform="translate(1284.000000, 214.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Camera-(Background/Mask)"></g>
+                    <path d="M16.5,19.25 L22,19.25 L23.2298284,16.7903171 C24.1615009,14.9269996 26.0659306,13.75 28.1492755,13.75 L37.8507245,13.75 C39.9341245,13.75 41.8385005,14.9269996 42.7702005,16.7903171 L44,19.25 L49.5,19.25 C52.5376499,19.25 55,21.7124324 55,24.75 L55,46.75 C55,49.7876499 52.5376499,52.25 49.5,52.25 L16.5,52.25 C13.4624324,52.25 11,49.7876499 11,46.75 L11,24.75 C11,21.7124324 13.4624324,19.25 16.5,19.25 Z" id="Vector" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="0,0" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                    <path d="M33,44 C28.4435249,44 24.75,40.3064751 24.75,35.75 C24.75,31.1935249 28.4435249,27.5 33,27.5 C37.5564751,27.5 41.25,31.1935249 41.25,35.75 C41.25,40.3064751 37.5564751,44 33,44 Z" id="Vector" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="0,0" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

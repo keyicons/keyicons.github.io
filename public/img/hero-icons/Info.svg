@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="66px" viewBox="0 0 66 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Info</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="66" height="66"></rect>
+    </defs>
+    <g id="🖥-Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Iteration" transform="translate(-473.000000, -74.000000)">
+            <g id="Group-59" transform="translate(45.000000, 74.000000)">
+                <g id="Info" transform="translate(428.000000, 0.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Info-(Background/Mask)"></g>
+                    <path d="M33,57.75 C19.3309519,57.75 8.25,46.6690481 8.25,33 C8.25,19.3309519 19.3309519,8.25 33,8.25 C46.6690481,8.25 57.75,19.3309519 57.75,33 C57.75,46.6690481 46.6690481,57.75 33,57.75 Z" id="Vector" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="0,0" mask="url(#mask-2)"></path>
+                    <line x1="33" y1="44" x2="33" y2="33" id="Vector" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="0,0" mask="url(#mask-2)"></line>
+                    <line x1="33" y1="22.6875" x2="33" y2="23.03125" id="Vector" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="0,0" mask="url(#mask-2)"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

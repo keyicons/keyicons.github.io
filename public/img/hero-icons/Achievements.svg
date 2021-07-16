@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="66px" viewBox="0 0 66 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Achievements</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="66" height="66"></rect>
+    </defs>
+    <g id="🖥-Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Iteration" transform="translate(-1115.000000, -502.000000)">
+            <g id="Group-59" transform="translate(45.000000, 74.000000)">
+                <g id="Achievements" transform="translate(1070.000000, 428.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Achievements-(Background/Mask)"></g>
+                    <g id="Page-1" mask="url(#mask-2)">
+                        <g id="Achievements">
+                            <path d="M66,0 L66,66 L0,66 L0,0 L66,0 Z" id="Rectangle"></path>
+                            <line x1="33" y1="44" x2="33" y2="57.75" id="Path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="0,0"></line>
+                            <line x1="24.75" y1="57.75" x2="41.25" y2="57.75" id="Path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="0,0"></line>
+                            <path d="M47.1429868,34.2220995 L49.1925626,14.0276945 C49.3572876,12.4074495 48.085411,11 46.4568611,11 L19.5432711,11 C17.9146936,11 16.6428745,12.4074495 16.8073244,14.0276945 L18.8571466,34.2220995 C20.0357141,41.5555242 25.9285788,44 33.000011,44 C40.0713606,44 45.9643368,41.5555242 47.1429868,34.2220995 Z" id="Path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="0,0"></path>
+                            <path d="M49.5,19.25 L56.2498755,19.25 C57.0784505,19.25 57.75,19.9215781 57.75,20.7499881 L57.75,24.75 C57.75,30.825025 52.825025,35.75 46.75,35.75" id="Path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="0,0"></path>
+                            <path d="M16.5,19.25 L9.74998742,19.25 C8.92157743,19.25 8.25,19.9215781 8.25,20.7499881 L8.25,24.75 C8.25,30.825025 13.1748648,35.75 19.25,35.75" id="Path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="0,0"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

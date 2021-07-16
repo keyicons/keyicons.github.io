@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="66px" viewBox="0 0 66 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Figma</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="66" height="66"></rect>
+    </defs>
+    <g id="🖥-Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Iteration" transform="translate(-901.000000, -502.000000)">
+            <g id="Group-59" transform="translate(45.000000, 74.000000)">
+                <g id="Figma" transform="translate(856.000000, 428.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Figma-(Background/Mask)"></g>
+                    <g id="Page-1" mask="url(#mask-2)">
+                        <g id="Figma">
+                            <path d="M66,0 L66,66 L0,66 L0,0 L66,0 Z" id="Rectangle"></path>
+                            <path d="M41.25,41.25 C36.6936508,41.25 33,37.5563492 33,33 C33,28.4436508 36.6936508,24.75 41.25,24.75 C45.8063492,24.75 49.5,28.4436508 49.5,33 C49.5,37.5563492 45.8063492,41.25 41.25,41.25 Z" id="Oval" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="0,0"></path>
+                            <path d="M24.75,41.25 L33,41.25 L33,49.5 C33,54.0564751 29.3064751,57.75 24.75,57.75 C20.1936626,57.75 16.5,54.0564751 16.5,49.5 C16.5,44.9435249 20.1936626,41.25 24.75,41.25 Z" id="Path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="0,0"></path>
+                            <path d="M24.75,24.75 L33,24.75 L33,41.25 L24.75,41.25 C20.1936626,41.25 16.5,37.5564751 16.5,33 C16.5,28.4435249 20.1936626,24.75 24.75,24.75 Z" id="Path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="0,0"></path>
+                            <path d="M24.75,8.25 L33,8.25 L33,24.75 L24.75,24.75 C20.1936626,24.75 16.5,21.0563374 16.5,16.5 C16.5,11.9436626 20.1936626,8.25 24.75,8.25 Z" id="Path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="0,0"></path>
+                            <path d="M41.25,8.25 C45.8064751,8.25 49.5,11.9436626 49.5,16.5 C49.5,21.0563374 45.8064751,24.75 41.25,24.75 L33,24.75 L33,8.25 L41.25,8.25 Z" id="Path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="0,0"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

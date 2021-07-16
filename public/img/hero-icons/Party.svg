@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="66px" viewBox="0 0 66 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Party</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="66" height="66"></rect>
+    </defs>
+    <g id="🖥-Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Iteration" transform="translate(-687.000000, -502.000000)">
+            <g id="Group-59" transform="translate(45.000000, 74.000000)">
+                <g id="Party" transform="translate(642.000000, 428.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Party-(Background/Mask)"></g>
+                    <g id="Page-1" mask="url(#mask-2)">
+                        <g id="Party">
+                            <path d="M66,0 L66,66 L0,66 L0,0 L66,0 Z" id="Rectangle"></path>
+                            <path d="M17.9440599,55.8338738 L46.6798817,41.0306189 C48.3362065,40.1772939 48.6824285,37.9588704 47.3651786,36.6413453 L29.3584577,18.6346743 C28.0409328,17.3172592 25.8224522,17.6635661 24.9692098,19.3198363 L10.1658788,48.0557689 C9.19361647,50.9724192 9.19361643,52.9169476 11.1381687,54.8617477 C13.0826934,56.8062728 15.0272461,56.8062739 17.9440599,55.8338738 Z" id="Path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="0,0"></path>
+                            <path d="M49.5,16.5 L53.2606258,14.619632 C54.1164258,14.1918145 54.3015,13.051445 53.625,12.375 C52.9485,11.698555 53.1335742,10.5581848 53.9893742,10.1303673 L57.75,8.25" id="Path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="0,0"></path>
+                            <line x1="44" y1="22" x2="44.34375" y2="22" id="Path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="0,0"></line>
+                            <line x1="53.28125" y1="31.625" x2="53.625" y2="31.625" id="Path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="0,0"></line>
+                            <line x1="32.9999979" y1="11" x2="30.25" y2="6.875" id="Path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="0,0"></line>
+                            <line x1="42.625" y1="12.375" x2="44.0000084" y2="5.5" id="Path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="0,0"></line>
+                            <line x1="60.5000042" y1="24.75" x2="53.625" y2="23.375" id="Path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="0,0"></line>
+                            <line x1="33" y1="23.375" x2="33" y2="48.1249958" id="Path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="0,0"></line>
+                            <line x1="22" y1="26.125" x2="22" y2="53.6249916" id="Path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="0,0"></line>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

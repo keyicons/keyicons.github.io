@@ -1019,54 +1019,56 @@ _____________________________________________________ */
 /* Styles
 _____________________________________________________ */
 .Hero {
-  background: -webkit-linear-gradient(309.46deg, #608d00 0%, #d30000 72.37%), -webkit-linear-gradient(31.28deg, #0029ff 0%, #8fff00 100%), -webkit-radial-gradient(100% 164.72% at 100% 100%, #6100ff 0%, #00ff57 100%), -webkit-radial-gradient(100% 148.07% at 0% 0%, #fff500 0%, #51d500 100%);
-  background: -moz-linear-gradient(309.46deg, #608d00 0%, #d30000 72.37%), -moz-linear-gradient(31.28deg, #0029ff 0%, #8fff00 100%), -moz-radial-gradient(100% 164.72% at 100% 100%, #6100ff 0%, #00ff57 100%), -moz-radial-gradient(100% 148.07% at 0% 0%, #fff500 0%, #51d500 100%);
-  background: -o-linear-gradient(309.46deg, #608d00 0%, #d30000 72.37%), -o-linear-gradient(31.28deg, #0029ff 0%, #8fff00 100%), -o-radial-gradient(100% 164.72% at 100% 100%, #6100ff 0%, #00ff57 100%), -o-radial-gradient(100% 148.07% at 0% 0%, #fff500 0%, #51d500 100%);
-  background: -ms-linear-gradient(309.46deg, #608d00 0%, #d30000 72.37%), -ms-linear-gradient(31.28deg, #0029ff 0%, #8fff00 100%), -ms-radial-gradient(100% 164.72% at 100% 100%, #6100ff 0%, #00ff57 100%), -ms-radial-gradient(100% 148.07% at 0% 0%, #fff500 0%, #51d500 100%);
-  background: linear-gradient(140.54deg, #608d00 0%, #d30000 72.37%), linear-gradient(58.72deg, #0029ff 0%, #8fff00 100%), radial-gradient(100% 164.72% at 100% 100%, #6100ff 0%, #00ff57 100%), radial-gradient(100% 148.07% at 0% 0%, #fff500 0%, #51d500 100%);
-  background-blend-mode: color-dodge, overlay, difference, normal;
-  color: #f9f9fd;
+  background: #fff;
   display: block;
 }
-.Hero .container {
-  padding: 40px;
+.Hero_Banner {
+  background-image: url("../img/keyicons-colored.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.Hero_Title {
-  font-size: 48px;
-  font-weight: 700 !important;
-  font-family: 'Inter';
+.Hero_Icons {
+  padding: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: stretch;
+  -webkit-box-align: stretch;
+  -webkit-box-align: stretch;
+  -moz-box-align: stretch;
+  -o-box-align: stretch;
+  -ms-flex-align: stretch;
+  -webkit-align-items: stretch;
+  align-items: stretch;
+}
+.Hero_Icons .iconito {
+  width: 48px;
+  height: 48px;
+  display: none;
+  margin: 40px auto;
+}
+.Hero_Icons .iconito:nth-child(-n+12) {
+  display: block;
 }
 .Hero_Description {
   margin: 0 0 40px 0;
+  background: #f00;
+  width: 100%;
+  padding-top: 40px;
 }
 .Hero_Description p {
-  font-family: 'Inter';
-  font-size: 16px;
+  font-family: 'Disket Mono';
+  font-size: 14px;
   line-height: 24px;
 }
-.Hero_Software {
-  text-align: center;
+.Hero_Title span {
+  display: none;
 }
-.Hero_Software_item {
-  width: 45%;
-  min-width: 100px;
-  display: inline-block;
-}
-.Hero_Software h6 {
-  font-weight: 400;
-  font-size: 14px;
-}
-.Hero_Software img {
-  margin: 10px auto;
-  max-width: 100px;
+.Hero_Title #KEYICONS {
+  fill: #000;
 }
 @media only screen and (min-width: 768px) {
-  .Hero .container {
-    padding: 40px;
-  }
   .Hero_Description {
     text-align: left;
-    width: 65%;
     display: inline-block;
     margin-bottom: 0;
   }
@@ -1078,38 +1080,16 @@ _____________________________________________________ */
     line-height: 64px;
     margin-bottom: 20px;
   }
-  .Hero_Software {
-    width: 34%;
-    display: inline-block;
-    vertical-align: bottom;
-    text-align: right;
-  }
-  .Hero_Software_item {
-    text-align: center;
-    margin-left: 30px;
-    width: 100px;
-  }
-  .Hero_Software img {
-    margin: 10px 0;
-  }
 }
 @media only screen and (min-width: 1100px) {
-  .Hero .container {
-    padding: 80px 20px 60px;
+  .Hero_Icons {
+    grid-template-columns: repeat(7, 1fr);
   }
-  .Hero_Description {
-    width: 74%;
-  }
-  .Hero_Software {
-    width: 25%;
-  }
-}
-@media screen and (min-width: 1400px) {
-  .Hero {
-    text-align: left;
-  }
-  .Hero .container {
-    padding: 80px 0 60px;
+  .Hero .iconito {
+    width: 80px;
+    height: 80px;
+    margin: 60px auto;
+    display: block;
   }
 }
 /* Subscribe
@@ -1513,26 +1493,25 @@ _____________________________________________________ */
   height: 20px;
 }
 .SearchBox input {
+  border: none;
   width: 100%;
   line-height: 44px;
-  background: #fff;
-  border: solid thin rgba(3,8,25,0.6);
-  text-indent: 44px;
-  letter-spacing: -0.5px;
+  background: transparent;
+  border-bottom: solid thin rgba(3,8,25,0.2);
   outline: 0;
+  font-weight: 100;
+  font-family: 'Disket Mono';
+  letter-spacing: -0.5px;
   -webkit-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
   -moz-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
   -o-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
   -ms-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
   transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
-  font-weight: 100;
-  border-radius: 40px;
+  text-indent: 44px;
 }
 .SearchBox input:hover,
 .SearchBox input:focus {
   border-color: #030819;
-  -webkit-box-shadow: 0 3px 3px 2px rgba(3,8,25,0.11);
-  box-shadow: 0 3px 3px 2px rgba(3,8,25,0.11);
 }
 .KeyContent input[type="radio"] {
   position: absolute;
@@ -1561,7 +1540,7 @@ _____________________________________________________ */
   -o-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
   -ms-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
   transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
-  color: rgba(3,8,25,0.6);
+  color: rgba(3,8,25,0.5);
 }
 .Filters label:hover {
   text-decoration: line-through;
@@ -1626,7 +1605,7 @@ _____________________________________________________ */
 .Footer_Copy {
   display: inline-block;
   padding: 0 10px;
-  color: rgba(3,8,25,0.6);
+  color: rgba(3,8,25,0.5);
   margin-bottom: 40px;
 }
 .Footer_Copy_Item {
@@ -1641,7 +1620,7 @@ _____________________________________________________ */
   margin-top: 20px;
 }
 .Footer_Copy_Link {
-  color: rgba(3,8,25,0.6);
+  color: rgba(3,8,25,0.5);
   font-weight: 700;
   display: inline-block;
 }
@@ -1649,7 +1628,7 @@ _____________________________________________________ */
   padding: 0 10px 0 0;
   text-align: center;
   margin: 0;
-  color: rgba(3,8,25,0.6);
+  color: rgba(3,8,25,0.5);
 }
 .Footer .Menu_item {
   display: inline-block;
@@ -1658,7 +1637,7 @@ _____________________________________________________ */
 .Footer .Menu_item_link {
   font-weight: 700;
   line-height: 40px;
-  color: rgba(3,8,25,0.6);
+  color: rgba(3,8,25,0.5);
 }
 @media only screen and (min-width: 768px) {
   .Footer {
@@ -1724,6 +1703,7 @@ _____________________________________________________ */
   -ms-flex-align: stretch;
   -webkit-align-items: stretch;
   align-items: stretch;
+  margin-top: 40px;
 }
 .key {
   text-align: center;
@@ -1750,7 +1730,7 @@ _____________________________________________________ */
   content: '';
   display: block;
   position: absolute;
-  top: 49%;
+  top: 43.5%;
   left: 50%;
   content: '';
   width: 48px;
@@ -1797,7 +1777,7 @@ _____________________________________________________ */
   font-family: 'Disket Mono';
   font-size: 12px;
   font-weight: 400;
-  color: rgba(3,8,25,0.6);
+  color: rgba(3,8,25,0.5);
   left: 0;
   width: 100%;
   text-align: left;
@@ -1871,7 +1851,7 @@ _____________________________________________________ */
   -ms-filter: none;
   filter: none;
   text-decoration: line-through;
-  color: rgba(3,8,25,0.6);
+  color: rgba(3,8,25,0.5);
 }
 @media only screen and (min-width: 601px) {
   .KeyiconsContent {
@@ -1893,6 +1873,9 @@ _____________________________________________________ */
     padding: 35px 0;
     width: 110px;
     margin: 15px 16px 30px;
+  }
+  .keyicon::after {
+    top: 48%;
   }
   .keyicon:focus {
     -webkit-box-shadow: 0 10px 30px -6px rgba(0,0,0,0.1);
@@ -1947,6 +1930,9 @@ _____________________________________________________ */
   }
   .KeyiconsContent {
     grid-template-columns: repeat(6, 1fr);
+  }
+  .keyicon::after {
+    top: 49%;
   }
 }
 @media screen and (min-width: 1200px) {

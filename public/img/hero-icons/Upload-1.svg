@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="66px" viewBox="0 0 66 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Upload-1</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="66" height="66"></rect>
+    </defs>
+    <g id="🖥-Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Iteration" transform="translate(-473.000000, -502.000000)">
+            <g id="Group-59" transform="translate(45.000000, 74.000000)">
+                <g id="Upload-1" transform="translate(428.000000, 428.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Upload-1-(Background/Mask)"></g>
+                    <g id="Page-1" mask="url(#mask-2)">
+                        <g id="Upload-1">
+                            <path d="M66,0 L66,66 L0,66 L0,0 L66,0 Z" id="Rectangle"></path>
+                            <line x1="33" y1="30.25" x2="33" y2="55.0000042" id="Path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="0,0"></line>
+                            <path d="M41.25,35.7495552 L34.9445248,29.4440783 C33.8706497,28.370203 32.1293503,28.370203 31.0554752,29.4440783 L24.75,35.7495552" id="Path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="0,0"></path>
+                            <path d="M22,44 L16.5,44 C11.9436626,44 8.25,40.3064751 8.25,35.75 C8.25,31.1935249 11.9436626,27.5 16.5,27.5 C16.5,18.3872976 23.8872976,11 33,11 C42.1126749,11 49.5,18.3872976 49.5,27.5 C54.0564751,27.5 57.75,31.1935249 57.75,35.75 C57.75,40.3064751 54.0564751,44 49.5,44 L44,44" id="Path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="0,0"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
