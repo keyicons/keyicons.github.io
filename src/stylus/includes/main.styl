@@ -36,8 +36,35 @@
 	height 100px
 	padding 25px 0 
 	outline none
-	border-radius 2px
+	&::after
+		content ''
+		display block
+		position absolute
+		top 49%
+		left 50%
+		content ''
+		width 48px
+		height 48px
+		z-index 1
+		transform translate(-50%, -50%)
+		border-radius 50%
 		
+	&.newBlue
+		&::after
+			background blue_color
+		img
+			filter invert(100%)
+	&.newOrange
+		&::after
+			background yellow_color
+		img
+			filter invert(100%)
+	&.newPink
+		&::after
+			background pink_color
+		img
+			filter invert(100%)
+	
 	&_name
 		transition_all(.3s)
 		position absolute
@@ -58,16 +85,19 @@
 		width 24px
 		margin-top 6px
 		display inline-block
+		z-index 100
+		position relative
 		
 	&_download
-		background dark_blue
+		// background dark_blue
 		border-radius 20px
 		bottom 10px
 		padding 5px 10px
-		color white_color
-		font-size 10px
+		color dark_blue
+		font-size 12px
+		font-family tipography2
 		line-height 10px
-		font-weight 400
+		font-weight bold
 		height 20px
 		position absolute
 		left 50%
@@ -75,9 +105,14 @@
 		opacity 0
 		transition_all(.3s)
 	&-new
+		// background rgba(dark_blue, .1)
 		opacity 1
-		background rgba(dark_blue, .1)
-		color dark_blue
+		&.newBlue
+			color blue_color
+		&.newOrange
+			color yellow_color
+		&.newPink
+			color pink_color
 		
 	&.keyicon_new--old
 		display none
@@ -86,6 +121,7 @@
 		.keyicon
 			&_download
 				opacity 1
+				text-decoration line-through
 	
 @media only screen and (min-width : 601px)
 	.KeyiconsContent

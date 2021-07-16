@@ -14,7 +14,7 @@ var keyicons = function () {
 	function printKeyicons(res){
 
 		var templateKeyicon = 	"<div class='key' data-category=':tag:'>"+
-														"<a href=':link:' download class='keyicon'>"+
+														"<a href=':link:' download class='keyicon :keyiconNew:'>"+
 														"<span class='keyicon_name'>:name:</span>"+
 														"<img src=':img:' alt=''>"+
 														":type:"+
@@ -26,22 +26,35 @@ var keyicons = function () {
 
 		$.each( res.keyicons, function(i, val){
 
-        img = url + val.name +'.svg';
-        link = url + val.name +'.svg';
-        
-        type = val.type == 1 ? "<span class='keyicon_download keyicon-new'>New</span>" : "";
+			img = url + val.name +'.svg';
+			link = url + val.name +'.svg';
+			
+			// Random function for numbers on New label
+			function NumerosAleatorios(min, max) {
+				randomColor = Math.round(Math.random() * (max - min) + min);
+				if(randomColor == 1){ return "newBlue"}
+				else if(randomColor == 2){return "newOrange"}
+				else{return "newPink"}
+				
+			}
+			randomColor = NumerosAleatorios(1, 3);
+			// console.log(randomColor);
+			anotherColor = "<span class='keyicon_download keyicon-new " + randomColor + "'>New</span>";
 
-        var itemsKey = templateKeyicon
-  					.replace(':name:', val.name)
-  					.replace(':link:', link)
-  					.replace(':img:', img)
-						.replace(':type:', type)
-						.replace(':tag:', val.tag)
-						
-  					
-  					addKeyicon(itemsKey);
+			type = val.type == 1 ? anotherColor : "";
+			keyiconNew = val.type == 1 ? randomColor : "";
 
-  					n++;
+			var itemsKey = templateKeyicon
+					.replace(':name:', val.name)
+					.replace(':link:', link)
+					.replace(':img:', img)
+					.replace(':type:', type)
+					.replace(':tag:', val.tag)
+					.replace(':keyiconNew:', keyiconNew)
+					
+					addKeyicon(itemsKey);
+
+					n++;
   		});
 
 	}
@@ -50,6 +63,8 @@ var keyicons = function () {
 		// console.log(itemsKey);
 		$('.KeyiconsContent').append($(itemsKey));
 
+
+		
 	}
 
 	// Agregar la clase .is-clicked a los keyicons que se clickean

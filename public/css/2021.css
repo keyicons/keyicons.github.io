@@ -1384,6 +1384,7 @@ _____________________________________________________ */
   -o-transition: all 0.5s cubic-bezier(0.22, 0.61, 0.3, 1);
   -ms-transition: all 0.5s cubic-bezier(0.22, 0.61, 0.3, 1);
   transition: all 0.5s cubic-bezier(0.22, 0.61, 0.3, 1);
+  z-index: 1000;
 }
 .Shared.is-open {
   bottom: 40px;
@@ -1725,7 +1726,41 @@ _____________________________________________________ */
   height: 100px;
   padding: 25px 0;
   outline: none;
-  border-radius: 2px;
+}
+.keyicon::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 49%;
+  left: 50%;
+  content: '';
+  width: 48px;
+  height: 48px;
+  z-index: 1;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.keyicon.newBlue::after {
+  background: #20f;
+}
+.keyicon.newBlue img {
+  filter: invert(100%);
+}
+.keyicon.newOrange::after {
+  background: #fbab00;
+}
+.keyicon.newOrange img {
+  filter: invert(100%);
+}
+.keyicon.newPink::after {
+  background: #f200ec;
+}
+.keyicon.newPink img {
+  filter: invert(100%);
 }
 .keyicon_name {
   -webkit-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
@@ -1751,16 +1786,18 @@ _____________________________________________________ */
   width: 24px;
   margin-top: 6px;
   display: inline-block;
+  z-index: 100;
+  position: relative;
 }
 .keyicon_download {
-  background: #030819;
   border-radius: 20px;
   bottom: 10px;
   padding: 5px 10px;
-  color: #fff;
-  font-size: 10px;
+  color: #030819;
+  font-size: 12px;
+  font-family: 'Disket Mono';
   line-height: 10px;
-  font-weight: 400;
+  font-weight: bold;
   height: 20px;
   position: absolute;
   left: 50%;
@@ -1782,8 +1819,15 @@ _____________________________________________________ */
   opacity: 1;
   -ms-filter: none;
   filter: none;
-  background: rgba(3,8,25,0.1);
-  color: #030819;
+}
+.keyicon-new.newBlue {
+  color: #20f;
+}
+.keyicon-new.newOrange {
+  color: #fbab00;
+}
+.keyicon-new.newPink {
+  color: #f200ec;
 }
 .keyicon.keyicon_new--old {
   display: none;
@@ -1792,6 +1836,7 @@ _____________________________________________________ */
   opacity: 1;
   -ms-filter: none;
   filter: none;
+  text-decoration: line-through;
 }
 @media only screen and (min-width: 601px) {
   .KeyiconsContent {
