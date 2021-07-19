@@ -945,6 +945,8 @@ _____________________________________________________ */
 .link {
   font-family: 'Disket Mono';
   font-size: 14px;
+  color: #030819;
+  text-decoration: underline;
 }
 .link.link-pink {
   color: #f200ec;
@@ -962,6 +964,10 @@ _____________________________________________________ */
   }
   .btn-ghost:hover {
     border: solid thin #fff;
+  }
+  .btn:hover {
+    -webkit-box-shadow: 0 0 0 6px rgba(34,0,255,0.3);
+    box-shadow: 0 0 0 6px rgba(34,0,255,0.3);
   }
   .link:hover {
     text-decoration: line-through;
@@ -1084,10 +1090,6 @@ _____________________________________________________ */
 .Hero_Description .btn {
   margin-top: 10px;
 }
-.Hero_Description .link {
-  margin-bottom: 8px;
-  display: inline-block;
-}
 .Hero_Title {
   width: 200px;
   margin: 0;
@@ -1101,6 +1103,13 @@ _____________________________________________________ */
 }
 .Hero_Title #KEYICONS {
   fill: #000;
+}
+.Hero_Menu {
+  margin: 8px 0;
+}
+.Hero_Menu li {
+  margin: 0 0 6px 0;
+  display: block;
 }
 @media only screen and (min-width: 768px) {
   .Hero_Description {
@@ -1642,82 +1651,28 @@ _____________________________________________________ */
 /* Footer
 _____________________________________________________ */
 .Footer {
-  width: 100%;
+  background: #fff;
   position: relative;
-  background: #f9f9fd;
-  text-align: center;
-  padding: 10px 0 40px;
+  width: 100%;
+  padding: 40px 0;
+  font-family: 'Disket Mono';
   font-size: 14px;
-}
-.Footer_Copy {
-  display: inline-block;
-  padding: 0 10px;
-  color: rgba(3,8,25,0.5);
-  margin-bottom: 40px;
-}
-.Footer_Copy_Item {
-  vertical-align: middle;
-  display: inline-block;
   text-align: left;
-  margin-right: 5px;
 }
-.Footer_Copy_Item:first-child {
+.Footer_Menu {
+  margin: 1em 0;
+}
+.Footer_Menu li {
   display: block;
-  text-align: center;
-  margin-top: 20px;
-}
-.Footer_Copy_Link {
-  color: rgba(3,8,25,0.5);
-  font-weight: 700;
-  display: inline-block;
-}
-.Footer .Menu {
-  padding: 0 10px 0 0;
-  text-align: center;
-  margin: 0;
-  color: rgba(3,8,25,0.5);
-}
-.Footer .Menu_item {
-  display: inline-block;
-  margin: 0 20px;
-}
-.Footer .Menu_item_link {
-  font-weight: 700;
-  line-height: 40px;
-  color: rgba(3,8,25,0.5);
-}
-@media only screen and (min-width: 768px) {
-  .Footer {
-    text-align: left;
-  }
-  .Footer_Copy_Item:first-child {
-    display: inline-block;
-    margin: 0;
-  }
+  margin: 0 4px 32px 0;
 }
 @media only screen and (min-width: 1100px) {
   .Footer {
-    padding: 10px 0 40px;
+    padding: 80px 0;
   }
-  .Footer_Copy {
-    padding: 0;
-    text-align: left;
-    width: 100%;
-    margin-bottom: 0;
-  }
-  .Footer_Copy_Link:hover {
-    text-decoration: underline;
-    color: #030819;
-  }
-  .Footer .Menu {
-    text-align: right;
-  }
-  .Footer .Menu_item:nth-child(3) {
-    margin-right: 0;
-  }
-  .Footer .Menu_item_link:hover {
-    text-decoration: underline;
-    color: #030819;
+  .Footer_Menu li {
+    display: inline-block;
+    margin: 0 4px 0 0;
   }
 }
 /* Main

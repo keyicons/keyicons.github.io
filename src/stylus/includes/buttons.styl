@@ -20,16 +20,14 @@
 	&-ghost
 		background rgba(white_color, .1)
 		color white_color
-	// &-secondary
-	// 	color dark_color
-	// 	border solid thin dark_color
-	// 	background white_color
 	&:focus
 		opacity .8
 		shadow_custom(light_color, 0, 0, 0, 6px, .4)
 .link
 	font-family tipography2
 	font-size 14px
+	color dark_color
+	text-decoration underline
 	&.link-pink
 		color pink_color
 	&.link-blue
@@ -38,15 +36,13 @@
 		color yellow_color
 @media only screen and (min-width : 1100px)		
 	.btn
-		// &:hover
-		// 	shadow_custom(light_color, 0, 0, 0, 6px, .4)
-		// &:focus
-		// 	shadow_custom(light_color, 0, 0, 0, 6px, .4)
 		&-ghost
 			min-width 180px
 			border solid thin rgba(white_color, .3)
 			&:hover
 				border solid thin white_color
+		&:hover
+			shadow_custom(blue_color, 0, 0, 0, 6px, .3)
 	.link
 		&:hover
 			text-decoration line-through
