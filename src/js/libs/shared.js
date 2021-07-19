@@ -16,9 +16,9 @@ var shared = function () {
 
 		img.attr('src', algo);
 
-		// setTimeout(function(){
-		// 	shared.removeClass('is-open');
-		// }, 5000);
+		setTimeout(function(){
+			shared.removeClass('is-open');
+		}, 5000);
 
 	});
 

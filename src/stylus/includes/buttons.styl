@@ -20,7 +20,7 @@
 	&-ghost
 		background rgba(white_color, .1)
 		color white_color
-	&_float
+	&-float
 		position fixed
 		z-index 1000
 		bottom 20px
@@ -44,7 +44,7 @@
 		color yellow_color
 @media only screen and (min-width : 560px)
 	.btn
-		&_float
+		&-float
 			position relative
 			padding 0 20px
 	
@@ -56,6 +56,8 @@
 			border solid thin rgba(white_color, .3)
 			&:hover
 				border solid thin white_color
+				color black_color
+				background white_color
 		&:hover
 			shadow_custom(black_color, 0, 0, 0, 6px, .1)
 	.link

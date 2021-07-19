@@ -1,9 +1,10 @@
 .Shared
-	background: linear-gradient(121.28deg, #8000FF 0%, #000000 100%), linear-gradient(180deg, #00FF19 0%, #000000 100%), linear-gradient(52.23deg, #0500FF 0%, #00FFB2 100%), linear-gradient(121.28deg, #32003A 0%, #FF4040 100%), radial-gradient(50% 72.12% at 50% 50%, #EB00FF 0%, #110055 100%);
-	background-blend-mode: screen, overlay, difference, color-dodge, normal;
+	background-image url('../img/keyicons-colored.jpg')
+	background-position center
+	background-repeat no-repeat
+	background-size cover
 	position fixed
 	display block
-	bottom -400px 
 	width 300px
 	height 300px
 	left 50%
@@ -13,8 +14,11 @@
 	shadow_custom(black_color, 0, 10px, 60px, -6px, .2)
 	transition_all(.5s)
 	z-index 1000
+	bottom -400px 
 	&.is-open
-		bottom 40px
+		bottom 50%
+		transform translateY(50%)
+
 	&-Close
 		background transparent
 		position absolute
@@ -29,13 +33,17 @@
 		color dark_color
 		transition_all(.3s)
 		border-radius 40px
+		background rgba(white_color, .1)
+		svg 
+			fill white_color
 		&:hover
-			background-color rgba(dark_color, .1)
+			background-color rgba(white_color, .3)
 
 	&-Img
 		width 100px
 		display inline-block
 		margin 10px auto 0
+		filter invert(100%)
 	&-Content
 		padding 20px
 		position absolute
@@ -44,7 +52,7 @@
 		right 0
 		display inline-block
 		text-align center
-		color black_color
+		color white_color
 		*
 			margin 0
 		p
@@ -56,24 +64,21 @@
 		padding 10px 20px
 		overflow hidden
 		transition_all(.3s)
-		background-color dark_color
-		color white_color
 		border-radius 30px
-		&:last-child
-			background-color transparent
-			border solid thin dark_color
-			color dark_color
+		background rgba(white_color, .1)
+		color white_color
+		border solid thin rgba(white_color, .3)
+		min-width 200px
 		.icon
 			width 20px
 			height 20px
 			margin-left 6px
 		&:hover
-			shadow_custom(dark_color, 0, 0, 0, 6px, .2)
+			border solid thin white_color
+			color black_color
+			background white_color
+			// shadow_custom(dark_color, 0, 0, 0, 6px, .2)
 			
-		// &:visited
-		// 	color dark_color
-		// 	&:hover
-		// 		color dark_color
 
 .icon
 	width 24px

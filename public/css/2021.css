@@ -935,7 +935,7 @@ _____________________________________________________ */
   background: rgba(255,255,255,0.1);
   color: #fff;
 }
-.btn_float {
+.btn-float {
   position: fixed;
   z-index: 1000;
   bottom: 20px;
@@ -967,7 +967,7 @@ _____________________________________________________ */
   color: #fbab00;
 }
 @media only screen and (min-width: 560px) {
-  .btn_float {
+  .btn-float {
     position: relative;
     padding: 0 20px;
   }
@@ -979,6 +979,8 @@ _____________________________________________________ */
   }
   .btn-ghost:hover {
     border: solid thin #fff;
+    color: #000;
+    background: #fff;
   }
   .btn:hover {
     -webkit-box-shadow: 0 0 0 6px rgba(0,0,0,0.1);
@@ -1428,15 +1430,14 @@ _____________________________________________________ */
 /* Shared
 _____________________________________________________ */
 .Shared {
-  background: -webkit-linear-gradient(328.72deg, #8000ff 0%, #000 100%), -webkit-linear-gradient(270deg, #00ff19 0%, #000 100%), -webkit-linear-gradient(37.77deg, #0500ff 0%, #00ffb2 100%), -webkit-linear-gradient(328.72deg, #32003a 0%, #ff4040 100%), -webkit-radial-gradient(50% 72.12% at 50% 50%, #eb00ff 0%, #105 100%);
-  background: -moz-linear-gradient(328.72deg, #8000ff 0%, #000 100%), -moz-linear-gradient(270deg, #00ff19 0%, #000 100%), -moz-linear-gradient(37.77deg, #0500ff 0%, #00ffb2 100%), -moz-linear-gradient(328.72deg, #32003a 0%, #ff4040 100%), -moz-radial-gradient(50% 72.12% at 50% 50%, #eb00ff 0%, #105 100%);
-  background: -o-linear-gradient(328.72deg, #8000ff 0%, #000 100%), -o-linear-gradient(270deg, #00ff19 0%, #000 100%), -o-linear-gradient(37.77deg, #0500ff 0%, #00ffb2 100%), -o-linear-gradient(328.72deg, #32003a 0%, #ff4040 100%), -o-radial-gradient(50% 72.12% at 50% 50%, #eb00ff 0%, #105 100%);
-  background: -ms-linear-gradient(328.72deg, #8000ff 0%, #000 100%), -ms-linear-gradient(270deg, #00ff19 0%, #000 100%), -ms-linear-gradient(37.77deg, #0500ff 0%, #00ffb2 100%), -ms-linear-gradient(328.72deg, #32003a 0%, #ff4040 100%), -ms-radial-gradient(50% 72.12% at 50% 50%, #eb00ff 0%, #105 100%);
-  background: linear-gradient(121.28deg, #8000ff 0%, #000 100%), linear-gradient(180deg, #00ff19 0%, #000 100%), linear-gradient(52.23deg, #0500ff 0%, #00ffb2 100%), linear-gradient(121.28deg, #32003a 0%, #ff4040 100%), radial-gradient(50% 72.12% at 50% 50%, #eb00ff 0%, #105 100%);
-  background-blend-mode: screen, overlay, difference, color-dodge, normal;
+  background-image: url("../img/keyicons-colored.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
   position: fixed;
   display: block;
-  bottom: -400px;
   width: 300px;
   height: 300px;
   left: 50%;
@@ -1451,9 +1452,15 @@ _____________________________________________________ */
   -ms-transition: all 0.5s cubic-bezier(0.22, 0.61, 0.3, 1);
   transition: all 0.5s cubic-bezier(0.22, 0.61, 0.3, 1);
   z-index: 1000;
+  bottom: -400px;
 }
 .Shared.is-open {
-  bottom: 40px;
+  bottom: 50%;
+  -webkit-transform: translateY(50%);
+  -moz-transform: translateY(50%);
+  -o-transform: translateY(50%);
+  -ms-transform: translateY(50%);
+  transform: translateY(50%);
 }
 .Shared-Close {
   background: transparent;
@@ -1473,14 +1480,19 @@ _____________________________________________________ */
   -ms-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
   transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
   border-radius: 40px;
+  background: rgba(255,255,255,0.1);
+}
+.Shared-Close svg {
+  fill: #fff;
 }
 .Shared-Close:hover {
-  background-color: rgba(3,8,25,0.1);
+  background-color: rgba(255,255,255,0.3);
 }
 .Shared-Img {
   width: 100px;
   display: inline-block;
   margin: 10px auto 0;
+  filter: invert(100%);
 }
 .Shared-Content {
   padding: 20px;
@@ -1490,7 +1502,7 @@ _____________________________________________________ */
   right: 0;
   display: inline-block;
   text-align: center;
-  color: #000;
+  color: #fff;
 }
 .Shared-Content * {
   margin: 0;
@@ -1508,14 +1520,11 @@ _____________________________________________________ */
   -o-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
   -ms-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
   transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
-  background-color: #030819;
-  color: #fff;
   border-radius: 30px;
-}
-.Shared-Btn:last-child {
-  background-color: transparent;
-  border: solid thin #030819;
-  color: #030819;
+  background: rgba(255,255,255,0.1);
+  color: #fff;
+  border: solid thin rgba(255,255,255,0.3);
+  min-width: 200px;
 }
 .Shared-Btn .icon {
   width: 20px;
@@ -1523,8 +1532,9 @@ _____________________________________________________ */
   margin-left: 6px;
 }
 .Shared-Btn:hover {
-  -webkit-box-shadow: 0 0 0 6px rgba(3,8,25,0.2);
-  box-shadow: 0 0 0 6px rgba(3,8,25,0.2);
+  border: solid thin #fff;
+  color: #000;
+  background: #fff;
 }
 .icon {
   width: 24px;
@@ -1665,6 +1675,7 @@ _____________________________________________________ */
 _____________________________________________________ */
 .Footer {
   background: #fff;
+  color: rgba(3,8,25,0.5);
   position: relative;
   width: 100%;
   padding: 40px 0 80px;
