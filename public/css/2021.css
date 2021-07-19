@@ -908,7 +908,7 @@ small {
 /* Buttons
 _____________________________________________________ */
 .btn {
-  border-radius: 30px;
+  border-radius: 100px;
   display: inline-block;
   font-size: 14px;
   font-weight: bold;
@@ -928,19 +928,28 @@ _____________________________________________________ */
   min-width: 80px;
   border: none;
   outline: 0;
-  background: #20f;
+  background: #000;
   color: #fff;
 }
 .btn-ghost {
   background: rgba(255,255,255,0.1);
   color: #fff;
 }
-.btn:focus {
-  opacity: 0.8;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
-  filter: alpha(opacity=80);
-  -webkit-box-shadow: 0 0 0 6px rgba(249,249,253,0.4);
-  box-shadow: 0 0 0 6px rgba(249,249,253,0.4);
+.btn_float {
+  position: fixed;
+  z-index: 1000;
+  bottom: 20px;
+  left: 50%;
+  width: calc(100% - 32px);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  text-align: center;
+  padding: 8px 0;
+  height: auto;
+  font-size: 16px;
 }
 .link {
   font-family: 'Disket Mono';
@@ -957,6 +966,12 @@ _____________________________________________________ */
 .link.link-yellow {
   color: #fbab00;
 }
+@media only screen and (min-width: 560px) {
+  .btn_float {
+    position: relative;
+    padding: 0 20px;
+  }
+}
 @media only screen and (min-width: 1100px) {
   .btn-ghost {
     min-width: 180px;
@@ -966,8 +981,8 @@ _____________________________________________________ */
     border: solid thin #fff;
   }
   .btn:hover {
-    -webkit-box-shadow: 0 0 0 6px rgba(34,0,255,0.3);
-    box-shadow: 0 0 0 6px rgba(34,0,255,0.3);
+    -webkit-box-shadow: 0 0 0 6px rgba(0,0,0,0.1);
+    box-shadow: 0 0 0 6px rgba(0,0,0,0.1);
   }
   .link:hover {
     text-decoration: line-through;
@@ -1056,7 +1071,6 @@ _____________________________________________________ */
   background-size: cover;
 }
 .Hero_Icons {
-  padding: 40px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: stretch;
@@ -1072,7 +1086,7 @@ _____________________________________________________ */
   width: 48px;
   height: 48px;
   display: none;
-  margin: 40px auto;
+  margin: 20px auto;
 }
 .Hero_Icons .iconito:nth-child(-n+12) {
   display: block;
@@ -1135,7 +1149,6 @@ _____________________________________________________ */
   }
   .Hero_Icons {
     grid-template-columns: repeat(7, 1fr);
-    padding: 40px 0;
   }
   .Hero .iconito {
     width: 80px;
@@ -1654,7 +1667,7 @@ _____________________________________________________ */
   background: #fff;
   position: relative;
   width: 100%;
-  padding: 40px 0;
+  padding: 40px 0 80px;
   font-family: 'Disket Mono';
   font-size: 14px;
   text-align: left;

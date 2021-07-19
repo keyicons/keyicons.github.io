@@ -1,5 +1,5 @@
 .btn 
-	border-radius 30px
+	border-radius 100px
 	display inline-block
 	font-size 14px 
 	font-weight bold
@@ -15,14 +15,22 @@
 	min-width 80px
 	border none
 	outline 0
-	background blue_color
+	background black_color
 	color white_color
 	&-ghost
 		background rgba(white_color, .1)
 		color white_color
-	&:focus
-		opacity .8
-		shadow_custom(light_color, 0, 0, 0, 6px, .4)
+	&_float
+		position fixed
+		z-index 1000
+		bottom 20px
+		left 50%
+		width calc(100% - 32px)
+		transform translateX(-50%)
+		text-align center
+		padding 8px 0
+		height auto
+		font-size 16px
 .link
 	font-family tipography2
 	font-size 14px
@@ -34,6 +42,13 @@
 		color blue_color
 	&.link-yellow
 		color yellow_color
+@media only screen and (min-width : 560px)
+	.btn
+		&_float
+			position relative
+			padding 0 20px
+	
+
 @media only screen and (min-width : 1100px)		
 	.btn
 		&-ghost
@@ -42,7 +57,7 @@
 			&:hover
 				border solid thin white_color
 		&:hover
-			shadow_custom(blue_color, 0, 0, 0, 6px, .3)
+			shadow_custom(black_color, 0, 0, 0, 6px, .1)
 	.link
 		&:hover
 			text-decoration line-through
