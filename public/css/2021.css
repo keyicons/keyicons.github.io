@@ -1524,7 +1524,7 @@ _____________________________________________________ */
   background: rgba(255,255,255,0.1);
   color: #fff;
   border: solid thin rgba(255,255,255,0.3);
-  min-width: 200px;
+  min-width: 180px;
 }
 .Shared-Btn .icon {
   width: 20px;

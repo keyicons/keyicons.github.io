@@ -1,12 +1,13 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0)">
-<rect width="24" height="24" fill="white"/>
-<path d="M4.97484 13.4604C4.88107 13.3666 4.8284 13.2394 4.8284 13.1068V5.32865C4.8284 5.05251 5.05225 4.82865 5.3284 4.82865H13.1066C13.2392 4.82865 13.3664 4.88133 13.4601 4.9751L19.6776 11.1926C20.8492 12.3642 20.8492 14.2637 19.6776 15.4352L15.435 19.6779C14.2634 20.8495 12.3639 20.8495 11.1924 19.6779L4.97484 13.4604Z" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
-<path d="M9 9H9.01" stroke="#0C0310" stroke-width="2" stroke-linecap="round"/>
-</g>
-<defs>
-<clipPath id="clip0">
-<rect width="24" height="24" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Tag</title>
+    <g id="🖥-Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-74.000000, -151.000000)">
+            <g id="Tag" transform="translate(74.000000, 151.000000)">
+                <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                <path d="M4.97484,13.4604 C4.88107,13.3666 4.8284,13.2394 4.8284,13.1068 L4.8284,5.32865 C4.8284,5.05251 5.05225,4.82865 5.3284,4.82865 L13.1066,4.82865 C13.2392,4.82865 13.3664,4.88133 13.4601,4.9751 L19.6776,11.1926 C20.8492,12.3642 20.8492,14.2637 19.6776,15.4352 L15.435,19.6779 C14.2634,20.8495 12.3639,20.8495 11.1924,19.6779 L4.97484,13.4604 Z" id="Path" stroke="#0C0310" stroke-width="2" stroke-linecap="round"></path>
+                <line x1="9" y1="9" x2="9.01" y2="9" id="Path" stroke="#0C0310" stroke-width="2" stroke-linecap="round"></line>
+            </g>
+        </g>
+    </g>
 </svg>
