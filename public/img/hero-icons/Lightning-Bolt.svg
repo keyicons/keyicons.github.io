@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="66px" viewBox="0 0 66 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Lightning-Bolt</title>
+    <g id="🖥-Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1461.000000, -636.000000)">
+            <g id="Lightning-Bolt" transform="translate(1461.000000, 636.000000)">
+                <path d="M66,0 L66,66 L0,66 L0,0 L66,0 Z" id="Rectangle"></path>
+                <path d="M29.8698902,9.01007271 C30.1028152,8.54425023 30.5788397,8.25 31.0996897,8.25 L46.8591135,8.25 C47.9714885,8.25 48.6235168,9.50218516 47.9855168,10.4135076 L41.3893652,19.836493 C40.7513652,20.7478155 41.4033909,22 42.5157659,22 L46.5104172,22 C47.6852172,22 48.3188134,23.377916 47.5543134,24.269851 L21.9052568,54.1937013 C20.8934218,55.3742763 19.0071963,54.2319241 19.5846137,52.7881742 L26.7456701,34.8856761 C27.1069376,33.9825762 26.441795,33 25.4690099,33 L20.0997443,33 C19.0775968,33 18.4127848,31.9241989 18.8698898,31.0100989 L29.8698902,9.01007271 Z" id="Path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="0,0" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

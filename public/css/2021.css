@@ -1155,7 +1155,7 @@ _____________________________________________________ */
   .Hero .iconito {
     width: 80px;
     height: 80px;
-    margin: 60px auto;
+    margin: 48px auto;
     display: block;
   }
   .Hero_Description .btn {
@@ -1633,9 +1633,12 @@ _____________________________________________________ */
   -ms-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
   transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
   color: rgba(3,8,25,0.5);
+  border-radius: 20px;
+  border: solid 1px rgba(3,8,25,0.1);
 }
 .Filters label:hover {
-  text-decoration: line-through;
+  color: rgba(3,8,25,0.5);
+  border-color: rgba(3,8,25,0.5);
 }
 [value="all"]:checked ~ .Filters [for="all"],
 [value="news"]:checked ~ .Filters [for="news"],
@@ -1649,6 +1652,7 @@ _____________________________________________________ */
 [value="navigation"]:checked ~ .Filters [for="navigation"] {
   color: #030819;
   font-weight: bold;
+  border-color: rgba(3,8,25,0.5);
 }
 [value="all"]:checked ~ .KeyiconsContent [data-category] {
   display: block;
@@ -1878,20 +1882,25 @@ _____________________________________________________ */
 }
 .keyicon.is-clicked {
   background: transparent;
+  -webkit-box-shadow: 0 1px 3px 0px rgba(255,255,255,0.1);
+  box-shadow: 0 1px 3px 0px rgba(255,255,255,0.1);
 }
 .keyicon.is-clicked img {
   filter: none;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
 }
 .keyicon.is-clicked::after {
   top: 40%;
-  background: rgba(0,0,0,0.1);
+  background: rgba(3,8,25,0.05);
 }
 .keyicon.is-clicked .keyicon_download {
   opacity: 1;
   -ms-filter: none;
   filter: none;
   text-decoration: line-through;
-  color: rgba(3,8,25,0.5);
+  color: rgba(3,8,25,0.2);
 }
 @media only screen and (min-width: 601px) {
   .KeyiconsContent {

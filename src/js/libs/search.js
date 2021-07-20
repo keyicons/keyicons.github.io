@@ -1,9 +1,12 @@
 var search = function () {
 
+	var inputSearch = $('#searchKeyicons'),
+			filters = $('input[name="categories"]');
+
 	
-	// Reset radio filters
-	$('#searchKeyicons').focus(function(){	
-		$('input[name="categories"]').prop('checked', false);
+	// Reset Filters
+	inputSearch.focus(function(){	
+		filters.prop('checked', false);
 	});
 
 	function myFunction() {
@@ -29,11 +32,16 @@ var search = function () {
 		}
 
 	
-	$('#searchKeyicons').on('keyup', function(){
-		
+	inputSearch.on('keyup', function(){
 		myFunction();
-		
 	});
+
+	// Reset Search
+	filters.click(function(){
+		inputSearch.val('');
+		myFunction();
+	});
+	
 
 }
 module.exports = search;

@@ -122,16 +122,19 @@
 		
 	&.is-clicked
 		background transparent
+		shadow_custom(white_color, 0, 1px, 3px, 0px, .1)
 		img
 			filter none
+			opacity .5
 		&::after
 			top 40%
-			background rgba(black_color, 0.1)
+			background rgba(smoke_color, 0.05)
 		.keyicon
 			&_download
 				opacity 1
 				text-decoration line-through
-				color smoke_color
+				color rgba(smoke_color, .2)
+				
 	
 @media only screen and (min-width : 601px)
 	.KeyiconsContent

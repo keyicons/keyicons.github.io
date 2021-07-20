@@ -69,9 +69,11 @@ var keyicons = function () {
 
 	// Agregar la clase .is-clicked a los keyicons que se clickean
 	$('body').on('click', '.keyicon', function(e){
-		// e.preventDefault();
-		// console.log('clicked');
+		// Agregar la clase Downloaded
 		$(this).addClass('is-clicked');
+		// Agregar Donloaded feedback
+		$(this)[0].childNodes[2].innerHTML = "Downloaded";
+		
 
 	});
 
