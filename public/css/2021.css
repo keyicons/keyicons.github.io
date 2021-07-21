@@ -1864,6 +1864,30 @@ _____________________________________________________ */
   transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
 }
 .keyicon-new {
+  border-radius: 20px;
+  bottom: 10px;
+  padding: 5px 10px;
+  color: #030819;
+  font-size: 12px;
+  font-family: 'Disket Mono';
+  line-height: 10px;
+  font-weight: bold;
+  height: 20px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  -webkit-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
+  -moz-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
+  -o-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
+  -ms-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
+  transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
   opacity: 1;
   -ms-filter: none;
   filter: none;
@@ -1876,9 +1900,6 @@ _____________________________________________________ */
 }
 .keyicon-new.newPink {
   color: #f200ec;
-}
-.keyicon.keyicon_new--old {
-  display: none;
 }
 .keyicon.is-clicked {
   background: transparent;
@@ -1894,6 +1915,9 @@ _____________________________________________________ */
 .keyicon.is-clicked::after {
   top: 40%;
   background: rgba(3,8,25,0.05);
+}
+.keyicon.is-clicked .keyicon-new {
+  display: none;
 }
 .keyicon.is-clicked .keyicon_download {
   opacity: 1;

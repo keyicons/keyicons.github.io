@@ -17,8 +17,8 @@ var keyicons = function () {
 														"<a href=':link:' download class='keyicon :keyiconNew:'>"+
 														"<span class='keyicon_name'>:name:</span>"+
 														"<img src=':img:' alt=''>"+
-														":type:"+
 														"<span class='keyicon_download'>Download</span>"+
+														":type:"+
 														"</a>"+
 														"</div>",
 		url = "./public/iconset/",
@@ -39,7 +39,7 @@ var keyicons = function () {
 			}
 			randomColor = NumerosAleatorios(1, 3);
 			// console.log(randomColor);
-			anotherColor = "<span class='keyicon_download keyicon-new " + randomColor + "'>New</span>";
+			anotherColor = "<span class='keyicon-new " + randomColor + "'>New</span>";
 
 			type = val.type == 1 ? anotherColor : "";
 			keyiconNew = val.type == 1 ? randomColor : "";

@@ -108,6 +108,20 @@
 		opacity 0
 		transition_all(.3s)
 	&-new
+		border-radius 20px
+		bottom 10px
+		padding 5px 10px
+		color dark_color
+		font-size 12px
+		font-family tipography2
+		line-height 10px
+		font-weight bold
+		height 20px
+		position absolute
+		left 50%
+		transform translateX(-50%)
+		opacity 0
+		transition_all(.3s)
 		// background rgba(dark_color, .1)
 		opacity 1
 		&.newBlue
@@ -117,8 +131,9 @@
 		&.newPink
 			color pink_color
 		
-	&.keyicon_new--old
-		display none
+	// &.keyicon_new--old
+	// 	// display none
+	// 	background red
 		
 	&.is-clicked
 		background transparent
@@ -130,6 +145,8 @@
 			top 40%
 			background rgba(smoke_color, 0.05)
 		.keyicon
+			&-new
+				display none
 			&_download
 				opacity 1
 				text-decoration line-through
