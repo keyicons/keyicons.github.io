@@ -3,7 +3,7 @@
 	[
 		{
 			"name":"Achievements",
-			"type":"1",
+			"type":"0",
 			"tag":"key news"
 		},
 		{
@@ -13,12 +13,12 @@
 		},
 		{
 			"name":"Adjustment",
-			"type":"1",
+			"type":"0",
 			"tag":"action news"
 		},
 		{
 			"name":"Alert",
-			"type":"1",
+			"type":"0",
 			"tag":"alert news"
 		},
 		{
@@ -28,7 +28,7 @@
 		},
 		{
 			"name":"Align-Justify",
-			"type":"1",
+			"type":"0",
 			"tag":"editor news"
 		},
 		{
@@ -83,12 +83,12 @@
 		},
 		{
 			"name":"Browser",
-			"type":"1",
+			"type":"0",
 			"tag":" news"
 		},
 		{
 			"name":"Bullet-list",
-			"type":"1",
+			"type":"0",
 			"tag":"editor news"
 		},
 		{
@@ -148,7 +148,7 @@
 		},
 		{
 			"name":"Desktop",
-			"type":"1",
+			"type":"0",
 			"tag":"multimedia news"
 		},
 		{
@@ -183,7 +183,7 @@
 		},
 		{
 			"name":"External-link",
-			"type":"1",
+			"type":"0",
 			"tag":"action news"
 		},
 		{
@@ -193,7 +193,7 @@
 		},
 		{
 			"name":"Figma",
-			"type":"1",
+			"type":"0",
 			"tag":"key news"
 		},
 		{
@@ -253,12 +253,12 @@
 		},
 		{
 			"name":"Gem",
-			"type":"1",
+			"type":"0",
 			"tag":"key news"
 		},
 		{
 			"name":"Headphones",
-			"type":"1",
+			"type":"0",
 			"tag":"multimedia news"
 		},
 		{
@@ -283,12 +283,12 @@
 		},
 		{
 			"name":"Info",
-			"type":"1",
+			"type":"0",
 			"tag":"alert news"
 		},
 		{
 			"name":"Keyicons",
-			"type":"1",
+			"type":"0",
 			"tag":"key news"
 		},
 		{
@@ -338,7 +338,7 @@
 		},
 		{
 			"name":"Mic",
-			"type":"1",
+			"type":"0",
 			"tag":"multimedia news"
 		},
 		{
@@ -353,7 +353,7 @@
 		},
 		{
 			"name":"More",
-			"type":"1",
+			"type":"0",
 			"tag":"navigation news"
 		},
 		{
@@ -363,7 +363,7 @@
 		},
 		{
 			"name":"Party",
-			"type":"1",
+			"type":"0",
 			"tag":"key news"
 		},
 		{
@@ -403,7 +403,7 @@
 		},
 		{
 			"name":"Scissors",
-			"type":"1",
+			"type":"0",
 			"tag":"editor news"
 		},
 		{
@@ -413,12 +413,12 @@
 		},
 		{
 			"name":"Session-Join",
-			"type":"1",
+			"type":"0",
 			"tag":"action news"
 		},
 		{
 			"name":"Session-Leave",
-			"type":"1",
+			"type":"0",
 			"tag":"action news"
 		},
 		{
@@ -498,27 +498,27 @@
 		},
 		{
 			"name":"Text-bold",
-			"type":"1",
+			"type":"0",
 			"tag":"editor news"
 		},
 		{
 			"name":"Text-italic",
-			"type":"1",
+			"type":"0",
 			"tag":"editor news"
 		},
 		{
 			"name":"Text-strikethrough",
-			"type":"1",
+			"type":"0",
 			"tag":"editor news"
 		},
 		{
 			"name":"Text-underline",
-			"type":"1",
+			"type":"0",
 			"tag":"editor news"
 		},
 		{
 			"name":"Transfer",
-			"type":"1",
+			"type":"0",
 			"tag":"action news"
 		},
 		{
