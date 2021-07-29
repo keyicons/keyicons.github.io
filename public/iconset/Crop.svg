@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Crop</title>
+    <g id="Crop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Container" x="0" y="0" width="24" height="24"></rect>
+        <path d="M3,7 L15,7 C16.1045695,7 17,7.8954305 17,9 L17,21" id="shape-1" stroke="#030819" stroke-width="2" stroke-linecap="round" stroke-dasharray="0,0"></path>
+        <path d="M7,3 L19,3 C20.1045695,3 21,3.8954305 21,5 L21,17" id="shape-2" stroke="#030819" stroke-width="2" stroke-linecap="round" stroke-dasharray="0,0" transform="translate(14.000000, 10.000000) rotate(-180.000000) translate(-14.000000, -10.000000) "></path>
+    </g>
+</svg>

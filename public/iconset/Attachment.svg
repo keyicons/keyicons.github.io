@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Attachment</title>
+    <g id="Attachment" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Container" x="0" y="0" width="24" height="24"></rect>
+        <path d="M17,17.5 L8.25,17.5 C5.35050506,17.5 3,15.1494949 3,12.25 C3,9.35050506 5.35050506,7 8.25,7 L18.5,7 C20.4329966,7 22,8.56700338 22,10.5 C22,12.4329966 20.4329966,14 18.5,14 L8.25,14 C7.28350169,14 6.5,13.2164983 6.5,12.25 C6.5,11.2835017 7.28350169,10.5 8.25,10.5 L18.5,10.5 L18.5,10.5" id="shape" stroke="#030819" stroke-width="2" stroke-linecap="round" stroke-dasharray="0,0" transform="translate(12.500000, 12.250000) rotate(-45.000000) translate(-12.500000, -12.250000) "></path>
+    </g>
+</svg>

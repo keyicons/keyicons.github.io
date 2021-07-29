@@ -15,7 +15,7 @@ var keyicons = function () {
 
 		var templateKeyicon = 	"<div class='key' data-category=':tag:'>"+
 														"<a href=':link:' download class='keyicon :keyiconNew:'>"+
-														"<span class='keyicon_name'>:name:</span>"+
+														"<span class='keyicon_name'>:name: <span class='keyicon_aka'>:aka:</span></span>"+
 														"<img src=':img:' alt=''>"+
 														"<span class='keyicon_download'>Download</span>"+
 														":type:"+
@@ -38,14 +38,19 @@ var keyicons = function () {
 				
 			}
 			randomColor = NumerosAleatorios(1, 3);
-			// console.log(randomColor);
 			anotherColor = "<span class='keyicon-new " + randomColor + "'>New</span>";
 
+			// Si hay iconos nuevos que se pinten de otro color
 			type = val.type == 1 ? anotherColor : "";
 			keyiconNew = val.type == 1 ? randomColor : "";
 
+			// AKA : para términos relacionados
+			aka = val.aka != "" ? " / " + val.aka : ""	
+
+			// Remplace all values
 			var itemsKey = templateKeyicon
 					.replace(':name:', val.name)
+					.replace(':aka:', aka)
 					.replace(':link:', link)
 					.replace(':img:', img)
 					.replace(':type:', type)

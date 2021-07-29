@@ -21,8 +21,8 @@ var search = function () {
 		    for (i = 0; i < icon.length; i++) {
 		        a = icon[i].getElementsByTagName("span")[0];
 		        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-		            icono =  icon[i];
-		            icono.style.display = "";
+								icono =  icon[i];
+							  icono.style.display = "";
 		        }
 		        else {
 		            icono =  icon[i];

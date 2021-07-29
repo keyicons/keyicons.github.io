@@ -1819,7 +1819,7 @@ _____________________________________________________ */
   transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
   position: absolute;
   top: -20px;
-  font-family: 'Disket Mono';
+  font-family: 'Inter';
   font-size: 12px;
   font-weight: 400;
   color: rgba(3,8,25,0.5);
@@ -1830,6 +1830,9 @@ _____________________________________________________ */
   overflow: hidden;
   -o-text-overflow: ellipsis;
   text-overflow: ellipsis;
+}
+.keyicon_aka {
+  display: none;
 }
 .keyicon img {
   width: 24px;

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>GIft</title>
+    <g id="GIft" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Container" x="0" y="0" width="24" height="24"></rect>
+        <path d="M4,10 L20,10 L20,19 C20,20.1045695 19.1045695,21 18,21 L6,21 C4.8954305,21 4,20.1045695 4,19 L4,10 L4,10 Z" id="shape-2" stroke="#030819" stroke-width="2" stroke-linecap="round"></path>
+        <rect id="shape-2" stroke="#030819" stroke-width="2" stroke-linecap="round" x="3" y="7" width="18" height="3" rx="1.5"></rect>
+        <path d="M14,3 C15.1045695,3 16,3.8954305 16,5 C16,6.1045695 15.1045695,7 14,7 L12,7 L12,7 L12,5 C12,3.8954305 12.8954305,3 14,3 Z" id="shape-3" stroke="#030819" stroke-width="2" stroke-linecap="round"></path>
+        <path d="M10,3 C11.1045695,3 12,3.8954305 12,5 L12,7 L12,7 L10,7 C8.8954305,7 8,6.1045695 8,5 C8,3.8954305 8.8954305,3 10,3 Z" id="shape-4" stroke="#030819" stroke-width="2" stroke-linecap="round"></path>
+        <line x1="12" y1="21" x2="12" y2="7" id="shape-5" stroke="#030819" stroke-width="2" stroke-linecap="round"></line>
+    </g>
+</svg>

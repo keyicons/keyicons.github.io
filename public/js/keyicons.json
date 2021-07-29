@@ -3,566 +3,769 @@
 	[
 		{
 			"name":"Achievements",
+			"aka":"",
 			"type":"0",
-			"tag":"key news"
+			"tag":"key"
 		},
 		{
 			"name":"Add-Stroke",
+			"aka":"",
 			"type":"0",
 			"tag":"action"
 		},
 		{
 			"name":"Adjustment",
+			"aka":"",
 			"type":"0",
-			"tag":"action news"
+			"tag":"action"
 		},
 		{
 			"name":"Alert",
+			"aka":"",
 			"type":"0",
-			"tag":"alert news"
+			"tag":"alert"
 		},
 		{
 			"name":"Align-Center",
+			"aka":"",
 			"type":"0",
 			"tag":"editor"
 		},
 		{
 			"name":"Align-Justify",
+			"aka":"",
 			"type":"0",
-			"tag":"editor news"
+			"tag":"editor"
 		},
 		{
 			"name":"Align-Left",
+			"aka":"",
 			"type":"0",
 			"tag":"editor"
 		},
 		{
 			"name":"Align-Right",
+			"aka":"",
 			"type":"0",
 			"tag":"editor"
 		},
 		{
 			"name":"Analytics",
+			"aka":"",
 			"type":"0",
 			"tag":"content"
 		},
 		{
 			"name":"Arrow-down",
+			"aka":"",
 			"type":"0",
 			"tag":"navigation"
 		},
 		{
 			"name":"Arrow-left",
+			"aka":"",
 			"type":"0",
 			"tag":"navigation"
 		},
 		{
 			"name":"Arrow-right",
+			"aka":"",
 			"type":"0",
 			"tag":"navigation"
 		},
 		{
 			"name":"Arrow-up",
+			"aka":"",
 			"type":"0",
 			"tag":"navigation"
 		},
 		{
+			"name":"Attachment",
+			"aka":"",
+			"type":"1",
+			"tag":"action news"
+		},
+		{
+			"name":"Basket",
+			"aka":"shop cart",
+			"type":"0",
+			"tag":"content"
+		},
+		{
 			"name":"Bell",
+			"aka":"",
 			"type":"0",
 			"tag":"alert"
 		},
 		{
+			"name":"Bento-Menu",
+			"aka":"grid",
+			"type":"1",
+			"tag":"navigation news"
+		},
+		{
 			"name":"Blocked",
+			"aka":"",
 			"type":"0",
 			"tag":"alert"
 		},
 		{
 			"name":"Bookmark",
+			"aka":"",
 			"type":"0",
 			"tag":"action"
 		},
 		{
 			"name":"Browser",
+			"aka":"",
 			"type":"0",
-			"tag":" news"
+			"tag":""
 		},
 		{
 			"name":"Bullet-list",
+			"aka":"",
 			"type":"0",
-			"tag":"editor news"
+			"tag":"editor"
 		},
 		{
 			"name":"Calendar",
+			"aka":"",
 			"type":"0",
 			"tag":"content"
 		},
 		{
 			"name":"Camera",
+			"aka":"",
 			"type":"0",
 			"tag":"multimedia"
 		},
 		{
 			"name":"Check",
+			"aka":"",
 			"type":"0",
 			"tag":"action"
 		},
 		{
 			"name":"Chevron-down",
+			"aka":"",
 			"type":"0",
 			"tag":"navigation"
 		},
 		{
 			"name":"Chevron-left",
+			"aka":"",
 			"type":"0",
 			"tag":"navigation"
 		},
 		{
 			"name":"Chevron-right",
+			"aka":"",
 			"type":"0",
 			"tag":"navigation"
 		},
 		{
 			"name":"Chevron-up",
+			"aka":"",
 			"type":"0",
 			"tag":"navigation"
 		},
 		{
 			"name":"Clock",
+			"aka":"",
 			"type":"0",
-			"tag":"date & time"
+			"tag":"alert"
 		},
 		{
 			"name":"Close",
+			"aka":"x",
 			"type":"0",
 			"tag":"action"
 		},
 		{
+			"name":"Comments",
+			"aka":"message",
+			"type":"1",
+			"tag":"content action news"
+		},
+		{
 			"name":"Close-Circle",
+			"aka":"",
 			"type":"0",
 			"tag":"action"
 		},
 		{
 			"name":"Credit-Card",
+			"aka":"",
 			"type":"0",
 			"tag":"content"
 		},
 		{
+			"name":"Crop",
+			"aka":"cut",
+			"type":"1",
+			"tag":"editor news"
+		},
+		{
+			"name":"Dashboard",
+			"aka":"grid",
+			"type":"1",
+			"tag":"content news"
+		},
+		{
 			"name":"Desktop",
+			"aka":"",
 			"type":"0",
-			"tag":"multimedia news"
+			"tag":"multimedia"
 		},
 		{
 			"name":"Download",
+			"aka":"",
 			"type":"0",
 			"tag":"action"
 		},
 		{
 			"name":"Download-2",
+			"aka":"",
 			"type":"0",
 			"tag":"action"
 		},
 		{
 			"name":"Download-3",
+			"aka":"",
 			"type":"0",
 			"tag":"action"
 		},
 		{
 			"name":"Dribbble",
-			"type":"1",
-			"tag":"key news"
+			"aka":"ball",
+			"type":"",
+			"tag":"key"
 		},
 		{
 			"name":"Edit",
+			"aka":"",
 			"type":"0",
 			"tag":"editor"
 		},
 		{
 			"name":"Equalizer",
+			"aka":"",
 			"type":"0",
 			"tag":"multimedia"
 		},
 		{
 			"name":"External-link",
+			"aka":"",
 			"type":"0",
-			"tag":"action news"
+			"tag":"action"
 		},
 		{
 			"name":"Eye",
+			"aka":"",
 			"type":"0",
 			"tag":"action"
 		},
 		{
 			"name":"Figma",
+			"aka":"",
 			"type":"0",
-			"tag":"key news"
+			"tag":"key"
 		},
 		{
 			"name":"File-audio",
+			"aka":"",
 			"type":"0",
 			"tag":"content"
 		},
 		{
 			"name":"File-code",
+			"aka":"",
 			"type":"0",
 			"tag":"content"
 		},
 		{
 			"name":"File-generic",
+			"aka":"",
 			"type":"0",
 			"tag":"content"
 		},
 		{
 			"name":"File-jpg",
+			"aka":"",
 			"type":"0",
 			"tag":"content"
 		},
 		{
 			"name":"File-new",
+			"aka":"",
 			"type":"0",
 			"tag":"content"
 		},
 		{
 			"name":"File-png",
+			"aka":"",
 			"type":"0",
 			"tag":"content"
 		},
 		{
 			"name":"File-svg",
+			"aka":"",
 			"type":"0",
 			"tag":"content"
 		},
 		{
 			"name":"File-video",
+			"aka":"",
 			"type":"0",
 			"tag":"content"
 		},
 		{
 			"name":"Filter",
+			"aka":"",
 			"type":"0",
 			"tag":"content"
 		},
 		{
 			"name":"Folder",
+			"aka":"",
 			"type":"0",
 			"tag":"content"
 		},
 		{
 			"name":"Font-Color",
+			"aka":"",
 			"type":"0",
 			"tag":"editor"
 		},
 		{
 			"name":"Gem",
+			"aka":"",
 			"type":"0",
+			"tag":"key"
+		},
+		{
+			"name":"Gift",
+			"aka":"",
+			"type":"1",
 			"tag":"key news"
 		},
 		{
+			"name":"Grid",
+			"aka":"",
+			"type":"1",
+			"tag":"content news"
+		},
+		{
 			"name":"Headphones",
+			"aka":"",
 			"type":"0",
-			"tag":"multimedia news"
+			"tag":"multimedia"
 		},
 		{
 			"name":"Heart",
+			"aka":"",
 			"type":"0",
 			"tag":"action"
 		},
 		{
 			"name":"Help",
+			"aka":"",
 			"type":"0",
 			"tag":"alert"
 		},
 		{
 			"name":"Home",
+			"aka":"",
 			"type":"0",
 			"tag":"navigation"
 		},
 		{
 			"name":"Image",
+			"aka":"",
 			"type":"0",
 			"tag":"multimedia"
 		},
 		{
 			"name":"Info",
+			"aka":"",
 			"type":"0",
-			"tag":"alert news"
+			"tag":"alert"
+		},
+		{
+			"name":"Key",
+			"aka":"",
+			"type":"0",
+			"tag":"content key"
 		},
 		{
 			"name":"Keyicons",
+			"aka":"",
 			"type":"0",
-			"tag":"key news"
+			"tag":"key"
+		},
+		{
+			"name":"Layout",
+			"aka":"grid",
+			"type":"1",
+			"tag":"content news"
 		},
 		{
 			"name":"Lightning-bolt",
+			"aka":"",
 			"type":"0",
 			"tag":"multimedia"
 		},
 		{
 			"name":"Link",
+			"aka":"",
 			"type":"0",
 			"tag":"action"
 		},
 		{
 			"name":"List",
+			"aka":"",
 			"type":"0",
 			"tag":"editor"
 		},
 		{
 			"name":"List-Numbered",
+			"aka":"",
 			"type":"0",
 			"tag":"editor"
 		},
 		{
 			"name":"Lock",
+			"aka":"",
 			"type":"0",
 			"tag":"action"
 		},
 		{
 			"name":"Mail",
+			"aka":"",
 			"type":"0",
 			"tag":"comunication"
 		},
 		{
 			"name":"Map-Pin",
+			"aka":"",
 			"type":"0",
 			"tag":"comunication"
 		},
 		{
-			"name":"Menu",
-			"type":"0",
-			"tag":"navigation"
+			"name":"Hamburger-Menu",
+			"aka":"hamburger",
+			"type":"1",
+			"tag":"navigation news"
 		},
 		{
 			"name":"Message",
+			"aka":"",
 			"type":"0",
 			"tag":"comunication"
 		},
 		{
 			"name":"Mic",
+			"aka":"",
 			"type":"0",
-			"tag":"multimedia news"
+			"tag":"multimedia"
 		},
 		{
 			"name":"Mobile",
+			"aka":"",
 			"type":"0",
 			"tag":"multimedia"
 		},
 		{
 			"name":"Money",
+			"aka":"",
 			"type":"0",
 			"tag":"content"
 		},
 		{
-			"name":"More",
-			"type":"0",
+			"name":"Kebab-Menu",
+			"aka":"more",
+			"type":"1",
+			"tag":"navigation news"
+		},
+		{
+			"name":"Meatballs-Menu",
+			"aka":"more",
+			"type":"1",
 			"tag":"navigation news"
 		},
 		{
 			"name":"Next",
+			"aka":"",
 			"type":"0",
 			"tag":"multimedia"
 		},
 		{
+			"name":"Overview",
+			"aka":"stats chart",
+			"type":"1",
+			"tag":"content news"
+		},
+		{
 			"name":"Party",
+			"aka":"",
 			"type":"0",
-			"tag":"key news"
+			"tag":"key"
 		},
 		{
 			"name":"Pause",
+			"aka":"",
 			"type":"0",
 			"tag":"multimedia"
 		},
 		{
 			"name":"Phone",
+			"aka":"",
 			"type":"0",
 			"tag":"comunication"
 		},
 		{
 			"name":"Play",
+			"aka":"",
 			"type":"0",
 			"tag":"multimedia"
 		},
 		{
 			"name":"Playlist",
+			"aka":"",
 			"type":"0",
 			"tag":"multimedia"
 		},
 		{
 			"name":"Prev",
+			"aka":"",
 			"type":"0",
 			"tag":"multimedia"
 		},
 		{
 			"name":"Reload",
+			"aka":"",
 			"type":"0",
 			"tag":"multimedia"
 		},
 		{
 			"name":"Repeat-play",
+			"aka":"",
 			"type":"0",
 			"tag":"multimedia"
 		},
 		{
 			"name":"Scissors",
+			"aka":"cut",
 			"type":"0",
-			"tag":"editor news"
+			"tag":"editor"
 		},
 		{
 			"name":"Search",
+			"aka":"",
 			"type":"0",
 			"tag":"action"
 		},
 		{
-			"name":"Session-Join",
-			"type":"0",
+			"name":"Send",
+			"aka":"email",
+			"type":"1",
 			"tag":"action news"
+		},
+		{
+			"name":"Session-Join",
+			"aka":"",
+			"type":"0",
+			"tag":"action"
 		},
 		{
 			"name":"Session-Leave",
+			"aka":"",
 			"type":"0",
-			"tag":"action news"
+			"tag":"action"
 		},
 		{
 			"name":"Settings",
+			"aka":"",
 			"type":"0",
 			"tag":"action"
 		},
 		{
 			"name":"Share-ios",
+			"aka":"",
 			"type":"0",
 			"tag":"navigation"
 		},
 		{
 			"name":"Share",
+			"aka":"",
 			"type":"0",
 			"tag":"comunication"
 		},
 		{
 			"name":"Shop",
+			"aka":"cart",
 			"type":"0",
 			"tag":"content"
 		},
 		{
 			"name":"Shopping-bag",
+			"aka":"cart",
 			"type":"0",
 			"tag":"content"
 		},
 		{
 			"name":"Shopping-bag-2",
+			"aka":"cart",
 			"type":"0",
 			"tag":"content"
 		},
 		{
 			"name":"Shuffle-play",
+			"aka":"",
 			"type":"0",
 			"tag":"multimedia"
 		},
 		{
 			"name":"Shopping-cart",
+			"aka":"cart",
 			"type":"0",
 			"tag":"content"
 		},
 		{
 			"name":"Sketch",
+			"aka":"",
 			"type":"0",
 			"tag":"key"
 		},
 		{
 			"name":"Sound",
+			"aka":"",
 			"type":"0",
 			"tag":"multimedia"
 		},
 		{
 			"name":"Star",
+			"aka":"",
 			"type":"0",
 			"tag":"action"
 		},
 		{
+			"name":"Stats",
+			"aka":"chart",
+			"type":"1",
+			"tag":"content news"
+		},
+		{
 			"name":"Stop",
+			"aka":"",
 			"type":"0",
 			"tag":"multimedia"
 		},
 		{
 			"name":"Streaming",
+			"aka":"",
 			"type":"0",
 			"tag":"multimedia"
 		},
 		{
 			"name":"Tag",
+			"aka":"",
 			"type":"0",
 			"tag":"content"
 		},
 		{
 			"name":"Tags",
+			"aka":"",
 			"type":"0",
 			"tag":"content"
 		},
 		{
 			"name":"Text-bold",
+			"aka":"",
 			"type":"0",
-			"tag":"editor news"
+			"tag":"editor"
 		},
 		{
 			"name":"Text-italic",
+			"aka":"",
 			"type":"0",
-			"tag":"editor news"
+			"tag":"editor"
 		},
 		{
 			"name":"Text-strikethrough",
+			"aka":"",
 			"type":"0",
-			"tag":"editor news"
+			"tag":"editor"
 		},
 		{
 			"name":"Text-underline",
+			"aka":"",
 			"type":"0",
-			"tag":"editor news"
+			"tag":"editor"
 		},
 		{
 			"name":"Transfer",
+			"aka":"",
 			"type":"0",
-			"tag":"action news"
+			"tag":"action"
 		},
 		{
 			"name":"Trash",
+			"aka":"",
 			"type":"0",
 			"tag":"action"
 		},
 		{
 			"name":"Upload-1",
+			"aka":"",
 			"type":"0",
 			"tag":"action"
 		},
 		{
 			"name":"Upload-2",
+			"aka":"",
 			"type":"0",
 			"tag":"action"
 		},
 		{
 			"name":"Upload-3",
+			"aka":"",
 			"type":"0",
 			"tag":"action"
 		},
 		{
 			"name":"User",
+			"aka":"",
 			"type":"0",
 			"tag":"content"
 		},
 		{
+			"name":"Users",
+			"aka":"",
+			"type":"1",
+			"tag":"content news"
+		},
+		{
 			"name":"Video",
+			"aka":"",
 			"type":"0",
 			"tag":"multimedia"
 		},
 		{
 			"name":"Volume-minus",
+			"aka":"",
 			"type":"0",
 			"tag":"multimedia"
 		},
 		{
 			"name":"Volume-off",
+			"aka":"",
 			"type":"0",
 			"tag":"multimedia"
 		},
 		{
 			"name":"Volume-plus",
+			"aka":"",
 			"type":"0",
 			"tag":"multimedia"
 		}
