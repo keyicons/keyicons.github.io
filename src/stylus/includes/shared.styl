@@ -1,5 +1,5 @@
 .Shared
-	background-image url('../img/keyicons-colored.jpg')
+	background-image url('../img/background-key.jpg')
 	background-position center
 	background-repeat no-repeat
 	background-size cover
@@ -65,7 +65,7 @@
 		overflow hidden
 		transition_all(.3s)
 		border-radius 30px
-		background rgba(white_color, .1)
+		background rgba(white_color, .3)
 		color white_color
 		border solid thin rgba(white_color, .3)
 		min-width 180px
@@ -91,7 +91,7 @@
 
 // For Thanks page for donations
 .KeyThanks
-	background-image url('../img/keyicons-colored.jpg')
+	background-image url('../img/background-key.jpg')
 	background-position center
 	background-repeat no-repeat
 	background-size cover
@@ -100,3 +100,17 @@
 	padding 20% 0
 	display block
 	color white_color
+	position relative
+	&::after
+		content ''
+		display block
+		width 100%
+		height 100%
+		background rgba(black_color, 0.9)
+		z-index 0
+		position absolute
+		top 0
+		left 0
+	.container
+		position relative
+		z-index 10

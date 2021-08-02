@@ -932,7 +932,7 @@ _____________________________________________________ */
   color: #fff;
 }
 .btn-ghost {
-  background: rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.3);
   color: #fff;
 }
 .btn-float {
@@ -994,7 +994,7 @@ _____________________________________________________ */
 /* topbar
 _____________________________________________________ */
 .Header {
-  background-image: url("../img/keyicons-colored.jpg");
+  background-image: url("../img/background-key.jpg");
   background-position: center;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -1066,7 +1066,7 @@ _____________________________________________________ */
   text-align: left;
 }
 .Hero_Banner {
-  background-image: url("../img/keyicons-colored.jpg");
+  background-image: url("../img/background-key.jpg");
   background-position: center;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -1431,7 +1431,7 @@ _____________________________________________________ */
 /* Shared
 _____________________________________________________ */
 .Shared {
-  background-image: url("../img/keyicons-colored.jpg");
+  background-image: url("../img/background-key.jpg");
   background-position: center;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -1522,7 +1522,7 @@ _____________________________________________________ */
   -ms-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
   transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
   border-radius: 30px;
-  background: rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.3);
   color: #fff;
   border: solid thin rgba(255,255,255,0.3);
   min-width: 180px;
@@ -1547,7 +1547,7 @@ _____________________________________________________ */
   stroke-width: 0;
 }
 .KeyThanks {
-  background-image: url("../img/keyicons-colored.jpg");
+  background-image: url("../img/background-key.jpg");
   background-position: center;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -1558,6 +1558,22 @@ _____________________________________________________ */
   padding: 20% 0;
   display: block;
   color: #fff;
+  position: relative;
+}
+.KeyThanks::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.9);
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.KeyThanks .container {
+  position: relative;
+  z-index: 10;
 }
 /* Search
 _____________________________________________________ */
