@@ -2,17 +2,17 @@ var topbar = function () {
 	var header = $('.Header'),
 			previousScroll = 0,
     	originalTop = header.offset().top;
-			console.log(previousScroll, originalTop);
+			// console.log(previousScroll, originalTop);
   $(window).scroll(
   	function(e){
 			var currentScroll = $(this).scrollTop();
   		if (currentScroll >= originalTop+800) {
   			header.addClass('is-scrolled');
-				console.log('hola amigo');
+				// console.log('hola amigo');
   		}
 	    else {
 	    	header.removeClass('is-scrolled');
-				console.log('adios amigo');
+				// console.log('adios amigo');
 	    }
 	});
 }

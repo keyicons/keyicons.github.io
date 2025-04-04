@@ -1,8 +1,8 @@
-[<img src="http://keyicons.com/public/img/logo_keyicons.png" alt="Keyicons">](http://keyicons.com)
+[<img src="http://keyicons.com/public/img/favicon.png" alt="Keyicons">](http://keyicons.com)
 
 # [keyicons](http://keyicons.com)
 
-Icon Set  Handcrafted by:  [@noyonosoyesa 💊](https://twitter.com/Noyonosoyesa) + [@elnodos 🍫](https://twitter.com/elnodos/)
+Icon Set Handcrafted by:  [Jay] + [Migue](https://migue.design/)
 
 ### ©
 > Copyright 2017 Keyicons.

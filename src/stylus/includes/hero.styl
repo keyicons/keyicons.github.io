@@ -1,5 +1,4 @@
 .Hero
-	background white_color
 	display block
 	text-align left
 	&_Banner
@@ -26,11 +25,12 @@
 	&_Description 
 		width 100%
 		padding 40px 0
+		color gray_color
 		p
-			font-family tipography2
-			font-size 14px
-			line-height 24px
-			max-width 420px
+			font-family tipography
+			span 
+				margin-right 24px
+				display inline-block
 		.btn 
 			margin-top 10px
 
@@ -46,16 +46,14 @@
 		#KEYICONS
 			fill black_color
 	&_Menu
+		text-align right
 		margin 8px 0
 		li
 			margin 0 0 6px 0
-			display block
+			display inline-block
 
 @media only screen and (min-width : 768px)
 	.Hero
-		// .container
-		// 	padding 40px
-			
 		&_Description 
 			text-align left
 			display inline-block
@@ -84,6 +82,5 @@
 			margin 48px auto
 			display block
 		&_Description
-			.btn
-				font-size 16px
-				margin 10px 0
+			p
+				max-width 600px

@@ -3,6 +3,7 @@
 	background-position center
 	background-repeat no-repeat
 	background-size cover
+	background black_color
 	position fixed
 	display block
 	width 300px
@@ -10,11 +11,11 @@
 	left 50%
 	margin-left -150px
 	padding 30px
-	border-radius 24px
-	shadow_custom(black_color, 0, 10px, 60px, -6px, .2)
+	shadow_custom(black_color, 0, 10px, 60px, -6px, .9)
 	transition_all(.5s)
 	z-index 1000
 	bottom -400px 
+	display none
 	&.is-open
 		bottom 50%
 		transform translateY(50%)
@@ -81,13 +82,14 @@
 			
 
 .icon
-	width 24px
-	height 24px
+	width 20px
+	height 20px
 	display inline-block
 	stroke currentColor
 	vertical-align middle
 	fill currentColor
 	stroke-width 0
+	
 
 // For Thanks page for donations
 .KeyThanks

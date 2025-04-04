@@ -1,27 +1,20 @@
 .Header	
 	// background: linear-gradient(121.28deg, #8000FF 0%, #000000 100%), linear-gradient(180deg, #00FF19 0%, #000000 100%), linear-gradient(52.23deg, #0500FF 0%, #00FFB2 100%), linear-gradient(121.28deg, #32003A 0%, #FF4040 100%), radial-gradient(50% 72.12% at 50% 50%, #EB00FF 0%, #110055 100%);
 	// background-blend-mode: screen, overlay, difference, color-dodge, normal;
-	background-image url('../img/background-key.jpg')
-	background-position center
-	background-repeat no-repeat
-	background-size cover
 	display block
 	padding 20px 0
 	width 100% 
-	z-index 5000
 	transition_all(.3s)
-	position fixed
-	top -200px
 	height auto
+	border-bottom solid 1px light_color
 	&_container
 		display flex
 		justify(between)
+		vertical-align middle
 	&_Logo
-		width 193px
-		height 20px
-		display inline-block
-		vertical-align top
-		margin 0 
+		display block
+		margin 0
+		line-height 40px
 
 		span
 			display none
@@ -29,7 +22,7 @@
 			width 100%
 
 		#KEYICONS
-			fill white_color
+			fill black_color
 	&_Nav
 		display inline-block
 		
@@ -47,7 +40,4 @@
 	.Header
 		&.is-scrolled
 			top 0
-		&_Logo
-			width 232px
-			height 24px
 

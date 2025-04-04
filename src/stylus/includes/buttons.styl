@@ -1,25 +1,33 @@
 .btn 
-	border-radius 100px
 	display inline-block
-	font-size 14px 
-	font-weight bold
+	font-size 12px
+	font-weight 400
 	font-family tipography
 	height 40px
 	line-height 40px
 	margin 0 5px
 	padding 0 20px
 	position relative
-	transition_all(.8s)
+	transition_all(.3s)
 	vertical-align top
 	z-index 10
 	min-width 80px
-	border none
 	outline 0
-	background black_color
-	color white_color
-	&-ghost
-		background rgba(white_color, .3)
-		color white_color
+	color black_color
+	bg_gradient_top(white_color, light_color)
+	border-radius 4px
+	box-shadow 0px 0 0 6px rgba(light_color, 0.5)
+	border solid 1px light_color
+	&::after
+		content ''
+		position absolute
+		width 90%
+		height 70%
+		top 15%
+		left 5%
+		bg_gradient_top(light_color, white_color)
+		z-index -1
+		border-radius 20px
 	&-float
 		position fixed
 		z-index 1000
@@ -28,39 +36,47 @@
 		width calc(100% - 32px)
 		transform translateX(-50%)
 		text-align center
+		text-transform uppercase
 		padding 8px 0
 		height auto
-		font-size 16px
 .link
 	font-family tipography2
 	font-size 14px
-	color dark_color
-	text-decoration underline
-	&.link-pink
-		color pink_color
-	&.link-blue
-		color blue_color
-	&.link-yellow
-		color yellow_color
+	line-height 40px 
+	color gray_color
+	text-decoration none
+	text-transform uppercase
+	letter-spacing 1px
+	transition_all(.3s)
+	display inline-block
+	// &.link-pink
+	// 	color pink_color
+	// &.link-blue
+	// 	color blue_color
+	// &.link-yellow
+	//	color yellow_color
+
+
 @media only screen and (min-width : 560px)
 	.btn
 		&-float
 			position relative
 			padding 0 20px
 			bottom initial
+			width auto
 	
 
 @media only screen and (min-width : 1100px)		
 	.btn
-		&-ghost
-			min-width 180px
-			border solid thin rgba(white_color, .3)
-			&:hover
-				border solid thin white_color
-				color black_color
-				background white_color
 		&:hover
-			shadow_custom(black_color, 0, 0, 0, 6px, .1)
+			box-shadow 0px 0 0 6px rgba(light_color, 0.5), 0px 8px 20px -5px rgba(black_color, 0.4);
+			
+	.link
+		#COIN
+			transition_all(.3s)
+	
 	.link
 		&:hover
-			text-decoration line-through
+			color black_color
+			#COIN
+				fill black_color

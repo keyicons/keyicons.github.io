@@ -1,0 +1,138 @@
+/* ======================== DARK THEME ======================== */
+
+/* Light & Dark Control */
+.btn-lightDark
+    display inline-block
+    width 40px
+    height 40px
+    position relative
+    vertical-align middle
+    transition all .3s cubic-bezier(0.645, 0.045, 0.355, 1)
+    margin 0 10px 0 0 
+    overflow hidden
+    &:after
+        content ''
+        display block
+        position  absolute
+        top  18px
+        left 18px
+        transition all .3s cubic-bezier(0.645, 0.045, 0.355, 1)
+        border-radius 50%
+        background-color dark_color
+        width  4px
+        height 4px
+        box-shadow 0px 0 6px 4px rgba(black_color, 0.2)
+    &:hover
+        &:after
+            box-shadow 0px 0 12px 6px rgba(black_color, 0.2)
+            
+    
+.is-night
+    &:after
+        background-color white_color
+        box-shadow 0px 0 6px 4px rgba(light_color, 0.2)
+    &:hover
+        &:after
+            box-shadow 0px 0 12px 6px rgba(white_color, 0.4)
+
+
+
+
+body.Dark
+    background black_color
+    color white_color
+
+.Dark
+    .Header
+        border-color gray_color
+        &_Logo
+            #KEYICONS
+                fill white_color
+    .Hero
+        &_Description
+            color light_color
+    .btn
+        bg_gradient_top(rgba(light_color, 0.1), black_color)
+        color white_color
+        border-color black_color
+        box-shadow 0px 0 0 6px rgba(light_color, 0.1)
+        &::after
+            bg_gradient_bottom(rgba(light_color, 0.1), black_color)
+        &:hover
+            bg_gradient_top(rgba(light_color, 0.2), black_color)
+            box-shadow 0px 0 0 6px rgba(light_color, 0.1), 0px 8px 20px -5px rgba(light_color, 0.1)
+    .link
+        &:hover
+            color white_color
+            #COIN
+                fill white_color
+
+    .SearchBox
+        &:hover,
+        &:focus
+            .SearchBox-icon
+                color light_color
+        input
+            border-right-color gray_color
+            &:hover,
+            &:focus
+                border-bottom-color white_color
+                background dark_color
+                color white_color	   
+    .Filters
+        label 
+            color gray_color
+            &:hover
+                color light_color
+                background gray_color
+    
+    [value="all"]:checked ~ .Filters [for="all"],
+	[value="news"]:checked ~ .Filters [for="news"],
+	[value="action"]:checked ~ .Filters [for="action"],
+	[value="alert"]:checked ~ .Filters [for="alert"],
+	[value="comunication"]:checked ~ .Filters [for="comunication"],
+	[value="content"]:checked ~ .Filters [for="content"],
+	[value="editor"]:checked ~ .Filters [for="editor"],
+	[value="key"]:checked ~ .Filters [for="key"],
+	[value="multimedia"]:checked ~ .Filters [for="multimedia"],
+	[value="navigation"]:checked ~ .Filters [for="navigation"]
+        color light_color
+        background dark_color
+
+    .KeyContent
+        border-top-color gray_color
+        border-bottom-color gray_color
+        &::after
+            background gray_color
+        .container
+            border-left-color gray_color
+            border-right-color gray_color
+
+    .keyicon 
+        background black_color
+        img
+            filter invert(100%)
+        &.newBlue,
+        &.newOrange,
+        &.newPink
+            &::after
+                background white_color
+            img
+                filter none
+        &_name
+            color white_color
+        &:hover
+            shadow_custom(light_color, 0, 15px, 40px, -6px, .2)
+            .keyicon
+                &_name
+                    color white_color
+        &.is-clicked
+            img
+                opacity .3
+            &::after
+                background rgba(light_color, 0.1)
+    .Footer
+        color light_color
+
+
+

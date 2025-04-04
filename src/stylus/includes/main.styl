@@ -1,10 +1,19 @@
 .KeyContent
 	position relative
 	z-index 10
-	padding 50px 10px
+	border-top solid 1px light_color
+	border-bottom solid 1px light_color
+	&::after
+		position absolute
+		content ''
+		width 100%
+		height 1px
+		background light_color
+		top 43px
+		left 0
 	.container
-		padding 10px 0
-
+		border-left solid 1px light_color
+		border-right solid 1px light_color
 	&__message
 		background rgba(red, .2)
 		border-color rgba(red, .8)
@@ -16,26 +25,21 @@
 
 .KeyiconsContent
 	width 100%
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	justify-items: stretch;
-	-webkit-box-align: stretch;
-	align-items: stretch;
-	margin-top 40px
-	
+	display grid
+	grid-template-columns repeat(3, 1fr)
 	
 .key
 	text-align center
-	margin  1px auto
 	
 .keyicon 
 	background white_color
 	display block
-	margin 10px 10px 45px
+	margin 10px auto 45px
 	position relative
-	shadow_custom(black_color, 0, 1px, 3px, 0px, .1)
+	// shadow_custom(black_color, 0, 1px, 3px, 0px, .1)
 	transition_all(.3s)
-	width 100px
+	min-width 100px
+	width 100%
 	height 100px
 	padding 25px 0 
 	outline none
@@ -46,42 +50,62 @@
 		top 43.5%
 		left 50%
 		content ''
-		width 48px
-		height 48px
+		width 56px
+		height 56px
 		z-index 1
 		transform translate(-50%, -50%)
 		border-radius 50%
 		transition_all(.3s)
-	&.newBlue
-		&::after
-			background blue_color
-		img
-			filter invert(100%)
-	&.newOrange
-		&::after
-			background yellow_color
-		img
-			filter invert(100%)
+	&.newBlue,
+	&.newOrange,
 	&.newPink
 		&::after
-			background pink_color
+			background black_color
 		img
 			filter invert(100%)
 	
+	// &.newBlue
+	// 	&::after
+	// 		background blue_color
+	// 	img
+	// 		filter invert(100%)
+	// &.newOrange
+	// 	&::after
+	// 		background yellow_color
+	// 	img
+	// 		filter invert(100%)
+	// &.newPink
+	// 	&::after
+	// 		background pink_color
+	// 	img
+	// 		filter invert(100%)
+	
 	&_name
 		transition_all(.3s)
-		position absolute
-		top -20px
-		font-family tipography
+		// position absolute
+		// top -20px
+		// font-family tipography
+		// font-size 12px
+		// font-weight 400
+		// color smoke_color
+		// left 0
+		// width 100%
+		// text-align left
+		// white-space nowrap
+		// overflow hidden
+		// text-overflow ellipsis
+		bottom 10px
+		padding 5px 10px
+		color dark_color
 		font-size 12px
-		font-weight 400
-		color smoke_color
-		left 0
+		font-family tipography
+		line-height 10px
+		height 20px
+		position absolute
+		left 50%
+		transform translateX(-50%)
+		transition_all(.3s)
 		width 100%
-		text-align left
-		white-space nowrap
-		overflow hidden
-		text-overflow ellipsis
 
 	&_aka
 		display none
@@ -110,6 +134,7 @@
 		transform translateX(-50%)
 		opacity 0
 		transition_all(.3s)
+		display none
 	&-new
 		border-radius 20px
 		bottom 10px
@@ -127,6 +152,8 @@
 		transition_all(.3s)
 		// background rgba(dark_color, .1)
 		opacity 1
+		display none
+
 		&.newBlue
 			color blue_color
 		&.newOrange
@@ -145,7 +172,7 @@
 			filter none
 			opacity .5
 		&::after
-			top 40%
+			top 45%
 			background rgba(smoke_color, 0.05)
 		.keyicon
 			&-new
@@ -166,17 +193,13 @@
 
 @media only screen and (min-width : 768px)
 	.KeyContent
-		padding 50px 20px
-		.container
-			padding 0 
+		padding 50px 20px 0
 		
 	.keyicon
-		height 110px
-		padding 35px 0 
-		width 110px 
-		margin 15px 16px 30px
+		height 120px
+		padding 35px 0
 		&::after
-			top 48%
+			top 45%
 		
 		&:focus
 			shadow_custom(black_color, 0, 10px, 30px, -6px, .1)
@@ -184,9 +207,10 @@
 		&:hover
 			shadow_custom(black_color, 0, 15px, 30px, -6px, .2)
 			transform scale(1.1)
-			padding 25px 0 45px
+			padding 35px 0 45px
+			z-index 1
 			&::after
-				top 40%
+				top 45%
 			.keyicon
 				&_name
 					color black_color
@@ -198,7 +222,7 @@
 				
 					
 		&.is-clicked
-			padding 25px 0 45px
+			padding 35px 0 45px
 			.keyicon
 				&_download
 					bottom 15px
@@ -212,60 +236,51 @@
 
 @media screen and (min-width 1100px)
 	.KeyContent
-		padding 0 20px 50px
+		padding 0
 		position relative
-		&::after
-			content ''
-			display block
-			width 100%
-			height 80px 
-			background white_color
-			top 0
-			left 0
-			position absolute
-			z-index -1
 		.container
-			padding 0 0
+			padding 0
+			
 	.KeyiconsContent
-		grid-template-columns: repeat(6, 1fr);	
+		grid-template-columns: repeat(7, 1fr);	
 	
-	.keyicon
-		&::after
-			top 49%
+	// .keyicon
+	// 	&::after
+	// 		top 45%
 		
 
 @media screen and (min-width 1200px)
+	.KeyContent
+		padding 0 0
 	.KeyiconsContent
 		grid-template-columns: repeat(8, 1fr);	
+		min-height 400px
 
 @media screen and (min-width 1300px)
 	.KeyiconsContent
-		grid-template-columns: repeat(8, 1fr);
+		grid-template-columns: repeat(10, 1fr);
 	.key
 		padding 0
 	.keyicon 
 		margin 0 0 50px 0
 	
-@media screen and (min-width 1400px)
-	.KeyContent
-		padding 0 0 50px
-		.container
-			padding 0 0
+@media screen and (min-width 1560px)
 	.KeyiconsContent
-		grid-template-columns: repeat(9, 1fr);
+		grid-template-columns: repeat(12, 1fr);
 
 
 
 
-@keyframes icon-animate-hover
-	0%
-		stroke-dashoffset 1000
-	100% 
-		stroke-dashoffset 0
+
+// @keyframes icon-animate-hover
+// 	0%
+// 		stroke-dashoffset 1000
+// 	100% 
+// 		stroke-dashoffset 0
 		
-@keyframes icon-animate-in
-	0%
-		stroke-dashoffset 1000
-	100%
-		stroke-dashoffset 0
+// @keyframes icon-animate-in
+// 	0%
+// 		stroke-dashoffset 1000
+// 	100%
+// 		stroke-dashoffset 0
 								
