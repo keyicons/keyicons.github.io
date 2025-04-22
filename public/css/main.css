@@ -967,13 +967,16 @@ _____________________________________________________ */
   color: #5f5f5f;
   text-decoration: none;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 0.2px;
   -webkit-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
   -moz-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
   -o-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
   -ms-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
   transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
   display: inline-block;
+}
+#COIN {
+  fill: #000;
 }
 @media only screen and (min-width: 560px) {
   .btn-float {
@@ -996,10 +999,10 @@ _____________________________________________________ */
     transition: all 0.3s cubic-bezier(0.22, 0.61, 0.3, 1);
   }
   .link:hover {
-    color: #000;
+    color: #de3052;
   }
   .link:hover #COIN {
-    fill: #000;
+    fill: #de3052;
   }
 }
 /* topbar
@@ -2140,11 +2143,14 @@ body.Dark {
   -webkit-box-shadow: 0px 0 0 6px rgba(236,236,236,0.1), 0px 8px 20px -5px rgba(236,236,236,0.1);
   box-shadow: 0px 0 0 6px rgba(236,236,236,0.1), 0px 8px 20px -5px rgba(236,236,236,0.1);
 }
+.Dark #COIN {
+  fill: #5f5f5f;
+}
 .Dark .link:hover {
-  color: #fff;
+  color: #de3052;
 }
 .Dark .link:hover #COIN {
-  fill: #fff;
+  fill: #de3052;
 }
 .Dark .SearchBox:hover .SearchBox-icon,
 .Dark .SearchBox:focus .SearchBox-icon {
